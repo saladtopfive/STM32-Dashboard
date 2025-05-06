@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_2ROE" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_N5YC" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_JIK1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0Z4X" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_NWOU" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_5SF7" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_FEFU" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_LG07" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_JOLN" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_LQSL" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_JZMK" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_A2GU" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_YK7G" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_99L4" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_93AK" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_N8WW" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_UFUA" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_XUU9" Alignment="Center" TypographyId="speedometer">
+        <Translation Language="GB">&lt;speed_value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_IPU4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_6A4E" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">G-FORCE</Translation>
+      </Text>
+      <Text Id="__SingleUse_4D3X" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">G-FORCE</Translation>
+      </Text>
+      <Text Id="__SingleUse_S7Y2" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">-select telemetry-</Translation>
+      </Text>
+      <Text Id="__SingleUse_TWOM" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">G-FORCE</Translation>
+      </Text>
+      <Text Id="__SingleUse_26PT" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">STEERING</Translation>
+      </Text>
+      <Text Id="__SingleUse_EYIN" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">BATTERY</Translation>
+      </Text>
+      <Text Id="__SingleUse_PC2D" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">BRAKE</Translation>
+      </Text>
+      <Text Id="__SingleUse_WKCD" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">TODO</Translation>
+      </Text>
+      <Text Id="__SingleUse_YL47" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">TODO</Translation>
+      </Text>
+      <Text Id="__SingleUse_K20J" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">TODO</Translation>
+      </Text>
+      <Text Id="__SingleUse_8U27" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">TODO</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZTFH" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">G-FORCE</Translation>
+      </Text>
+      <Text Id="__SingleUse_5Y3L" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">STEERING</Translation>
+      </Text>
+      <Text Id="__SingleUse_YKNQ" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">BATTERY</Translation>
+      </Text>
+      <Text Id="__SingleUse_UWCL" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">BRAKE</Translation>
+      </Text>
+      <Text Id="__SingleUse_D5CC" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">TODO</Translation>
+      </Text>
+      <Text Id="__SingleUse_GFEX" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">TODO</Translation>
+      </Text>
+      <Text Id="__SingleUse_TLIA" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">TODO</Translation>
+      </Text>
+      <Text Id="__SingleUse_BF78" Alignment="Left" TypographyId="Typography_02">
+        <Translation Language="GB">TODO</Translation>
+      </Text>
+      <Text Id="__SingleUse_DQSQ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">-select telemetry-</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZNEW" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">throttle input</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q9MZ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">km/h</Translation>
+      </Text>
+      <Text Id="__SingleUse_SHS7" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">km/h</Translation>
+      </Text>
+      <Text Id="__SingleUse_3UW3" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">throttle input</Translation>
+      </Text>
+      <Text Id="__SingleUse_0BOP" Alignment="Center" TypographyId="speedometer">
+        <Translation Language="GB">OPTIONS</Translation>
+      </Text>
+      <Text Id="__SingleUse_FU45" Alignment="Center" TypographyId="speedometer">
+        <Translation Language="GB">OPTIONS</Translation>
+      </Text>
+      <Text Id="__SingleUse_JTJC" Alignment="Center" TypographyId="speedometer">
+        <Translation Language="GB">&lt;speed_value&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="ROGFonts-Regular.otf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="speedometer" Font="ROGFonts-Regular.otf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789 -">
+      <LanguageSetting Language="GB" Font="ROGFonts-Regular.otf" Size="30" Bpp="4" IsVector="no" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+    </Typography>
+    <Typography Id="Typography_01" Font="ROGFonts-Regular.otf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_02" Font="ROGFonts-Regular.otf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7e" />
+  </Typographies>
+</TextDatabase>

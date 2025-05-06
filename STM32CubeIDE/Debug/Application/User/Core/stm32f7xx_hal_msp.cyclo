@@ -1,0 +1,13 @@
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:64:6:HAL_MspInit	1
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:89:6:HAL_CRC_MspInit	2
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:112:6:HAL_CRC_MspDeInit	2
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:134:6:HAL_DMA2D_MspInit	2
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:160:6:HAL_DMA2D_MspDeInit	2
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:185:6:HAL_I2C_MspInit	3
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:232:6:HAL_I2C_MspDeInit	2
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:263:6:HAL_LTDC_MspInit	3
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:381:6:HAL_LTDC_MspDeInit	2
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:450:6:HAL_QSPI_MspInit	2
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:514:6:HAL_QSPI_MspDeInit	2
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:653:6:HAL_SDRAM_MspInit	2
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Core/Src/stm32f7xx_hal_msp.c:739:6:HAL_SDRAM_MspDeInit	2

@@ -1,0 +1,14 @@
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4Presenter.hpp:28:13:Screen4Presenter::~Screen4Presenter()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:15:6:virtual void Screen4Presenter::deactivate()	0	static
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4Presenter.hpp:28:13:virtual Screen4Presenter::~Screen4Presenter()	8	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:10:6:virtual void Screen4Presenter::activate()	40	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:20:6:virtual void Screen4Presenter::saveToggle1State(bool)	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:31:6:virtual void Screen4Presenter::saveToggle2State(bool)	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:43:6:virtual void Screen4Presenter::saveToggle3State(bool)	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:55:6:virtual void Screen4Presenter::saveToggle4State(bool)	0	static
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4Presenter.hpp:28:13:virtual void* Screen4Presenter::_ZThn4_N16Screen4PresenterD1Ev()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:4:1:Screen4Presenter::Screen4Presenter(Screen4View&)	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:23:6:bool Screen4Presenter::getToggle1State() const	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:36:6:bool Screen4Presenter::getToggle2State() const	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:48:6:bool Screen4Presenter::getToggle3State() const	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4Presenter.cpp:60:6:bool Screen4Presenter::getToggle4State() const	0	static

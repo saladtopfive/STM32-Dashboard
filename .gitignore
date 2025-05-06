@@ -1,0 +1,43 @@
+# Build output
+/build/
+/Debug/
+/Release/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.out
+
+# TouchGFX generated files
+generated/
+TouchGFX/generated/
+TouchGFX/build/
+TouchGFX/generated/fonts/src/*_cache.cpp
+TouchGFX/assets/scalable_output/
+
+# CubeIDE / System Workbench / Other IDEs
+.cproject
+.project
+.settings/
+.ipch/
+*.launch
+*.log
+
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Backup or temp files
+*~
+*.swp
+*.bak
+
+# Ignore user-specific configuration
+*.user
+*.db
+*.pyc
+*.class

@@ -1,0 +1,15 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:13:6:virtual void Screen4View::tearDownScreen()	0	static
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4View.hpp:11:13:Screen4View::~Screen4View()	8	static
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4View.hpp:11:13:virtual Screen4View::~Screen4View()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:146:14:touchgfx::BitmapId touchgfx::Bitmap::getId() const	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:58:10:bool touchgfx::ToggleButton::getState() const	8	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:3:1:Screen4View::Screen4View()	8	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:8:6:virtual void Screen4View::setupScreen()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:19:6:virtual void Screen4View::togglePressed1()	16	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:28:6:virtual void Screen4View::togglePressed2()	16	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:35:6:virtual void Screen4View::togglePressed3()	16	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:42:6:virtual void Screen4View::togglePressed4()	16	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:48:6:virtual void Screen4View::setToggleState(bool, bool, bool, bool)	32	static

@@ -1,0 +1,1812 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "voltageTriggerButton",
+            "X": 65,
+            "Y": 111,
+            "Width": 36,
+            "Height": 36,
+            "LockPosition": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_normal.json"
+          },
+          {
+            "Type": "Button",
+            "Name": "tempTriggerButton",
+            "X": 97,
+            "Y": 111,
+            "Width": 36,
+            "Height": 36,
+            "LockPosition": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_normal.json"
+          },
+          {
+            "Type": "Button",
+            "Name": "tcTriggerButton",
+            "X": 35,
+            "Y": 110,
+            "Width": 36,
+            "Height": 36,
+            "LockPosition": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_normal.json"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "background_black",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "Filename": "backgroud1.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "settings_button",
+            "X": -7,
+            "Y": -8,
+            "Width": 60,
+            "Height": 60,
+            "LockPosition": true,
+            "Pressed": "empty_small.png",
+            "Released": "empty_small.png",
+            "IconPressed": "__generated\\icon_theme_images_action_list_50_50_FF0000.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_list_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speed_data",
+            "X": 198,
+            "Y": 46,
+            "Width": 74,
+            "Height": 33,
+            "LockPosition": true,
+            "TextId": "__SingleUse_JTJC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_IPU4",
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "theme_button",
+            "X": 415,
+            "Y": 5,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_off_dark.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_normal.png"
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "throttle_box",
+            "X": 40,
+            "Y": 83,
+            "Width": 400,
+            "Height": 18,
+            "LockPosition": true,
+            "Color": {
+              "Red": 211,
+              "Green": 52,
+              "Blue": 148
+            },
+            "Direction": "Right",
+            "Preset": "clay_theme\\presets\\boxprogress\\thick\\large_active.json",
+            "FileNameBackground": "__generated\\clay_theme_images_widgets_boxprogress_thick_large.png",
+            "IndicatorPositionWidth": 400,
+            "IndicatorPositionHeight": 18,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 100,
+            "ProgressRangeStepsMin": 1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "throttle_input",
+            "X": 40,
+            "Y": 101,
+            "Width": 111,
+            "Height": 10,
+            "LockPosition": true,
+            "TextId": "__SingleUse_3UW3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "km_h",
+            "X": 272,
+            "Y": 62,
+            "Width": 38,
+            "Height": 10,
+            "LockPosition": true,
+            "TextId": "__SingleUse_SHS7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "tcInactive",
+            "X": 41,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "tc_white_inactive.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "voltageInactive",
+            "X": 71,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "batteryLow_white_inactive.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "tempInactive",
+            "X": 103,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "temperature_white.png"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "gforce_gauge",
+            "X": 387,
+            "Y": 189,
+            "Width": 93,
+            "Height": 83,
+            "LockPosition": true,
+            "Filename": "gauge_100x100.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "gforce_ball",
+            "X": 413,
+            "Y": 214,
+            "Width": 41,
+            "Height": 32,
+            "LockPosition": true,
+            "Filename": "red_ball.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "gforce_text",
+            "X": 406,
+            "Y": 175,
+            "Width": 58,
+            "Height": 10,
+            "LockPosition": true,
+            "TextId": "__SingleUse_4D3X",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "tcActive",
+            "X": 41,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "tc_white_active.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Image",
+            "Name": "voltageActive",
+            "X": 71,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "batteryLow_white_active.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Image",
+            "Name": "tempActive",
+            "X": 103,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "temperature_white_active.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Gauge",
+            "Name": "gauge1",
+            "X": 127,
+            "Y": 16,
+            "Width": 71,
+            "Height": 76,
+            "Visible": false,
+            "FileNameBackground": "angle_gauge_100x100.png",
+            "RotationCenterX": 38.5,
+            "RotationCenterY": 38.5,
+            "StartAngle": -113.0,
+            "EndAngle": 112.0,
+            "RangeMax": 100.0,
+            "InitialValue": 50.0,
+            "Easing": "Linear",
+            "EasingOption": "In",
+            "FileNameNeedle": "red_arrow.png",
+            "NeedleRotationCenterX": 38.5,
+            "NeedleRotationCenterY": 38.5,
+            "NeedleMovingRenderingAlgorithm": "Bilinear Interpolation",
+            "NeedleSteadyRenderingAlgorithm": "Bilinear Interpolation",
+            "ArcColor": {
+              "Red": 20,
+              "Green": 151,
+              "Blue": 197
+            },
+            "ArcCapStyle": "Butt"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "themeChange",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "theme_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "settings",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "settings_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "Screen3"
+            }
+          },
+          {
+            "InteractionName": "tcTRIGGER",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tcTriggerButton"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tcInactive"
+            }
+          },
+          {
+            "InteractionName": "tcLoop1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tcTRIGGER"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tcActive"
+            }
+          },
+          {
+            "InteractionName": "tcLoop2",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tcLoop1"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tcActive"
+            }
+          },
+          {
+            "InteractionName": "tcLoop3",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tcLoop2"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tcInactive"
+            }
+          },
+          {
+            "InteractionName": "voltageTRIGGER",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "voltageTriggerButton"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "voltageInactive"
+            }
+          },
+          {
+            "InteractionName": "voltageLoop1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "voltageTRIGGER"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "voltageActive"
+            }
+          },
+          {
+            "InteractionName": "voltageLoop2",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "voltageLoop1"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "voltageActive"
+            }
+          },
+          {
+            "InteractionName": "voltageLoop3",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "voltageLoop2"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "voltageInactive"
+            }
+          },
+          {
+            "InteractionName": "tempTRIGGER",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tempTriggerButton"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tempInactive"
+            }
+          },
+          {
+            "InteractionName": "tempLoop1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tempTRIGGER"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tempActive"
+            }
+          },
+          {
+            "InteractionName": "tempLoop2",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tempLoop1"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tempActive"
+            }
+          },
+          {
+            "InteractionName": "tempLoop3",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tempLoop2"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tempInactive"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "tcTriggerButton",
+            "X": 35,
+            "Y": 110,
+            "Width": 36,
+            "Height": 36,
+            "LockPosition": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_normal.json"
+          },
+          {
+            "Type": "Button",
+            "Name": "voltageTriggerButton",
+            "X": 65,
+            "Y": 111,
+            "Width": 36,
+            "Height": 36,
+            "LockPosition": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_normal.json"
+          },
+          {
+            "Type": "Button",
+            "Name": "tempTriggerButton",
+            "X": 97,
+            "Y": 111,
+            "Width": 36,
+            "Height": 36,
+            "LockPosition": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_normal.png",
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_normal.json"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "background_white",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "Filename": "background2.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "throttle_input",
+            "X": 40,
+            "Y": 101,
+            "Width": 111,
+            "Height": 10,
+            "LockPosition": true,
+            "TextId": "__SingleUse_ZNEW",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "km_h",
+            "X": 272,
+            "Y": 62,
+            "Width": 38,
+            "Height": 10,
+            "LockPosition": true,
+            "TextId": "__SingleUse_Q9MZ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "settings_button",
+            "X": -7,
+            "Y": -8,
+            "Width": 60,
+            "Height": 60,
+            "LockPosition": true,
+            "Pressed": "empty_small.png",
+            "Released": "empty_small.png",
+            "IconPressed": "__generated\\icon_theme_images_action_list_50_50_FF0000.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_list_50_50_000000.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speed_data",
+            "X": 198,
+            "Y": 46,
+            "Width": 74,
+            "Height": 33,
+            "LockPosition": true,
+            "TextId": "__SingleUse_XUU9",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_UFUA",
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "theme_button",
+            "X": 415,
+            "Y": 5,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\dark_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\dark_theme_images_widgets_togglebutton_small_round_small_on_normal.png"
+          },
+          {
+            "Type": "BoxProgress",
+            "Name": "throttle_box",
+            "X": 40,
+            "Y": 83,
+            "Width": 400,
+            "Height": 18,
+            "LockPosition": true,
+            "Color": {
+              "Red": 211,
+              "Green": 52,
+              "Blue": 148
+            },
+            "Direction": "Right",
+            "Preset": "clay_theme\\presets\\boxprogress\\thick\\large_active.json",
+            "FileNameBackground": "__generated\\clay_theme_images_widgets_boxprogress_thick_large.png",
+            "IndicatorPositionWidth": 400,
+            "IndicatorPositionHeight": 18,
+            "ProgressRangeMax": 100,
+            "ProgressRangeSteps": 100,
+            "ProgressRangeStepsMin": 1
+          },
+          {
+            "Type": "Image",
+            "Name": "tcInactive",
+            "X": 41,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "traction_control_black.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "voltageInactive",
+            "X": 71,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "batteryLow_black_inactive.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "tempInactive",
+            "X": 103,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "temperature_black_inactive.png"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "gforce_gauge",
+            "X": 387,
+            "Y": 189,
+            "Width": 93,
+            "Height": 83,
+            "LockPosition": true,
+            "Filename": "gauge_100x100_black.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "gforce_ball",
+            "X": 413,
+            "Y": 214,
+            "Width": 41,
+            "Height": 32,
+            "LockPosition": true,
+            "Filename": "red_ball.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "gforce_text",
+            "X": 406,
+            "Y": 175,
+            "Width": 58,
+            "Height": 10,
+            "LockPosition": true,
+            "TextId": "__SingleUse_6A4E",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Image",
+            "Name": "tcActive",
+            "X": 41,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "tc_black_active.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Image",
+            "Name": "voltageActive",
+            "X": 71,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "batteryLow_black_active.png",
+            "Alpha": 0
+          },
+          {
+            "Type": "Image",
+            "Name": "tempActive",
+            "X": 103,
+            "Y": 116,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "temperature_black_active.png",
+            "Alpha": 0
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "themeChange",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "theme_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "settings",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "settings_button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "Screen4"
+            }
+          },
+          {
+            "InteractionName": "tcTRIGGER",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tcTriggerButton"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tcInactive"
+            }
+          },
+          {
+            "InteractionName": "tcLoop1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tcTRIGGER"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tcActive"
+            }
+          },
+          {
+            "InteractionName": "tcLoop2",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tcLoop1"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tcActive"
+            }
+          },
+          {
+            "InteractionName": "tcLoop3",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tcLoop2"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tcInactive"
+            }
+          },
+          {
+            "InteractionName": "voltageTRIGGER",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "voltageTriggerButton"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "voltageInactive"
+            }
+          },
+          {
+            "InteractionName": "voltageLoop1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "voltageTRIGGER"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "voltageActive"
+            }
+          },
+          {
+            "InteractionName": "voltageLoop2",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "voltageLoop1"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "voltageActive"
+            }
+          },
+          {
+            "InteractionName": "voltageLoop3",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "voltageLoop2"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "voltageInactive"
+            }
+          },
+          {
+            "InteractionName": "tempTRIGGER",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "tempTriggerButton"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tempInactive"
+            }
+          },
+          {
+            "InteractionName": "tempLoop1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tempTRIGGER"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tempActive"
+            }
+          },
+          {
+            "InteractionName": "tempLoop2",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tempLoop1"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tempActive"
+            }
+          },
+          {
+            "InteractionName": "tempLoop3",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "tempLoop2"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Easing": "Quad",
+              "EasingOption": "In",
+              "Duration": 250,
+              "ActionComponent": "tempInactive"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen3",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background_black",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "Filename": "backgroud1.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 96,
+            "Y": 80,
+            "Width": 116,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_ZTFH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 96,
+            "Y": 200,
+            "Width": 130,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_5Y3L",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 96,
+            "Y": 160,
+            "Width": 122,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_YKNQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 96,
+            "Y": 120,
+            "Width": 86,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_UWCL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 353,
+            "Y": 80,
+            "Width": 69,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_D5CC",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea8",
+            "X": 353,
+            "Y": 200,
+            "Width": 69,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_GFEX",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea7",
+            "X": 353,
+            "Y": 160,
+            "Width": 69,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_TLIA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton8",
+            "X": 280,
+            "Y": 195,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_on_normal.png",
+            "Released": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton6",
+            "X": 280,
+            "Y": 115,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_on_normal.png",
+            "Released": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton7",
+            "X": 280,
+            "Y": 155,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_on_normal.png",
+            "Released": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton5",
+            "X": 280,
+            "Y": 75,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_on_normal.png",
+            "Released": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton4",
+            "X": 23,
+            "Y": 195,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_on_normal.png",
+            "Released": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton2",
+            "X": 23,
+            "Y": 115,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_on_normal.png",
+            "Released": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea0_1",
+            "X": 156,
+            "Width": 168,
+            "Height": 33,
+            "LockPosition": true,
+            "TextId": "__SingleUse_FU45",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1",
+            "X": -7,
+            "Y": -8,
+            "Width": 60,
+            "Height": 60,
+            "LockPosition": true,
+            "Pressed": "empty_small.png",
+            "Released": "empty_small.png",
+            "IconPressed": "__generated\\icon_theme_images_action_list_50_50_FF0000.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_list_50_50_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea0_2",
+            "X": 169,
+            "Y": 33,
+            "Width": 142,
+            "Height": 10,
+            "LockPosition": true,
+            "TextId": "__SingleUse_DQSQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton3",
+            "X": 23,
+            "Y": 155,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_on_normal.png",
+            "Released": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "X": 23,
+            "Y": 75,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_on_normal.png",
+            "Released": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea6",
+            "X": 353,
+            "Y": 120,
+            "Width": 69,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_BF78",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 238,
+            "Y": 80,
+            "Width": 31,
+            "Height": 44,
+            "LockPosition": true,
+            "TextId": "__SingleUse_N8WW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_93AK",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 238,
+            "Y": 120,
+            "Width": 31,
+            "Height": 44,
+            "LockPosition": true,
+            "TextId": "__SingleUse_A2GU",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_JZMK",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_1",
+            "X": 238,
+            "Y": 160,
+            "Width": 31,
+            "Height": 44,
+            "LockPosition": true,
+            "TextId": "__SingleUse_LQSL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_JOLN",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4_1",
+            "X": 238,
+            "Y": 200,
+            "Width": 31,
+            "Height": 44,
+            "LockPosition": true,
+            "TextId": "__SingleUse_LG07",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_FEFU",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "switchScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithIcon1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "toggleButton1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "togglePressed1"
+            }
+          },
+          {
+            "InteractionName": "toggleButton2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "togglePressed2"
+            }
+          },
+          {
+            "InteractionName": "toggleButton3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "togglePressed3"
+            }
+          },
+          {
+            "InteractionName": "toggleButton4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "togglePressed4"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen4",
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background_white",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "Filename": "background2.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 238,
+            "Y": 80,
+            "Width": 31,
+            "Height": 44,
+            "LockPosition": true,
+            "TextId": "__SingleUse_99L4",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_YK7G",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4_1",
+            "X": 238,
+            "Y": 200,
+            "Width": 31,
+            "Height": 44,
+            "LockPosition": true,
+            "TextId": "__SingleUse_N5YC",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_2ROE",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 238,
+            "Y": 120,
+            "Width": 31,
+            "Height": 44,
+            "LockPosition": true,
+            "TextId": "__SingleUse_5SF7",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_NWOU",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 96,
+            "Y": 80,
+            "Width": 116,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_TWOM",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 96,
+            "Y": 200,
+            "Width": 130,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_26PT",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 96,
+            "Y": 160,
+            "Width": 122,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_EYIN",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 96,
+            "Y": 120,
+            "Width": 86,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_PC2D",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 353,
+            "Y": 80,
+            "Width": 69,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_WKCD",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea8",
+            "X": 353,
+            "Y": 200,
+            "Width": 69,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_YL47",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea7",
+            "X": 353,
+            "Y": 160,
+            "Width": 69,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_K20J",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton5",
+            "X": 280,
+            "Y": 75,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton8",
+            "X": 280,
+            "Y": 195,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton7",
+            "X": 280,
+            "Y": 155,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton6",
+            "X": 280,
+            "Y": 115,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_1",
+            "X": 238,
+            "Y": 160,
+            "Width": 31,
+            "Height": 44,
+            "LockPosition": true,
+            "TextId": "__SingleUse_0Z4X",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_JIK1",
+              "UseBuffer": true,
+              "BufferSize": 5
+            }
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton2",
+            "X": 23,
+            "Y": 115,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton3",
+            "X": 23,
+            "Y": 155,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton4",
+            "X": 23,
+            "Y": 195,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "toggleButton1",
+            "X": 23,
+            "Y": 75,
+            "Width": 62,
+            "Height": 34,
+            "LockPosition": true,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_on_action.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_dark.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea6",
+            "X": 353,
+            "Y": 120,
+            "Width": 69,
+            "Height": 22,
+            "LockPosition": true,
+            "TextId": "__SingleUse_8U27",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea0_1",
+            "X": 156,
+            "Width": 168,
+            "Height": 33,
+            "LockPosition": true,
+            "TextId": "__SingleUse_0BOP",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "buttonWithIcon1",
+            "X": -7,
+            "Y": -8,
+            "Width": 60,
+            "Height": 60,
+            "LockPosition": true,
+            "Pressed": "empty_small.png",
+            "Released": "empty_small.png",
+            "IconPressed": "__generated\\icon_theme_images_action_list_50_50_FF0000.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_list_50_50_000000.svg.png",
+            "IconX": 5,
+            "IconY": 5,
+            "IconHeight": 50,
+            "IconWidth": 50
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea0_2",
+            "X": 169,
+            "Y": 33,
+            "Width": 142,
+            "Height": 10,
+            "LockPosition": true,
+            "TextId": "__SingleUse_S7Y2",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "switchScreen",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithIcon1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "toggleButton1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "togglePressed1"
+            }
+          },
+          {
+            "InteractionName": "toggleButton2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "togglePressed2"
+            }
+          },
+          {
+            "InteractionName": "toggleButton3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "togglePressed3"
+            }
+          },
+          {
+            "InteractionName": "toggleButton4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "togglePressed4"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "GFXPrototype",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "FlashTargetIntCommandOverride": "make -f ../gcc/Makefile intflash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts",
+      "Video"
+    ]
+  },
+  "Version": "4.25.0",
+  "CreatedBy": "4.25.0"
+}

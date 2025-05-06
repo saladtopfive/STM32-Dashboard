@@ -1,0 +1,10 @@
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Drivers/BSP/Components/ft5336/ft5336.c:161:6:ft5336_Reset	1
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Drivers/BSP/Components/ft5336/ft5336.c:407:9:ft5336_TS_ITStatus	1
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Drivers/BSP/Components/ft5336/ft5336.c:173:10:ft5336_ReadID	4
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Drivers/BSP/Components/ft5336/ft5336.c:222:9:ft5336_TS_DetectTouch	2
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Drivers/BSP/Components/ft5336/ft5336.c:254:6:ft5336_TS_GetXY	3
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Drivers/BSP/Components/ft5336/ft5336.c:375:6:ft5336_TS_EnableIT	1
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Drivers/BSP/Components/ft5336/ft5336.c:390:6:ft5336_TS_DisableIT	1
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Drivers/BSP/Components/ft5336/ft5336.c:205:6:ft5336_TS_Start	1
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Drivers/BSP/Components/ft5336/ft5336.c:420:6:ft5336_TS_ClearIT	1
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/Drivers/BSP/Components/ft5336/ft5336.c:145:6:ft5336_Init	2

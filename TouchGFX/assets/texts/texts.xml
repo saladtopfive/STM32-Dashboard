@@ -60,13 +60,13 @@
       <Text Id="__SingleUse_XUU9" Alignment="Center" TypographyId="speedometer">
         <Translation Language="GB">&lt;speed_value&gt;</Translation>
       </Text>
-      <Text Id="__SingleUse_IPU4" Alignment="Left" TypographyId="Default">
+      <Text Id="__SingleUse_IPU4" Alignment="Left" TypographyId="speedometer">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="__SingleUse_6A4E" Alignment="Left" TypographyId="Typography_01">
+      <Text Id="__SingleUse_6A4E" Alignment="Left" TypographyId="skibidi">
         <Translation Language="GB">G-FORCE</Translation>
       </Text>
-      <Text Id="__SingleUse_4D3X" Alignment="Left" TypographyId="Typography_01">
+      <Text Id="__SingleUse_4D3X" Alignment="Left" TypographyId="skibidi">
         <Translation Language="GB">G-FORCE</Translation>
       </Text>
       <Text Id="__SingleUse_S7Y2" Alignment="Left" TypographyId="Small">
@@ -135,10 +135,10 @@
       <Text Id="__SingleUse_3UW3" Alignment="Left" TypographyId="Small">
         <Translation Language="GB">throttle input</Translation>
       </Text>
-      <Text Id="__SingleUse_0BOP" Alignment="Center" TypographyId="speedometer">
+      <Text Id="__SingleUse_0BOP" Alignment="Center" TypographyId="skibidi">
         <Translation Language="GB">OPTIONS</Translation>
       </Text>
-      <Text Id="__SingleUse_FU45" Alignment="Center" TypographyId="speedometer">
+      <Text Id="__SingleUse_FU45" Alignment="Center" TypographyId="skibidi">
         <Translation Language="GB">OPTIONS</Translation>
       </Text>
       <Text Id="__SingleUse_JTJC" Alignment="Center" TypographyId="speedometer">
@@ -150,10 +150,10 @@
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Small" Font="ROGFonts-Regular.otf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="speedometer" Font="ROGFonts-Regular.otf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789 -">
-      <LanguageSetting Language="GB" Font="ROGFonts-Regular.otf" Size="30" Bpp="4" IsVector="no" IsCompressed="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="speedometer" Font="ROGFonts-Regular.otf" Size="45" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789 -">
+      <LanguageSetting Language="GB" Font="ROGFonts-Regular.otf" Size="45" Bpp="4" IsVector="no" IsCompressed="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789 -" />
     </Typography>
-    <Typography Id="Typography_01" Font="ROGFonts-Regular.otf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="skibidi" Font="ROGFonts-Regular.otf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789 -" />
     <Typography Id="Typography_02" Font="ROGFonts-Regular.otf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7e" />
   </Typographies>
 </TextDatabase>

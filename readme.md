@@ -17,16 +17,16 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 
 ## Monitored Metrics  
 
-| Metric                | Description                                |
+| ***Metric***                | ***Description***                                |
 |------------------------|--------------------------------------------|
-| Vehicle Speed          | Real-time speed display.                   |
-| Throttle / Brake       | Input level visualization.                  |
-| Battery                | Voltage and temperature monitoring.         |
-| Motor Temperature      | Prevents overheating and ensures reliability. |
-| Motor Driver Status    | Health and fault monitoring.                |
-| G-Forces               | Lateral and vertical forces in real time.   |
-| BMS Data (External)    | Additional telemetry provided by an external Battery Management System (BMS), developed as a separate thesis project. This work only focuses on visualization of the received data. |
-| Future Extensions      | Additional sensor integrations planned.     |
+| **Vehicle Speed**          | Real-time speed display.                   |
+| **Throttle / Brake**       | Input level visualization.                  |
+| **Battery**                | Voltage and temperature monitoring.         |
+| **Motor Temperature**      | Prevents overheating and ensures reliability. |
+| **Motor Driver Status**    | Health and fault monitoring.                |
+| **G-Forces**               | Lateral and vertical forces in real time.   |
+| **BMS Data (External)**    | Additional telemetry provided by an external Battery Management System (BMS), developed as a separate thesis project. This work only focuses on visualization of the received data. |
+| **Future Extensions**      | Additional sensor integrations planned.     |
 
 
 The objective of this work is to provide a **robust, responsive, and intuitive interface** that supports safe and efficient operation of the electric go-kart.  
@@ -50,11 +50,11 @@ As the implementation approaches the stage of **hardware integration**, this rep
 
 ## Roadmap  
 
-| Status    | Task |
+| ***Status***    | ***Task*** |
 |-----------|------|
-| ✅ Done   | Acquisition of the go-kart frame. |
-| ✅ Done   | Development of the UI prototype. |
-| 🔄 Ongoing | Live sensor data implementation. |
-| 🔜 Planned | Implementation of battery management visualization. |
-| 🔜 Planned | Integration of BLDC motor control. |
-| 🔜 Planned | Development of an export data feature. |
+| ✅ **Done**   | Acquisition of the go-kart frame. |
+| ✅ **Done**   | Development of the UI prototype. |
+| 🔄 **Ongoing** | Live sensor data implementation. |
+| 🔜 **Planned** | Implementation of battery management visualization. |
+| 🔜 **Planned** | Integration of BLDC motor control. |
+| 🔜 **Planned** | Development of an export data feature. |

@@ -3,41 +3,159 @@
     "Screens": [
       {
         "Name": "Screen1",
+        "CanvasBufferSize": 7200,
         "Components": [
+          {
+            "Type": "Line",
+            "Name": "line1_1_1",
+            "X": 334,
+            "Y": 35,
+            "Width": 103,
+            "Height": 25,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 20.0,
+            "EndX": 99.0,
+            "EndY": 20.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_1_1",
+            "X": 328,
+            "Y": 52,
+            "Width": 20,
+            "Height": 165,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 10.0,
+            "StartY": 5.0,
+            "EndX": 10.0,
+            "EndY": 150.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_2",
+            "X": 334,
+            "Y": 182,
+            "Width": 103,
+            "Height": 25,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 20.0,
+            "EndX": 99.0,
+            "EndY": 20.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2",
+            "X": 423,
+            "Y": 52,
+            "Width": 20,
+            "Height": 165,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 10.0,
+            "StartY": 5.0,
+            "EndX": 10.0,
+            "EndY": 150.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_1",
+            "X": 46,
+            "Y": 35,
+            "Width": 103,
+            "Height": 25,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 20.0,
+            "EndX": 99.0,
+            "EndY": 20.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_1",
+            "X": 40,
+            "Y": 52,
+            "Width": 20,
+            "Height": 165,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 10.0,
+            "StartY": 5.0,
+            "EndX": 10.0,
+            "EndY": 150.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
+          },
           {
             "Type": "Button",
             "Name": "voltageTriggerButton",
-            "X": 218,
-            "Y": 71,
+            "X": 79,
+            "Y": 60,
             "Width": 36,
             "Height": 36,
             "LockPosition": true,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
             "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_normal.png",
+            "Alpha": 0,
             "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_normal.json"
           },
           {
             "Type": "Button",
             "Name": "tempTriggerButton",
-            "X": 252,
-            "Y": 71,
+            "X": 46,
+            "Y": 57,
             "Width": 36,
             "Height": 36,
             "LockPosition": true,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
             "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_normal.png",
+            "Alpha": 0,
             "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_normal.json"
           },
           {
             "Type": "Button",
             "Name": "tcTriggerButton",
-            "X": 185,
-            "Y": 71,
+            "X": 112,
+            "Y": 57,
             "Width": 36,
             "Height": 36,
             "LockPosition": true,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
             "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_outline_normal.png",
+            "Alpha": 0,
             "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_outline_normal.json"
           },
           {
@@ -45,6 +163,7 @@
             "Name": "background_black",
             "Width": 480,
             "Height": 272,
+            "Visible": false,
             "LockPosition": true,
             "Filename": "backgroud1.png",
             "ScalingAlgorithm": "Nearest-neighbor"
@@ -52,25 +171,22 @@
           {
             "Type": "ButtonWithIcon",
             "Name": "settings_button",
-            "X": -7,
-            "Y": -8,
             "Width": 60,
             "Height": 60,
             "LockPosition": true,
             "Pressed": "empty_small.png",
             "Released": "empty_small.png",
-            "IconPressed": "__generated\\icon_theme_images_action_list_50_50_FF0000.svg.png",
-            "IconReleased": "__generated\\icon_theme_images_action_list_50_50_E8F6FB.svg.png",
+            "IconPressed": "__generated\\icon_theme_images_action_logout_40_34_FF00F7.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_login_40_34_E8F6FB.svg.png",
             "IconX": 5,
             "IconY": 5,
-            "IconHeight": 50,
-            "IconWidth": 50
+            "IconHeight": 34,
+            "IconWidth": 40
           },
           {
             "Type": "TextArea",
             "Name": "speed_data",
             "X": 166,
-            "Y": 120,
             "Width": 148,
             "Height": 71,
             "LockPosition": true,
@@ -90,44 +206,22 @@
           {
             "Type": "ToggleButton",
             "Name": "theme_button",
-            "X": 415,
+            "X": 384,
             "Y": 5,
             "Width": 62,
             "Height": 34,
-            "LockPosition": true,
-            "Pressed": "__generated\\glass_theme_images_widgets_togglebutton_small_round_small_off_dark.png",
-            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_round_small_off_normal.png"
-          },
-          {
-            "Type": "BoxProgress",
-            "Name": "throttle_box",
-            "X": 40,
-            "Y": 59,
-            "Width": 400,
-            "Height": 18,
-            "LockPosition": true,
-            "Color": {
-              "Red": 211,
-              "Green": 52,
-              "Blue": 148
-            },
-            "Direction": "Right",
-            "Preset": "clay_theme\\presets\\boxprogress\\thick\\large_active.json",
-            "FileNameBackground": "__generated\\clay_theme_images_widgets_boxprogress_thick_large.png",
-            "IndicatorPositionWidth": 400,
-            "IndicatorPositionHeight": 18,
-            "ProgressRangeMax": 100,
-            "ProgressRangeSteps": 100,
-            "ProgressRangeStepsMin": 1
+            "Visible": false,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_rounded_small_on_action.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_rounded_small_off_normal.png"
           },
           {
             "Type": "TextArea",
             "Name": "throttle_input",
-            "X": 185,
-            "Y": 47,
+            "X": 283,
+            "Y": 198,
             "Width": 111,
             "Height": 10,
-            "LockPosition": true,
+            "Visible": false,
             "TextId": "__SingleUse_3UW3",
             "TextRotation": "0",
             "Color": {
@@ -138,13 +232,56 @@
             "AutoSize": true
           },
           {
+            "Type": "LineProgress",
+            "Name": "brake_box",
+            "X": 446,
+            "Y": 57,
+            "Width": 18,
+            "Height": 200,
+            "LockPosition": true,
+            "FileNameProgress": "__generated\\light_theme_images_widgets_lineprogress_fillers_plain_thick_small_action_90.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 9.0,
+            "StartY": 200.0,
+            "EndX": 9.0,
+            "LineWidth": 18.0,
+            "LineEndingStyle": "Butt",
+            "FileNameBackground": "__generated\\light_theme_images_widgets_lineprogress_backgrounds_image_plain_thick_small_90.png",
+            "ProgressRangeMax": 100
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "throttle_box",
+            "X": 12,
+            "Y": 60,
+            "Width": 18,
+            "Height": 200,
+            "FileNameProgress": "__generated\\light_theme_images_widgets_lineprogress_fillers_plain_thick_small_action_90.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 9.0,
+            "StartY": 200.0,
+            "EndX": 9.0,
+            "LineWidth": 18.0,
+            "LineEndingStyle": "Butt",
+            "FileNameBackground": "__generated\\light_theme_images_widgets_lineprogress_backgrounds_image_plain_thick_small_90.png",
+            "ProgressRangeMax": 100
+          },
+          {
             "Type": "TextArea",
             "Name": "km_h",
             "X": 288,
             "Y": 155,
             "Width": 38,
             "Height": 10,
-            "LockPosition": true,
+            "Visible": false,
             "TextId": "__SingleUse_SHS7",
             "TextRotation": "0",
             "Color": {
@@ -155,42 +292,13 @@
             "AutoSize": true
           },
           {
-            "Type": "Image",
-            "Name": "tcInactive",
-            "X": 192,
-            "Y": 77,
-            "Width": 24,
-            "Height": 24,
-            "LockPosition": true,
-            "RelativeFilename": "tc_white_inactive.png"
-          },
-          {
-            "Type": "Image",
-            "Name": "voltageInactive",
-            "X": 226,
-            "Y": 77,
-            "Width": 24,
-            "Height": 24,
-            "LockPosition": true,
-            "RelativeFilename": "batteryLow_white_inactive.png"
-          },
-          {
-            "Type": "Image",
-            "Name": "tempInactive",
-            "X": 256,
-            "Y": 77,
-            "Width": 24,
-            "Height": 24,
-            "LockPosition": true,
-            "RelativeFilename": "temperature_white.png"
-          },
-          {
             "Type": "ScalableImage",
             "Name": "gforce_gauge",
             "X": 387,
             "Y": 189,
             "Width": 93,
             "Height": 83,
+            "Visible": false,
             "LockPosition": true,
             "Filename": "gauge_100x100.png",
             "ScalingAlgorithm": "Nearest-neighbor"
@@ -202,6 +310,7 @@
             "Y": 214,
             "Width": 41,
             "Height": 32,
+            "Visible": false,
             "LockPosition": true,
             "Filename": "red_ball.png",
             "ScalingAlgorithm": "Nearest-neighbor"
@@ -213,6 +322,7 @@
             "Y": 175,
             "Width": 58,
             "Height": 10,
+            "Visible": false,
             "LockPosition": true,
             "TextId": "__SingleUse_4D3X",
             "TextRotation": "0",
@@ -225,9 +335,19 @@
           },
           {
             "Type": "Image",
+            "Name": "tcInactive",
+            "X": 118,
+            "Y": 60,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "tc_white_inactive.png"
+          },
+          {
+            "Type": "Image",
             "Name": "tcActive",
-            "X": 192,
-            "Y": 77,
+            "X": 118,
+            "Y": 60,
             "Width": 24,
             "Height": 24,
             "LockPosition": true,
@@ -236,9 +356,19 @@
           },
           {
             "Type": "Image",
+            "Name": "voltageInactive",
+            "X": 85,
+            "Y": 59,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "batteryLow_white_inactive.png"
+          },
+          {
+            "Type": "Image",
             "Name": "voltageActive",
-            "X": 226,
-            "Y": 77,
+            "X": 85,
+            "Y": 59,
             "Width": 24,
             "Height": 24,
             "LockPosition": true,
@@ -247,14 +377,62 @@
           },
           {
             "Type": "Image",
+            "Name": "tempInactive",
+            "X": 54,
+            "Y": 60,
+            "Width": 24,
+            "Height": 24,
+            "LockPosition": true,
+            "RelativeFilename": "temperature_white.png"
+          },
+          {
+            "Type": "Image",
             "Name": "tempActive",
-            "X": 256,
-            "Y": 77,
+            "X": 54,
+            "Y": 60,
             "Width": 24,
             "Height": 24,
             "LockPosition": true,
             "RelativeFilename": "temperature_white_active.png",
             "Alpha": 0
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 46,
+            "Y": 182,
+            "Width": 103,
+            "Height": 25,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 20.0,
+            "EndX": 99.0,
+            "EndY": 20.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2",
+            "X": 135,
+            "Y": 52,
+            "Width": 20,
+            "Height": 165,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 10.0,
+            "StartY": 5.0,
+            "EndX": 10.0,
+            "EndY": 150.0,
+            "LineWidth": 5.0,
+            "LineEndingStyle": "Round"
           }
         ],
         "Interactions": [
@@ -920,10 +1098,21 @@
         "Name": "Screen3",
         "Components": [
           {
+            "Type": "ToggleButton",
+            "Name": "theme_button",
+            "X": 418,
+            "Y": 5,
+            "Width": 62,
+            "Height": 34,
+            "Pressed": "__generated\\light_theme_images_widgets_togglebutton_small_rounded_small_on_action.png",
+            "Released": "__generated\\light_theme_images_widgets_togglebutton_small_rounded_small_off_normal.png"
+          },
+          {
             "Type": "ScalableImage",
             "Name": "background_black",
             "Width": 480,
             "Height": 272,
+            "Visible": false,
             "LockPosition": true,
             "Filename": "backgroud1.png",
             "ScalingAlgorithm": "Nearest-neighbor"

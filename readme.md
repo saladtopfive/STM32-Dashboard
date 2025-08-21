@@ -1,9 +1,9 @@
-# STM32 Go-Kart Dashboard  
+# :oncoming_automobile: STM32 Go-Kart Dashboard  
 > [!IMPORTANT]  
 > **Work in Progress** — Development ongoing as of **21.08.2025**  
 > This repository is part of my **Engineering Thesis Project** for the completion of my undergraduate studies.  
 
----
+
 
 ## Overview  
 

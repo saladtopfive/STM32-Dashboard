@@ -19,9 +19,6 @@ TouchGFX/generated/fonts/src/*_cache.cpp
 TouchGFX/assets/scalable_output/
 
 # CubeIDE / System Workbench / Other IDEs
-.cproject
-.project
-.settings/
 .ipch/
 *.launch
 *.log

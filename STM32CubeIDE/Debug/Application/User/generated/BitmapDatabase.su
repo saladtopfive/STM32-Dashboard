@@ -1,0 +1,2 @@
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/images/src/BitmapDatabase.cpp:97:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/images/src/BitmapDatabase.cpp:102:10:uint16_t BitmapDatabase::getInstanceSize()	0	static

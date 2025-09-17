@@ -1,0 +1,6 @@
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:131:43:const touchgfx::TypedText::TypedTextData* TypedTextDatabase::getInstance(touchgfx::LanguageId)	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:136:10:uint16_t TypedTextDatabase::getInstanceSize()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:141:24:const touchgfx::Font** TypedTextDatabase::getFonts()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:146:23:const touchgfx::Font* TypedTextDatabase::setFont(touchgfx::FontId, const touchgfx::Font*)	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:153:6:void TypedTextDatabase::resetFont(touchgfx::FontId)	8	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/texts/src/TypedTextDatabase.cpp:174:1:cpp)	8	static

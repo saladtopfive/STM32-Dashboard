@@ -1,0 +1,58 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:72:18:virtual void touchgfx::Application::changeToStartScreen()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:91:18:virtual void touchgfx::Application::appSwitchScreen(uint8_t)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Application.hpp:104:18:virtual void touchgfx::Application::requestRedraw(touchgfx::Rect&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:72:18:virtual void touchgfx::Transition::tearDown()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:80:18:virtual void touchgfx::Transition::init()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:100:18:virtual void touchgfx::Transition::setScreenContainer(touchgfx::Container&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:43:7:touchgfx::MVPApplication::~MVPApplication()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:424:8:touchgfx::Callback<FrontendApplicationBase>::~Callback()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:16:13:FrontendApplicationBase::~FrontendApplicationBase()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:18:18:virtual void FrontendApplicationBase::changeToStartScreen()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:35:18:virtual void touchgfx::NoTransition::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/WipeTransition.hpp:37:7:touchgfx::WipeTransition<touchgfx::WEST>::~WipeTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/CoverTransition.hpp:36:7:touchgfx::CoverTransition<touchgfx::SOUTH>::~CoverTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/CoverTransition.hpp:36:7:touchgfx::CoverTransition<touchgfx::NORTH>::~CoverTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/WipeTransition.hpp:37:7:touchgfx::WipeTransition<touchgfx::EAST>::~WipeTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:31:7:touchgfx::NoTransition::~NoTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/WipeTransition.hpp:144:18:void touchgfx::WipeTransition<templateDirection>::init() [with touchgfx::Direction templateDirection = touchgfx::WEST]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/CoverTransition.hpp:163:18:void touchgfx::CoverTransition<templateDirection>::init() [with touchgfx::Direction templateDirection = touchgfx::SOUTH]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/CoverTransition.hpp:163:18:void touchgfx::CoverTransition<templateDirection>::init() [with touchgfx::Direction templateDirection = touchgfx::NORTH]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/WipeTransition.hpp:144:18:void touchgfx::WipeTransition<templateDirection>::init() [with touchgfx::Direction templateDirection = touchgfx::EAST]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:449:18:void touchgfx::Callback<dest_type, void, void, void>::execute() [with dest_type = FrontendApplicationBase]	4	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:459:18:bool touchgfx::Callback<dest_type, void, void, void>::isValid() const [with dest_type = FrontendApplicationBase]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:31:7:virtual touchgfx::NoTransition::~NoTransition()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/WipeTransition.hpp:37:7:virtual touchgfx::WipeTransition<touchgfx::WEST>::~WipeTransition()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/CoverTransition.hpp:36:7:virtual touchgfx::CoverTransition<touchgfx::SOUTH>::~CoverTransition()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/CoverTransition.hpp:36:7:virtual touchgfx::CoverTransition<touchgfx::NORTH>::~CoverTransition()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/WipeTransition.hpp:37:7:virtual touchgfx::WipeTransition<touchgfx::EAST>::~WipeTransition()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:424:8:virtual touchgfx::Callback<FrontendApplicationBase>::~Callback()	8	static
+../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:43:7:virtual touchgfx::MVPApplication::~MVPApplication()	8	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp:16:13:virtual FrontendApplicationBase::~FrontendApplicationBase()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/Transition.hpp:89:18:virtual void touchgfx::Transition::invalidate()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/WipeTransition.hpp:149:18:void touchgfx::WipeTransition<templateDirection>::invalidate() [with touchgfx::Direction templateDirection = touchgfx::WEST]	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/CoverTransition.hpp:187:18:void touchgfx::CoverTransition<templateDirection>::invalidate() [with touchgfx::Direction templateDirection = touchgfx::SOUTH]	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/CoverTransition.hpp:187:18:void touchgfx::CoverTransition<templateDirection>::invalidate() [with touchgfx::Direction templateDirection = touchgfx::NORTH]	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/WipeTransition.hpp:149:18:void touchgfx::WipeTransition<templateDirection>::invalidate() [with touchgfx::Direction templateDirection = touchgfx::EAST]	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/WipeTransition.hpp:69:18:void touchgfx::WipeTransition<templateDirection>::handleTickEvent() [with touchgfx::Direction templateDirection = touchgfx::WEST]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/WipeTransition.hpp:69:18:void touchgfx::WipeTransition<templateDirection>::handleTickEvent() [with touchgfx::Direction templateDirection = touchgfx::EAST]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/CoverTransition.hpp:76:18:void touchgfx::CoverTransition<templateDirection>::handleTickEvent() [with touchgfx::Direction templateDirection = touchgfx::SOUTH]	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/CoverTransition.hpp:76:18:void touchgfx::CoverTransition<templateDirection>::handleTickEvent() [with touchgfx::Direction templateDirection = touchgfx::NORTH]	24	static
+../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp:59:18:virtual void touchgfx::MVPApplication::handlePendingScreenTransition()	8	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:120:6:void FrontendApplicationBase::gotoScreen4ScreenCoverTransitionSouthImpl()	40	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:94:6:void FrontendApplicationBase::gotoScreen2ScreenCoverTransitionNorthImpl()	40	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:107:6:void FrontendApplicationBase::gotoScreen3ScreenCoverTransitionSouthImpl()	40	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:83:6:void FrontendApplicationBase::gotoScreen2ScreenWipeTransitionWestImpl()	40	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:308:17:static touchgfx::LCD& touchgfx::HAL::lcd()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:23:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	24	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:42:6:void FrontendApplicationBase::gotoScreen1ScreenNoTransition()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:53:6:void FrontendApplicationBase::gotoScreen1ScreenWipeTransitionEast()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:64:6:void FrontendApplicationBase::gotoScreen1ScreenCoverTransitionNorth()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:77:6:void FrontendApplicationBase::gotoScreen2ScreenWipeTransitionWest()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:88:6:void FrontendApplicationBase::gotoScreen2ScreenCoverTransitionNorth()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:101:6:void FrontendApplicationBase::gotoScreen3ScreenCoverTransitionSouth()	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:114:6:void FrontendApplicationBase::gotoScreen4ScreenCoverTransitionSouth()	0	static
+../../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp:135:8:T& touchgfx::AbstractPartition::at(uint16_t) [with T = Screen1View]	0	static
+../../Middlewares/ST/touchgfx/framework/include/common/AbstractPartition.hpp:135:8:T& touchgfx::AbstractPartition::at(uint16_t) [with T = Screen1Presenter]	0	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:70:6:void FrontendApplicationBase::gotoScreen1ScreenCoverTransitionNorthImpl()	40	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:59:6:void FrontendApplicationBase::gotoScreen1ScreenWipeTransitionEastImpl()	40	static
+C:/Users/ignac/uczelnia/inzynierka/GFX/GFXPrototype/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp:48:6:void FrontendApplicationBase::gotoScreen1ScreenNoTransitionImpl()	40	static

@@ -4,11 +4,17 @@
     <Language Id="GB" />
   </Languages>
   <Texts>
-    <TextGroup Id="Group1" />
+    <TextGroup Id="Group1">
+      <Text Id="__SingleUse_K7WG" Alignment="Center" TypographyId="speedfont">
+        <Translation Language="GB">0&#10;</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted" />
   </Texts>
   <Typographies>
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="speedfont" Font="bahnschrift.ttf" Size="45" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>

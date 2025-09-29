@@ -3,43 +3,296 @@
     "Screens": [
       {
         "Name": "Screen1",
+        "CanvasBufferSize": 7200,
         "Components": [
           {
-            "Type": "Button",
-            "Name": "button1",
-            "X": 120,
-            "Y": 111,
-            "Width": 240,
-            "Height": 50,
-            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
-            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
-            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
-          },
-          {
-            "Type": "Box",
-            "Name": "box1",
-            "X": 215,
-            "Y": 38,
-            "Width": 50,
-            "Height": 50,
+            "Type": "Line",
+            "Name": "left_box1_2",
+            "X": 150,
+            "Y": 1,
+            "Width": 10,
+            "Height": 35,
             "Color": {
               "Red": 255,
               "Green": 255,
               "Blue": 255
-            }
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 35.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
           },
           {
-            "Type": "Box",
-            "Name": "box2",
-            "X": 148,
-            "Y": 38,
-            "Width": 50,
-            "Height": 50,
+            "Type": "Line",
+            "Name": "left_box1_1",
+            "X": 150,
+            "Y": 41,
+            "Width": 10,
+            "Height": 200,
             "Color": {
               "Red": 255,
               "Green": 255,
               "Blue": 255
-            }
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 190.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box3_2",
+            "X": 30,
+            "Y": 31,
+            "Width": 130,
+            "Height": 10,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 125.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box3_1",
+            "X": 30,
+            "Y": 41,
+            "Width": 130,
+            "Height": 10,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 125.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box3",
+            "X": 30,
+            "Width": 130,
+            "Height": 10,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 125.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "right_box4",
+            "X": 320,
+            "Y": 227,
+            "Width": 130,
+            "Height": 10,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 125.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "right_box3",
+            "X": 320,
+            "Y": 41,
+            "Width": 130,
+            "Height": 10,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 125.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "righ_box2",
+            "X": 320,
+            "Y": 41,
+            "Width": 10,
+            "Height": 200,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 190.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box2",
+            "X": 30,
+            "Y": 41,
+            "Width": 10,
+            "Height": 200,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 190.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box1",
+            "X": 30,
+            "Y": 1,
+            "Width": 10,
+            "Height": 35,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 35.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box4",
+            "X": 30,
+            "Y": 227,
+            "Width": 130,
+            "Height": 10,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 125.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "right_box1",
+            "X": 440,
+            "Y": 41,
+            "Width": 10,
+            "Height": 200,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 190.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "brake_bar",
+            "X": 10,
+            "Y": 36,
+            "Width": 10,
+            "Height": 200,
+            "FileNameProgress": "__generated\\dark_theme_images_widgets_lineprogress_fillers_plain_normal_small_action_90.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 200.0,
+            "EndX": 5.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Butt",
+            "Preset": "dark_theme\\presets\\lineprogress\\images\\plain\\normal\\small_action_90.json",
+            "FileNameBackground": "__generated\\dark_theme_images_widgets_lineprogress_backgrounds_image_plain_normal_small_90.png",
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 60
+          },
+          {
+            "Type": "LineProgress",
+            "Name": "throttle_bar",
+            "X": 460,
+            "Y": 36,
+            "Width": 10,
+            "Height": 200,
+            "FileNameProgress": "__generated\\dark_theme_images_widgets_lineprogress_fillers_plain_normal_small_action_90.png",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 200.0,
+            "EndX": 5.0,
+            "LineWidth": 10.0,
+            "LineEndingStyle": "Butt",
+            "Preset": "dark_theme\\presets\\lineprogress\\images\\plain\\normal\\small_action_90.json",
+            "FileNameBackground": "__generated\\dark_theme_images_widgets_lineprogress_backgrounds_image_plain_normal_small_90.png",
+            "ProgressRangeMax": 100,
+            "ProgressInitialValue": 60
+          },
+          {
+            "Type": "TextArea",
+            "Name": "speedo",
+            "X": 218,
+            "Y": 1,
+            "Width": 44,
+            "Height": 90,
+            "TextId": "__SingleUse_K7WG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": []

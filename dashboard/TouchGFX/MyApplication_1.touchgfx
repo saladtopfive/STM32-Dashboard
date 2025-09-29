@@ -27,6 +27,19 @@
               "Green": 255,
               "Blue": 255
             }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "X": 148,
+            "Y": 38,
+            "Width": 50,
+            "Height": 50,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
           }
         ],
         "Interactions": []

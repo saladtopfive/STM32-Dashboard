@@ -3,8 +3,6 @@
 > **Work in Progress** — Development ongoing as of **17.09.2025**  
 > This repository is part of my **Engineering Thesis Project** for the completion of my undergraduate studies.  
 
-
-
 ## Overview  
 
 This project constitutes the practical component of my **engineering thesis**, focusing on the design and implementation of a **real-time dashboard system** for an electric go-kart.  
@@ -15,7 +13,9 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 
 ## Preview
 
-![Figure 1](dashboard-preview.png "Dashborad prorotype v0.2")
+<p align="center">
+  <img src="dashboard-preview.png" alt="Dashboard prototype v0.2">
+</p>
 
 ## Monitored Metrics  
 
@@ -28,15 +28,10 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 | **Motor Driver Status**    | Health and fault monitoring.                |
 | **G-Forces**               | Lateral and vertical forces in real time.   |
 | **BMS Data (External)**    | Additional telemetry provided by an external Battery Management System (BMS), developed as a separate thesis project. This work only focuses on visualization of the received data. |
+| **HOTLAP Button**           | Initiates a lap timer (stopwatch) in the dashboard, showing minutes, seconds, and centiseconds. Useful for tracking lap times during testing or racing sessions. |
 | **Future Extensions**      | Additional sensor integrations planned.     |
 
-
 The objective of this work is to provide a **robust, responsive, and intuitive interface** that supports safe and efficient operation of the electric go-kart.  
-
-
-
-
-
 
 ## Development Notes  
 
@@ -48,8 +43,6 @@ As the implementation approaches the stage of **hardware integration**, this rep
 - Documentation of development progress. 
 - Collaboration and versioning.  
 
-
-
 ## Roadmap  
 
 | ***Status***    | ***Task*** |
@@ -57,6 +50,6 @@ As the implementation approaches the stage of **hardware integration**, this rep
 | ✅ **Done**   | Acquisition of the go-kart frame. |
 | ✅ **Done**   | Development of the UI prototype. |
 | 🔄 **Ongoing** | Live sensor data implementation. |
+| 🔄 **Ongoing** | Development of an export data feature. |
 | 🔜 **Planned** | Implementation of battery management visualization. |
 | 🔜 **Planned** | Integration of BLDC motor control. |
-| 🔜 **Planned** | Development of an export data feature. |

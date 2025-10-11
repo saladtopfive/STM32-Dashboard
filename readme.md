@@ -13,7 +13,9 @@ The system is developed on the **STM32F746G-DISCO microcontroller** with a touch
 
 The dashboard serves as a **human–machine interface (HMI)**, enabling the driver to monitor essential parameters of the vehicle in real time. These include, but are not limited to:  
 
+## Preview
 
+![Figure 1](dashboard-preview.png "Dashborad prorotype v0.2")
 
 ## Monitored Metrics  
 

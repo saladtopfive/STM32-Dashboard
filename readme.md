@@ -6,7 +6,7 @@
 > [!IMPORTANT]  
 > **Work in Progress** — Development ongoing as of **11.10.2025**  
 > This repository is part of my **Engineering Thesis Project** for the completion of my undergraduate studies.  
-> 🎥 *We are also starting a YouTube channel documenting the Go-Kart assembly and dashboard development!*
+> 🎥 *We are also starting a YouTube channel documenting the Go-Kart assembly!*
 
 ## Overview  
 

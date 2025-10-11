@@ -620,10 +620,11 @@
           {
             "Type": "DigitalClock",
             "Name": "HOTLAP_CLOCK",
-            "X": 53,
-            "Y": 231,
+            "X": 170,
+            "Y": 243,
             "Width": 100,
             "Height": 25,
+            "Visible": false,
             "TextColor": {
               "Red": 255,
               "Green": 255,
@@ -691,10 +692,10 @@
           {
             "Type": "TextArea",
             "Name": "HOTLAP_CLOCK_TEXT",
-            "X": 323,
-            "Y": 222,
-            "Width": 11,
-            "Height": 18,
+            "X": 207,
+            "Y": 225,
+            "Width": 84,
+            "Height": 43,
             "TextId": "__SingleUse_TGQ0",
             "TextRotation": "0",
             "Color": {
@@ -702,8 +703,8 @@
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true,
             "Wildcard1": {
+              "TextId": "HOTLAP_CLOCK_TEXT_Buffer",
               "UseBuffer": true,
               "BufferSize": 6
             }

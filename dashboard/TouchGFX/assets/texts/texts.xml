@@ -10,14 +10,17 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_45IG" Alignment="Center" TypographyId="kmh">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="HOTLAP_CLOCK_TEXT_Buffer" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">00:00:00&#10;</Translation>
+      </Text>
       <Text Id="__SingleUse_TGQ0" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">&lt;value&gt;</Translation>
+        <Translation Language="GB">&#10;&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_W0B8" Alignment="Left" TypographyId="kmh">
         <Translation Language="GB">G-FORCE</Translation>
-      </Text>
-      <Text Id="__SingleUse_45IG" Alignment="Center" TypographyId="kmh">
-        <Translation Language="GB">&lt;&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_P0G6" Alignment="Left" TypographyId="kmh">
         <Translation Language="GB">BMS</Translation>

@@ -6,6 +6,13 @@
         "CanvasBufferSize": 7200,
         "Components": [
           {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true
+          },
+          {
             "Type": "TextArea",
             "Name": "textArea5_1",
             "X": 60,
@@ -64,7 +71,7 @@
           {
             "Type": "Line",
             "Name": "left_box3_2",
-            "X": 30,
+            "X": 47,
             "Y": 31,
             "Width": 130,
             "Height": 10,
@@ -113,12 +120,12 @@
               "Green": 255,
               "Blue": 255
             },
-            "Alpha": 135,
+            "Alpha": 100,
             "StartX": 5.0,
             "StartY": 5.0,
             "EndX": 92.0,
             "EndY": 5.0,
-            "LineWidth": 3.0,
+            "LineWidth": 1.5,
             "LineEndingStyle": "Round"
           },
           {
@@ -133,12 +140,12 @@
               "Green": 255,
               "Blue": 255
             },
-            "Alpha": 135,
+            "Alpha": 100,
             "StartX": 5.0,
             "StartY": 5.0,
             "EndX": 5.0,
             "EndY": 92.0,
-            "LineWidth": 3.0,
+            "LineWidth": 1.5,
             "LineEndingStyle": "Round"
           },
           {
@@ -338,6 +345,82 @@
           },
           {
             "Type": "Line",
+            "Name": "left_box3_1_1_2",
+            "X": 49,
+            "Y": 122,
+            "Width": 106,
+            "Height": 15,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 96.3,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box3_1_1_1_1",
+            "X": 49,
+            "Y": 169,
+            "Width": 97,
+            "Height": 15,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 96.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box1_4",
+            "X": 49,
+            "Y": 122,
+            "Width": 15,
+            "Height": 58,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 51.2,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box1_3_1",
+            "X": 140,
+            "Y": 122,
+            "Width": 15,
+            "Height": 58,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 52.1,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
             "Name": "right_box1",
             "X": 440,
             "Y": 41,
@@ -491,7 +574,7 @@
           {
             "Type": "ScalableImage",
             "Name": "TEMP_ICON",
-            "X": 13,
+            "X": 16,
             "Y": 76,
             "Width": 36,
             "Height": 32,
@@ -501,8 +584,8 @@
           {
             "Type": "ScalableImage",
             "Name": "BATPROC_ICON",
-            "X": 49,
-            "Y": -4,
+            "X": 69,
+            "Y": 8,
             "Width": 41,
             "Height": 34,
             "Filename": "icons8-battery-32.png",
@@ -511,8 +594,8 @@
           {
             "Type": "TextArea",
             "Name": "BATPROC_TEXT",
-            "X": 54,
-            "Y": 21,
+            "X": 114,
+            "Y": 12,
             "Width": 35,
             "Height": 20,
             "TextId": "__SingleUse_Q5QN",
@@ -576,7 +659,7 @@
             "Type": "ScalableImage",
             "Name": "BMS_ICON",
             "X": 321,
-            "Y": 8,
+            "Y": 10,
             "Width": 26,
             "Height": 26,
             "Filename": "icons8-warning-30.png",
@@ -586,7 +669,7 @@
             "Type": "TextArea",
             "Name": "BMS_TEXT",
             "X": 357,
-            "Y": 12,
+            "Y": 14,
             "Width": 34,
             "Height": 18,
             "TextId": "__SingleUse_P0G6",
@@ -668,10 +751,10 @@
             "CenterX": 50.0,
             "CenterY": 50.0,
             "Radius": 20.0,
-            "LineWidth": 3.0,
+            "LineWidth": 1.5,
             "EndAngle": 360.0,
             "CapPrecision": "Butt",
-            "Alpha": 135
+            "Alpha": 100
           },
           {
             "Type": "TextArea",
@@ -708,6 +791,112 @@
               "UseBuffer": true,
               "BufferSize": 6
             }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "VOLTAGE",
+            "X": 58,
+            "Y": 129,
+            "Width": 16,
+            "Height": 18,
+            "TextId": "__SingleUse_LW3T",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "CURRENT",
+            "X": 62,
+            "Y": 151,
+            "Width": 9,
+            "Height": 18,
+            "TextId": "__SingleUse_F4TM",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "BATTERY_ICON",
+            "X": 19,
+            "Y": 136,
+            "Width": 30,
+            "Height": 28,
+            "Filename": "icons-battery-50.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "VOLTAGE_TEXT",
+            "X": 84,
+            "Y": 129,
+            "Width": 22,
+            "Height": 18,
+            "TextId": "__SingleUse_I7T3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "VOLTAGE_UNIT",
+            "X": 110,
+            "Y": 128,
+            "Width": 11,
+            "Height": 18,
+            "TextId": "__SingleUse_X7MS",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "CURRENT_UNIT",
+            "X": 110,
+            "Y": 151,
+            "Width": 11,
+            "Height": 18,
+            "TextId": "__SingleUse_LIKG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "CURRENT_TEXT",
+            "X": 84,
+            "Y": 151,
+            "Width": 22,
+            "Height": 18,
+            "TextId": "__SingleUse_O3RJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": [

@@ -17,7 +17,8 @@ public:
 
 protected:
     bool isHotlapActive;       
-    uint32_t elapsedTime;      
+    uint32_t elapsedTime;     
+     
 
     static const uint16_t HOTLAP_CLOCK_SIZE = 9; // MM:SS:CS + '\0'
     Unicode::UnicodeChar HOTLAP_CLOCK_Buffer[HOTLAP_CLOCK_SIZE];

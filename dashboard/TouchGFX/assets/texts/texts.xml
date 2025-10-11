@@ -10,6 +10,24 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_LIKG" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">A</Translation>
+      </Text>
+      <Text Id="__SingleUse_X7MS" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">V</Translation>
+      </Text>
+      <Text Id="__SingleUse_O3RJ" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">0.0</Translation>
+      </Text>
+      <Text Id="__SingleUse_I7T3" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">0.0</Translation>
+      </Text>
+      <Text Id="__SingleUse_F4TM" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">I:</Translation>
+      </Text>
+      <Text Id="__SingleUse_LW3T" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">U:</Translation>
+      </Text>
       <Text Id="__SingleUse_45IG" Alignment="Center" TypographyId="kmh">
         <Translation Language="GB">&lt;&gt;</Translation>
       </Text>
@@ -29,10 +47,10 @@
         <Translation Language="GB">0 °C</Translation>
       </Text>
       <Text Id="__SingleUse_3MOD" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">ENG </Translation>
+        <Translation Language="GB">ENG:</Translation>
       </Text>
       <Text Id="__SingleUse_XJ2P" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">BAT </Translation>
+        <Translation Language="GB">BAT:</Translation>
       </Text>
       <Text Id="__SingleUse_62EH" Alignment="Left" TypographyId="temp">
         <Translation Language="GB">0 °C</Translation>

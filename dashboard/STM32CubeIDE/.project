@@ -739,6 +739,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_lineprogress_fillers_plain_thick_tiny_action_90.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_icons-battery-50.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_icons-battery-50.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_icons8-battery-32.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/image_icons8-battery-32.cpp</locationURI>

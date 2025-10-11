@@ -12,12 +12,14 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
     virtual void HOTLAP_BUTTONClicked();
-    //virtual void handleTickEvent();
+    virtual void handleTickEvent();
 
     
 protected:
     bool isHotlapActive;
     uint32_t elapsedTime;
+
+    int tickCounter, analogMinutes, analogSeconds, analogMiliseconds;
 
 
 };

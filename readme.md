@@ -1,7 +1,12 @@
 # 🚘 STM32 Go-Kart Dashboard  
+
+[![saladtopfive - YouTube](https://img.shields.io/badge/saladtopfive-YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/@saladtopfive)
+
+
 > [!IMPORTANT]  
 > **Work in Progress** — Development ongoing as of **11.10.2025**  
 > This repository is part of my **Engineering Thesis Project** for the completion of my undergraduate studies.  
+> 🎥 *We are also starting a YouTube channel documenting the Go-Kart assembly and dashboard development!*
 
 ## Overview  
 

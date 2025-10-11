@@ -14,9 +14,9 @@
           },
           {
             "Type": "TextArea",
-            "Name": "textArea5_1",
+            "Name": "ENGTEMP_TEXT",
             "X": 60,
-            "Y": 93,
+            "Y": 100,
             "Width": 37,
             "Height": 18,
             "TextId": "__SingleUse_3MOD",
@@ -27,66 +27,6 @@
               "Blue": 255
             },
             "AutoSize": true
-          },
-          {
-            "Type": "Line",
-            "Name": "left_box1_2",
-            "X": 229,
-            "Y": 91,
-            "Width": 10,
-            "Height": 35,
-            "Visible": false,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 5.0,
-            "EndY": 35.0,
-            "LineWidth": 3.0,
-            "LineEndingStyle": "Round"
-          },
-          {
-            "Type": "Line",
-            "Name": "left_box1_1",
-            "X": 150,
-            "Y": 41,
-            "Width": 10,
-            "Height": 200,
-            "Visible": false,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 5.0,
-            "EndY": 190.0,
-            "LineWidth": 3.0,
-            "LineEndingStyle": "Round"
-          },
-          {
-            "Type": "Line",
-            "Name": "left_box3_2",
-            "X": 47,
-            "Y": 31,
-            "Width": 130,
-            "Height": 10,
-            "Visible": false,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 125.0,
-            "EndY": 5.0,
-            "LineWidth": 3.0,
-            "LineEndingStyle": "Round"
           },
           {
             "Type": "Line",
@@ -152,7 +92,7 @@
             "Type": "Line",
             "Name": "left_box3_1_1",
             "X": 49,
-            "Y": 62,
+            "Y": 69,
             "Width": 106,
             "Height": 15,
             "Color": {
@@ -171,7 +111,7 @@
             "Type": "Line",
             "Name": "left_box3_1_1_1",
             "X": 49,
-            "Y": 109,
+            "Y": 116,
             "Width": 97,
             "Height": 15,
             "Color": {
@@ -182,25 +122,6 @@
             "StartX": 5.0,
             "StartY": 5.0,
             "EndX": 96.0,
-            "EndY": 5.0,
-            "LineWidth": 3.0,
-            "LineEndingStyle": "Round"
-          },
-          {
-            "Type": "Line",
-            "Name": "left_box3",
-            "X": 30,
-            "Width": 130,
-            "Height": 10,
-            "Visible": false,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 125.0,
             "EndY": 5.0,
             "LineWidth": 3.0,
             "LineEndingStyle": "Round"
@@ -267,49 +188,9 @@
           },
           {
             "Type": "Line",
-            "Name": "righ_box2",
-            "X": 320,
-            "Y": 41,
-            "Width": 10,
-            "Height": 200,
-            "Visible": false,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 5.0,
-            "EndY": 190.0,
-            "LineWidth": 3.0,
-            "LineEndingStyle": "Round"
-          },
-          {
-            "Type": "Line",
-            "Name": "left_box2",
-            "X": 30,
-            "Y": 41,
-            "Width": 10,
-            "Height": 200,
-            "Visible": false,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 5.0,
-            "EndY": 190.0,
-            "LineWidth": 3.0,
-            "LineEndingStyle": "Round"
-          },
-          {
-            "Type": "Line",
             "Name": "left_box1",
             "X": 49,
-            "Y": 62,
+            "Y": 69,
             "Width": 15,
             "Height": 58,
             "Color": {
@@ -328,7 +209,7 @@
             "Type": "Line",
             "Name": "left_box1_3",
             "X": 140,
-            "Y": 62,
+            "Y": 69,
             "Width": 15,
             "Height": 58,
             "Color": {
@@ -347,7 +228,7 @@
             "Type": "Line",
             "Name": "left_box3_1_1_2",
             "X": 49,
-            "Y": 122,
+            "Y": 129,
             "Width": 106,
             "Height": 15,
             "Color": {
@@ -366,7 +247,7 @@
             "Type": "Line",
             "Name": "left_box3_1_1_1_1",
             "X": 49,
-            "Y": 169,
+            "Y": 176,
             "Width": 97,
             "Height": 15,
             "Color": {
@@ -385,7 +266,7 @@
             "Type": "Line",
             "Name": "left_box1_4",
             "X": 49,
-            "Y": 122,
+            "Y": 129,
             "Width": 15,
             "Height": 58,
             "Color": {
@@ -404,7 +285,7 @@
             "Type": "Line",
             "Name": "left_box1_3_1",
             "X": 140,
-            "Y": 122,
+            "Y": 129,
             "Width": 15,
             "Height": 58,
             "Color": {
@@ -420,28 +301,8 @@
             "LineEndingStyle": "Round"
           },
           {
-            "Type": "Line",
-            "Name": "right_box1",
-            "X": 440,
-            "Y": 41,
-            "Width": 10,
-            "Height": 200,
-            "Visible": false,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 5.0,
-            "EndY": 190.0,
-            "LineWidth": 3.0,
-            "LineEndingStyle": "Round"
-          },
-          {
             "Type": "LineProgress",
-            "Name": "brake_bar",
+            "Name": "BRAKE_BAR",
             "X": 316,
             "Y": 66,
             "Width": 18,
@@ -464,7 +325,7 @@
           },
           {
             "Type": "LineProgress",
-            "Name": "throttle_bar",
+            "Name": "THROTTLE_BAR",
             "X": 391,
             "Y": 66,
             "Width": 18,
@@ -487,7 +348,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "speedo",
+            "Name": "SPEED_TEXT",
             "X": 226,
             "Y": 1,
             "Width": 28,
@@ -575,7 +436,7 @@
             "Type": "ScalableImage",
             "Name": "TEMP_ICON",
             "X": 16,
-            "Y": 76,
+            "Y": 83,
             "Width": 36,
             "Height": 32,
             "Filename": "icons8-temperature-48.png",
@@ -611,8 +472,8 @@
             "Type": "TextArea",
             "Name": "BATTEMP",
             "X": 103,
-            "Y": 67,
-            "Width": 35,
+            "Y": 74,
+            "Width": 11,
             "Height": 20,
             "TextId": "__SingleUse_62EH",
             "TextRotation": "0",
@@ -625,10 +486,42 @@
           },
           {
             "Type": "TextArea",
+            "Name": "BATTEMP_UNIT",
+            "X": 119,
+            "Y": 74,
+            "Width": 19,
+            "Height": 20,
+            "TextId": "__SingleUse_9KLQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ENGTEMP_UNIT",
+            "X": 119,
+            "Y": 97,
+            "Width": 19,
+            "Height": 20,
+            "TextId": "__SingleUse_H2X2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
             "Name": "ENGTEMP",
             "X": 103,
-            "Y": 90,
-            "Width": 35,
+            "Y": 97,
+            "Width": 16,
             "Height": 20,
             "TextId": "__SingleUse_NG2D",
             "TextRotation": "0",
@@ -643,7 +536,7 @@
             "Type": "TextArea",
             "Name": "BATTEMP_TEXT",
             "X": 60,
-            "Y": 69,
+            "Y": 76,
             "Width": 33,
             "Height": 18,
             "TextId": "__SingleUse_XJ2P",
@@ -794,9 +687,9 @@
           },
           {
             "Type": "TextArea",
-            "Name": "VOLTAGE",
+            "Name": "VOLTAGE_TEXT",
             "X": 58,
-            "Y": 129,
+            "Y": 136,
             "Width": 16,
             "Height": 18,
             "TextId": "__SingleUse_LW3T",
@@ -810,9 +703,9 @@
           },
           {
             "Type": "TextArea",
-            "Name": "CURRENT",
+            "Name": "CURRENT_TEXT",
             "X": 62,
-            "Y": 151,
+            "Y": 158,
             "Width": 9,
             "Height": 18,
             "TextId": "__SingleUse_F4TM",
@@ -828,7 +721,7 @@
             "Type": "ScalableImage",
             "Name": "BATTERY_ICON",
             "X": 19,
-            "Y": 136,
+            "Y": 143,
             "Width": 30,
             "Height": 28,
             "Filename": "icons-battery-50.png",
@@ -836,9 +729,9 @@
           },
           {
             "Type": "TextArea",
-            "Name": "VOLTAGE_TEXT",
+            "Name": "VOLTAGE",
             "X": 84,
-            "Y": 129,
+            "Y": 136,
             "Width": 22,
             "Height": 18,
             "TextId": "__SingleUse_I7T3",
@@ -854,7 +747,7 @@
             "Type": "TextArea",
             "Name": "VOLTAGE_UNIT",
             "X": 110,
-            "Y": 128,
+            "Y": 135,
             "Width": 11,
             "Height": 18,
             "TextId": "__SingleUse_X7MS",
@@ -870,7 +763,7 @@
             "Type": "TextArea",
             "Name": "CURRENT_UNIT",
             "X": 110,
-            "Y": 151,
+            "Y": 158,
             "Width": 11,
             "Height": 18,
             "TextId": "__SingleUse_LIKG",
@@ -884,9 +777,9 @@
           },
           {
             "Type": "TextArea",
-            "Name": "CURRENT_TEXT",
+            "Name": "CURRENT",
             "X": 84,
-            "Y": 151,
+            "Y": 158,
             "Width": 22,
             "Height": 18,
             "TextId": "__SingleUse_O3RJ",

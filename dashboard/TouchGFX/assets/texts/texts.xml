@@ -10,6 +10,12 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_H2X2" Alignment="Left" TypographyId="temp">
+        <Translation Language="GB">°C</Translation>
+      </Text>
+      <Text Id="__SingleUse_9KLQ" Alignment="Left" TypographyId="temp">
+        <Translation Language="GB">°C</Translation>
+      </Text>
       <Text Id="__SingleUse_LIKG" Alignment="Left" TypographyId="kmh">
         <Translation Language="GB">A</Translation>
       </Text>
@@ -44,7 +50,7 @@
         <Translation Language="GB">BMS</Translation>
       </Text>
       <Text Id="__SingleUse_NG2D" Alignment="Left" TypographyId="temp">
-        <Translation Language="GB">0 °C</Translation>
+        <Translation Language="GB">0 </Translation>
       </Text>
       <Text Id="__SingleUse_3MOD" Alignment="Left" TypographyId="kmh">
         <Translation Language="GB">ENG:</Translation>
@@ -53,7 +59,7 @@
         <Translation Language="GB">BAT:</Translation>
       </Text>
       <Text Id="__SingleUse_62EH" Alignment="Left" TypographyId="temp">
-        <Translation Language="GB">0 °C</Translation>
+        <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_Q5QN" Alignment="Left" TypographyId="bat_proc">
         <Translation Language="GB">98%</Translation>

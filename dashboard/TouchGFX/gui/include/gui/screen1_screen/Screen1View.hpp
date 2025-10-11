@@ -11,7 +11,15 @@ public:
     virtual ~Screen1View() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void HOTLAP_BUTTONClicked();
+    //virtual void handleTickEvent();
+
+    
 protected:
+    bool isHotlapActive;
+    uint32_t elapsedTime;
+
+
 };
 
 #endif // SCREEN1VIEW_HPP

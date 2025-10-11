@@ -9,12 +9,55 @@
         <Translation Language="GB">0&#10;</Translation>
       </Text>
     </TextGroup>
-    <TextGroup Id="Unsorted" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_TGQ0" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_W0B8" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">G-FORCE</Translation>
+      </Text>
+      <Text Id="__SingleUse_45IG" Alignment="Center" TypographyId="kmh">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_P0G6" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">BMS</Translation>
+      </Text>
+      <Text Id="__SingleUse_NG2D" Alignment="Left" TypographyId="temp">
+        <Translation Language="GB">0 °C</Translation>
+      </Text>
+      <Text Id="__SingleUse_3MOD" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">ENG </Translation>
+      </Text>
+      <Text Id="__SingleUse_XJ2P" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">BAT </Translation>
+      </Text>
+      <Text Id="__SingleUse_62EH" Alignment="Left" TypographyId="temp">
+        <Translation Language="GB">0 °C</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q5QN" Alignment="Left" TypographyId="bat_proc">
+        <Translation Language="GB">98%</Translation>
+      </Text>
+      <Text Id="__SingleUse_3JTW" Alignment="Center" TypographyId="kmh">
+        <Translation Language="GB">HOTLAP</Translation>
+      </Text>
+      <Text Id="__SingleUse_6E9G" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">BRK</Translation>
+      </Text>
+      <Text Id="__SingleUse_LUWQ" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">ACC</Translation>
+      </Text>
+      <Text Id="__SingleUse_SNS3" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">km/h</Translation>
+      </Text>
+    </TextGroup>
   </Texts>
   <Typographies>
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="speedfont" Font="bahnschrift.ttf" Size="45" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="speedfont" Font="bahnschrift.ttf" Size="50" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="kmh" Font="leelauib.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
+    <Typography Id="temp" Font="bahnschrift.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="bat_proc" Font="bahnschrift.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>

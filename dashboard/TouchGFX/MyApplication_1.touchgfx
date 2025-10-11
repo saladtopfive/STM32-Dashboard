@@ -6,12 +6,29 @@
         "CanvasBufferSize": 7200,
         "Components": [
           {
+            "Type": "TextArea",
+            "Name": "textArea5_1",
+            "X": 60,
+            "Y": 93,
+            "Width": 37,
+            "Height": 18,
+            "TextId": "__SingleUse_3MOD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
             "Type": "Line",
             "Name": "left_box1_2",
-            "X": 150,
-            "Y": 1,
+            "X": 229,
+            "Y": 91,
             "Width": 10,
             "Height": 35,
+            "Visible": false,
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -31,6 +48,7 @@
             "Y": 41,
             "Width": 10,
             "Height": 200,
+            "Visible": false,
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -50,6 +68,7 @@
             "Y": 31,
             "Width": 130,
             "Height": 10,
+            "Visible": false,
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -64,8 +83,8 @@
           },
           {
             "Type": "Line",
-            "Name": "left_box3_1",
-            "X": 30,
+            "Name": "left_top_line",
+            "X": 49,
             "Y": 41,
             "Width": 130,
             "Height": 10,
@@ -74,9 +93,88 @@
               "Green": 255,
               "Blue": 255
             },
+            "Alpha": 135,
             "StartX": 5.0,
             "StartY": 5.0,
-            "EndX": 125.0,
+            "EndX": 125.1,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "CIRCLE_LINE_1",
+            "X": 191,
+            "Y": 122,
+            "Width": 95,
+            "Height": 10,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 135,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 92.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "CIRCLE_LINE_2",
+            "X": 235,
+            "Y": 79,
+            "Width": 10,
+            "Height": 95,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 135,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 92.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box3_1_1",
+            "X": 49,
+            "Y": 62,
+            "Width": 106,
+            "Height": 15,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 96.3,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "left_box3_1_1_1",
+            "X": 49,
+            "Y": 109,
+            "Width": 97,
+            "Height": 15,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 96.0,
             "EndY": 5.0,
             "LineWidth": 3.0,
             "LineEndingStyle": "Round"
@@ -87,6 +185,7 @@
             "X": 30,
             "Width": 130,
             "Height": 10,
+            "Visible": false,
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -101,16 +200,17 @@
           },
           {
             "Type": "Line",
-            "Name": "right_box4",
-            "X": 320,
-            "Y": 227,
+            "Name": "right_bottom_line",
+            "X": 295,
+            "Y": 199,
             "Width": 130,
-            "Height": 10,
+            "Height": 15,
             "Color": {
               "Red": 255,
               "Green": 255,
               "Blue": 255
             },
+            "Alpha": 135,
             "StartX": 5.0,
             "StartY": 5.0,
             "EndX": 125.0,
@@ -120,8 +220,28 @@
           },
           {
             "Type": "Line",
-            "Name": "right_box3",
-            "X": 320,
+            "Name": "left_bottom_line",
+            "X": 49,
+            "Y": 200,
+            "Width": 130,
+            "Height": 15,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 135,
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 125.0,
+            "EndY": 5.0,
+            "LineWidth": 3.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "right_top_line",
+            "X": 295,
             "Y": 41,
             "Width": 130,
             "Height": 10,
@@ -130,6 +250,7 @@
               "Green": 255,
               "Blue": 255
             },
+            "Alpha": 135,
             "StartX": 5.0,
             "StartY": 5.0,
             "EndX": 125.0,
@@ -144,6 +265,7 @@
             "Y": 41,
             "Width": 10,
             "Height": 200,
+            "Visible": false,
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -163,6 +285,7 @@
             "Y": 41,
             "Width": 10,
             "Height": 200,
+            "Visible": false,
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -178,10 +301,10 @@
           {
             "Type": "Line",
             "Name": "left_box1",
-            "X": 30,
-            "Y": 1,
-            "Width": 10,
-            "Height": 35,
+            "X": 49,
+            "Y": 62,
+            "Width": 15,
+            "Height": 58,
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -190,17 +313,17 @@
             "StartX": 5.0,
             "StartY": 5.0,
             "EndX": 5.0,
-            "EndY": 35.0,
+            "EndY": 51.2,
             "LineWidth": 3.0,
             "LineEndingStyle": "Round"
           },
           {
             "Type": "Line",
-            "Name": "left_box4",
-            "X": 30,
-            "Y": 227,
-            "Width": 130,
-            "Height": 10,
+            "Name": "left_box1_3",
+            "X": 140,
+            "Y": 62,
+            "Width": 15,
+            "Height": 58,
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -208,8 +331,8 @@
             },
             "StartX": 5.0,
             "StartY": 5.0,
-            "EndX": 125.0,
-            "EndY": 5.0,
+            "EndX": 5.0,
+            "EndY": 52.1,
             "LineWidth": 3.0,
             "LineEndingStyle": "Round"
           },
@@ -220,6 +343,7 @@
             "Y": 41,
             "Width": 10,
             "Height": 200,
+            "Visible": false,
             "Color": {
               "Red": 255,
               "Green": 255,
@@ -235,56 +359,56 @@
           {
             "Type": "LineProgress",
             "Name": "brake_bar",
-            "X": 10,
-            "Y": 36,
-            "Width": 10,
-            "Height": 200,
-            "FileNameProgress": "__generated\\dark_theme_images_widgets_lineprogress_fillers_plain_normal_small_action_90.png",
+            "X": 316,
+            "Y": 66,
+            "Width": 18,
+            "Height": 100,
+            "FileNameProgress": "__generated\\dark_theme_images_widgets_lineprogress_fillers_plain_thick_tiny_action_90.png",
             "Color": {
               "Red": 255,
               "Green": 255,
               "Blue": 255
             },
-            "StartX": 5.0,
-            "StartY": 200.0,
-            "EndX": 5.0,
-            "LineWidth": 10.0,
+            "StartX": 9.0,
+            "StartY": 100.0,
+            "EndX": 9.0,
+            "LineWidth": 18.0,
             "LineEndingStyle": "Butt",
-            "Preset": "dark_theme\\presets\\lineprogress\\images\\plain\\normal\\small_action_90.json",
-            "FileNameBackground": "__generated\\dark_theme_images_widgets_lineprogress_backgrounds_image_plain_normal_small_90.png",
+            "Preset": "dark_theme\\presets\\lineprogress\\images\\plain\\thick\\tiny_action_90.json",
+            "FileNameBackground": "__generated\\dark_theme_images_widgets_lineprogress_backgrounds_image_plain_thick_tiny_90.png",
             "ProgressRangeMax": 100,
             "ProgressInitialValue": 60
           },
           {
             "Type": "LineProgress",
             "Name": "throttle_bar",
-            "X": 460,
-            "Y": 36,
-            "Width": 10,
-            "Height": 200,
-            "FileNameProgress": "__generated\\dark_theme_images_widgets_lineprogress_fillers_plain_normal_small_action_90.png",
+            "X": 391,
+            "Y": 66,
+            "Width": 18,
+            "Height": 100,
+            "FileNameProgress": "__generated\\dark_theme_images_widgets_lineprogress_fillers_plain_thick_tiny_action_90.png",
             "Color": {
               "Red": 255,
               "Green": 255,
               "Blue": 255
             },
-            "StartX": 5.0,
-            "StartY": 200.0,
-            "EndX": 5.0,
-            "LineWidth": 10.0,
+            "StartX": 9.0,
+            "StartY": 100.0,
+            "EndX": 9.0,
+            "LineWidth": 18.0,
             "LineEndingStyle": "Butt",
-            "Preset": "dark_theme\\presets\\lineprogress\\images\\plain\\normal\\small_action_90.json",
-            "FileNameBackground": "__generated\\dark_theme_images_widgets_lineprogress_backgrounds_image_plain_normal_small_90.png",
+            "Preset": "dark_theme\\presets\\lineprogress\\images\\plain\\thick\\tiny_action_90.json",
+            "FileNameBackground": "__generated\\dark_theme_images_widgets_lineprogress_backgrounds_image_plain_thick_tiny_90.png",
             "ProgressRangeMax": 100,
             "ProgressInitialValue": 60
           },
           {
             "Type": "TextArea",
             "Name": "speedo",
-            "X": 218,
+            "X": 226,
             "Y": 1,
-            "Width": 44,
-            "Height": 90,
+            "Width": 28,
+            "Height": 100,
             "TextId": "__SingleUse_K7WG",
             "TextRotation": "0",
             "Color": {
@@ -293,9 +417,311 @@
               "Blue": 255
             },
             "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "KMH_TEXT",
+            "X": 220,
+            "Y": 57,
+            "Width": 41,
+            "Height": 18,
+            "TextId": "__SingleUse_SNS3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ACC_TEXT",
+            "X": 385,
+            "Y": 177,
+            "Width": 31,
+            "Height": 18,
+            "TextId": "__SingleUse_LUWQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BRAKE_TEXT",
+            "X": 310,
+            "Y": 177,
+            "Width": 30,
+            "Height": 18,
+            "TextId": "__SingleUse_6E9G",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "HOTLAP_BUTTON",
+            "X": 189,
+            "Y": 207,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_action.png",
+            "TextId": "__SingleUse_3JTW",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "TEMP_ICON",
+            "X": 13,
+            "Y": 76,
+            "Width": 36,
+            "Height": 32,
+            "Filename": "icons8-temperature-48.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "BATPROC_ICON",
+            "X": 49,
+            "Y": -4,
+            "Width": 41,
+            "Height": 34,
+            "Filename": "icons8-battery-32.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BATPROC_TEXT",
+            "X": 54,
+            "Y": 21,
+            "Width": 35,
+            "Height": 20,
+            "TextId": "__SingleUse_Q5QN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BATTEMP",
+            "X": 103,
+            "Y": 67,
+            "Width": 35,
+            "Height": 20,
+            "TextId": "__SingleUse_62EH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ENGTEMP",
+            "X": 103,
+            "Y": 90,
+            "Width": 35,
+            "Height": 20,
+            "TextId": "__SingleUse_NG2D",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BATTEMP_TEXT",
+            "X": 60,
+            "Y": 69,
+            "Width": 33,
+            "Height": 18,
+            "TextId": "__SingleUse_XJ2P",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "BMS_ICON",
+            "X": 321,
+            "Y": 8,
+            "Width": 26,
+            "Height": 26,
+            "Filename": "icons8-warning-30.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BMS_TEXT",
+            "X": 357,
+            "Y": 12,
+            "Width": 34,
+            "Height": 18,
+            "TextId": "__SingleUse_P0G6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "REC_ICON",
+            "Width": 37,
+            "Height": 30,
+            "Filename": "icons8-record-48.png",
+            "Alpha": 0,
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "GFORCE_DOT",
+            "X": 221,
+            "Y": 111,
+            "Width": 37,
+            "Height": 30,
+            "Filename": "icons8-record-48.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "HOTLAP_CLOCK",
+            "X": 53,
+            "Y": 231,
+            "Width": 100,
+            "Height": 25,
+            "TextColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextId": "__SingleUse_45IG",
+            "DisplaySeconds": true,
+            "DisplayLeadingZeroForHourIndicator": true
+          },
+          {
+            "Type": "Circle",
+            "Name": "MAIN_CIRCLE",
+            "X": 190,
+            "Y": 78,
+            "Width": 100,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 50.0,
+            "CenterY": 50.0,
+            "Radius": 45.0,
+            "LineWidth": 3.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "SUB_CIRCLE",
+            "X": 190,
+            "Y": 77,
+            "Width": 100,
+            "Height": 100,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "CenterX": 50.0,
+            "CenterY": 50.0,
+            "Radius": 20.0,
+            "LineWidth": 3.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt",
+            "Alpha": 135
+          },
+          {
+            "Type": "TextArea",
+            "Name": "GFORCE_TEXT",
+            "X": 208,
+            "Y": 177,
+            "Width": 66,
+            "Height": 18,
+            "TextId": "__SingleUse_W0B8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "HOTLAP_CLOCK_TEXT",
+            "X": 323,
+            "Y": 222,
+            "Width": 11,
+            "Height": 18,
+            "TextId": "__SingleUse_TGQ0",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 6
+            }
           }
         ],
-        "Interactions": []
+        "Interactions": [
+          {
+            "InteractionName": "RECORD",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "HOTLAP_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "HOTLAP_BUTTONClicked"
+            }
+          }
+        ]
       }
     ],
     "CustomContainerDefinitions": [],

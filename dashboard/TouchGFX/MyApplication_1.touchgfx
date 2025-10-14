@@ -577,6 +577,8 @@
           {
             "Type": "ScalableImage",
             "Name": "REC_ICON",
+            "X": 443,
+            "Y": 1,
             "Width": 37,
             "Height": 30,
             "Filename": "icons8-record-48.png",
@@ -790,6 +792,20 @@
               "Blue": 255
             },
             "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "CHANGE_SCREEN_BUTTON",
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_action.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_back_ios_25_25_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_back_ios_25_25_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 6,
+            "IconHeight": 25,
+            "IconWidth": 25
           }
         ],
         "Interactions": [
@@ -802,6 +818,60 @@
             "Action": {
               "Type": "ActionCustom",
               "FunctionName": "HOTLAP_BUTTONClicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "CHANGE_SCREEN_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "CHANGE_SCREEN_BUTTON",
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_action.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_forward_ios_25_25_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_forward_ios_25_25_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 6,
+            "IconHeight": 25,
+            "IconWidth": 25
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "CHANGE_SCREEN_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
             }
           }
         ]

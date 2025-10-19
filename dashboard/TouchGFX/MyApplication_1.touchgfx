@@ -858,6 +858,38 @@
             "IconY": 6,
             "IconHeight": 25,
             "IconWidth": 25
+          },
+          {
+            "Type": "TextArea",
+            "Name": "VOLTAGES_TEXT",
+            "X": 18,
+            "Y": 43,
+            "Width": 78,
+            "Height": 18,
+            "TextId": "__SingleUse_2GC9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "TEMPERATURES_TEXT",
+            "X": 115,
+            "Y": 43,
+            "Width": 121,
+            "Height": 18,
+            "TextId": "__SingleUse_1U3H",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": [

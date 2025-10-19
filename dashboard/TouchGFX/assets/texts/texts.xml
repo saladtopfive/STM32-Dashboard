@@ -10,6 +10,12 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_1U3H" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">TEMPERATURES</Translation>
+      </Text>
+      <Text Id="__SingleUse_2GC9" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">VOLTAGES</Translation>
+      </Text>
       <Text Id="__SingleUse_H2X2" Alignment="Left" TypographyId="temp">
         <Translation Language="GB">°C</Translation>
       </Text>

@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.7">
+  <diagram name="Page-1" id="xNHfDzaPmyKJgni5cBCV">
+    <mxGraphModel dx="1554" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="T9EdzfjqRA-r2Rp-EouC-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="420.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-1" value="&lt;div&gt;STM DISCO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="264" y="210" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="T9EdzfjqRA-r2Rp-EouC-2" target="T9EdzfjqRA-r2Rp-EouC-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-4" value="&lt;div&gt;i2c&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="T9EdzfjqRA-r2Rp-EouC-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.1514" relative="1" as="geometry">
+            <mxPoint x="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-2" value="&lt;div&gt;Accelerometer&lt;/div&gt;&amp;nbsp;IMU" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="341" y="40" width="146" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="T9EdzfjqRA-r2Rp-EouC-6" target="T9EdzfjqRA-r2Rp-EouC-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-8" value="&lt;div&gt;Analog&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="T9EdzfjqRA-r2Rp-EouC-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.0557" y="-2" relative="1" as="geometry">
+            <mxPoint x="40" y="-47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-6" value="Pressure sensor" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="150" width="146" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="T9EdzfjqRA-r2Rp-EouC-9" target="T9EdzfjqRA-r2Rp-EouC-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-23" value="Analog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="T9EdzfjqRA-r2Rp-EouC-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.5574" y="3" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-9" value="Gas pedal" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="245" width="146" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="T9EdzfjqRA-r2Rp-EouC-13" target="T9EdzfjqRA-r2Rp-EouC-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-25" value="Analog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="T9EdzfjqRA-r2Rp-EouC-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.76" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-13" value="Engine temperature" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="350" width="146" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="T9EdzfjqRA-r2Rp-EouC-16" target="T9EdzfjqRA-r2Rp-EouC-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-18" value="&lt;div&gt;CAN&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="T9EdzfjqRA-r2Rp-EouC-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.1107" y="-3" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-16" value="BMS" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry y="245" width="146" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="T9EdzfjqRA-r2Rp-EouC-27" target="T9EdzfjqRA-r2Rp-EouC-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-29" value="&lt;div&gt;UART&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="T9EdzfjqRA-r2Rp-EouC-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.0164" y="7" relative="1" as="geometry">
+            <mxPoint x="17" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-27" value="&lt;div&gt;ESP32 wifi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="263" y="420" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="T9EdzfjqRA-r2Rp-EouC-32" target="T9EdzfjqRA-r2Rp-EouC-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" parent="1" source="T9EdzfjqRA-r2Rp-EouC-32" target="T9EdzfjqRA-r2Rp-EouC-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-35" value="Serial wire" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="T9EdzfjqRA-r2Rp-EouC-34" vertex="1" connectable="0">
+          <mxGeometry x="0.0415" y="1" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T9EdzfjqRA-r2Rp-EouC-32" value="Progammer" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="455" width="146" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

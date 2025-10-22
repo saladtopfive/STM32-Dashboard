@@ -65,5 +65,5 @@ As the implementation approaches the stage of **hardware integration**, this rep
 | ✅ **Done**   | Development of the UI prototype. |
 | 🔄 **Ongoing** | Live sensor data implementation. |
 | 🔄 **Ongoing** | Development of an export data feature. |
-| 🔜 **Planned** | Implementation of battery management visualization. |
+| 🔄 **Ongoing** | Implementation of battery management visualization. |
 | 🔜 **Planned** | Integration of BLDC motor control. |

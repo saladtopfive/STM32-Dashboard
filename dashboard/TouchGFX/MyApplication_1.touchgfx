@@ -48,7 +48,7 @@
             "X": 60,
             "Y": 100,
             "Width": 37,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_3MOD",
             "TextRotation": "0",
             "Color": {
@@ -398,7 +398,7 @@
             "X": 220,
             "Y": 57,
             "Width": 41,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_SNS3",
             "TextRotation": "0",
             "Color": {
@@ -414,7 +414,7 @@
             "X": 385,
             "Y": 177,
             "Width": 31,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_LUWQ",
             "TextRotation": "0",
             "Color": {
@@ -430,7 +430,7 @@
             "X": 310,
             "Y": 177,
             "Width": 30,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_6E9G",
             "TextRotation": "0",
             "Color": {
@@ -568,7 +568,7 @@
             "X": 60,
             "Y": 76,
             "Width": 33,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_XJ2P",
             "TextRotation": "0",
             "Color": {
@@ -594,7 +594,7 @@
             "X": 357,
             "Y": 14,
             "Width": 34,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_P0G6",
             "TextRotation": "0",
             "Color": {
@@ -687,7 +687,7 @@
             "X": 208,
             "Y": 177,
             "Width": 66,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_W0B8",
             "TextRotation": "0",
             "Color": {
@@ -723,7 +723,7 @@
             "X": 58,
             "Y": 136,
             "Width": 16,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_LW3T",
             "TextRotation": "0",
             "Color": {
@@ -739,7 +739,7 @@
             "X": 62,
             "Y": 158,
             "Width": 9,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_F4TM",
             "TextRotation": "0",
             "Color": {
@@ -765,7 +765,7 @@
             "X": 84,
             "Y": 136,
             "Width": 22,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_I7T3",
             "TextRotation": "0",
             "Color": {
@@ -781,7 +781,7 @@
             "X": 110,
             "Y": 135,
             "Width": 11,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_X7MS",
             "TextRotation": "0",
             "Color": {
@@ -797,7 +797,7 @@
             "X": 110,
             "Y": 158,
             "Width": 11,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_LIKG",
             "TextRotation": "0",
             "Color": {
@@ -813,7 +813,7 @@
             "X": 84,
             "Y": 158,
             "Width": 22,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_O3RJ",
             "TextRotation": "0",
             "Color": {
@@ -907,8 +907,24 @@
             "X": 190,
             "Y": 9,
             "Width": 101,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_2GC9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Relay_status",
+            "X": 7,
+            "Y": 46,
+            "Width": 93,
+            "Height": 20,
+            "TextId": "__SingleUse_K38P",
             "TextRotation": "0",
             "Color": {
               "Red": 255,
@@ -1953,7 +1969,7 @@
             "X": 182,
             "Y": 9,
             "Width": 117,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_DFS2",
             "TextRotation": "0",
             "Color": {
@@ -1969,7 +1985,7 @@
             "X": 115,
             "Y": 36,
             "Width": 31,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_KCCK",
             "TextRotation": "0",
             "Color": {
@@ -1985,7 +2001,7 @@
             "X": 312,
             "Y": 36,
             "Width": 31,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_0KRR",
             "TextRotation": "0",
             "Color": {
@@ -1997,9 +2013,9 @@
           },
           {
             "Type": "TextArea",
-            "Name": "Over_voltage",
+            "Name": "Over_voltage_1",
             "X": 102,
-            "Y": 211,
+            "Y": 210,
             "Width": 92,
             "Height": 12,
             "TextId": "__SingleUse_R1V2",
@@ -2016,7 +2032,45 @@
           },
           {
             "Type": "TextArea",
-            "Name": "Over_voltage_1",
+            "Name": "Under_voltage_1",
+            "X": 102,
+            "Y": 220,
+            "Width": 98,
+            "Height": 12,
+            "TextId": "__SingleUse_2IUY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_GRSK"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Under_voltage_2",
+            "X": 299,
+            "Y": 221,
+            "Width": 98,
+            "Height": 12,
+            "TextId": "__SingleUse_MWJQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_WNTC"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Over_voltage_2",
             "X": 299,
             "Y": 211,
             "Width": 92,

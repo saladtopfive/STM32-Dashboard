@@ -1476,7 +1476,6 @@
       },
       {
         "Name": "Screen4",
-        "CanvasBufferSize": 7200,
         "Components": [
           {
             "Type": "Box",
@@ -1486,47 +1485,9 @@
             "LockPosition": true
           },
           {
-            "Type": "Line",
-            "Name": "line1",
-            "X": 99,
-            "Y": 50,
-            "Width": 280,
-            "Height": 10,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 275.0,
-            "EndY": 5.0,
-            "LineWidth": 2.0,
-            "LineEndingStyle": "Round"
-          },
-          {
-            "Type": "Line",
-            "Name": "line1_1",
-            "X": 232,
-            "Y": 50,
-            "Width": 10,
-            "Height": 200,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 5.0,
-            "EndY": 190.0,
-            "LineWidth": 2.0,
-            "LineEndingStyle": "Round"
-          },
-          {
             "Type": "TextArea",
             "Name": "Voltage",
-            "X": 130,
+            "X": 106,
             "Y": 62,
             "Width": 49,
             "Height": 12,
@@ -1542,7 +1503,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_1",
-            "X": 125,
+            "X": 102,
             "Y": 77,
             "Width": 57,
             "Height": 12,
@@ -1561,7 +1522,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_9",
-            "X": 125,
+            "X": 102,
             "Y": 166,
             "Width": 57,
             "Height": 12,
@@ -1580,7 +1541,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_10",
-            "X": 125,
+            "X": 102,
             "Y": 178,
             "Width": 63,
             "Height": 12,
@@ -1599,7 +1560,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_11",
-            "X": 125,
+            "X": 102,
             "Y": 189,
             "Width": 63,
             "Height": 12,
@@ -1618,7 +1579,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_12",
-            "X": 125,
+            "X": 102,
             "Y": 200,
             "Width": 63,
             "Height": 12,
@@ -1637,7 +1598,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_2",
-            "X": 125,
+            "X": 102,
             "Y": 89,
             "Width": 57,
             "Height": 12,
@@ -1656,7 +1617,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_3",
-            "X": 125,
+            "X": 102,
             "Y": 100,
             "Width": 57,
             "Height": 12,
@@ -1675,7 +1636,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_4",
-            "X": 126,
+            "X": 103,
             "Y": 111,
             "Width": 57,
             "Height": 12,
@@ -1694,7 +1655,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_5",
-            "X": 125,
+            "X": 102,
             "Y": 123,
             "Width": 57,
             "Height": 12,
@@ -1713,7 +1674,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_6",
-            "X": 125,
+            "X": 102,
             "Y": 133,
             "Width": 57,
             "Height": 12,
@@ -1732,7 +1693,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_7",
-            "X": 125,
+            "X": 102,
             "Y": 144,
             "Width": 57,
             "Height": 12,
@@ -1751,7 +1712,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell1_8",
-            "X": 125,
+            "X": 102,
             "Y": 155,
             "Width": 57,
             "Height": 12,
@@ -1770,7 +1731,7 @@
           {
             "Type": "TextArea",
             "Name": "Voltage_1",
-            "X": 294,
+            "X": 304,
             "Y": 62,
             "Width": 49,
             "Height": 12,
@@ -1786,7 +1747,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_1",
-            "X": 289,
+            "X": 299,
             "Y": 78,
             "Width": 57,
             "Height": 12,
@@ -1805,7 +1766,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_9",
-            "X": 289,
+            "X": 299,
             "Y": 167,
             "Width": 57,
             "Height": 12,
@@ -1824,7 +1785,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_10",
-            "X": 289,
+            "X": 299,
             "Y": 179,
             "Width": 63,
             "Height": 12,
@@ -1843,7 +1804,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_11",
-            "X": 289,
+            "X": 299,
             "Y": 190,
             "Width": 63,
             "Height": 12,
@@ -1862,7 +1823,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_12",
-            "X": 289,
+            "X": 299,
             "Y": 201,
             "Width": 63,
             "Height": 12,
@@ -1881,7 +1842,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_2",
-            "X": 289,
+            "X": 299,
             "Y": 90,
             "Width": 57,
             "Height": 12,
@@ -1900,7 +1861,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_3",
-            "X": 289,
+            "X": 299,
             "Y": 101,
             "Width": 57,
             "Height": 12,
@@ -1919,7 +1880,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_4",
-            "X": 289,
+            "X": 299,
             "Y": 112,
             "Width": 57,
             "Height": 12,
@@ -1938,7 +1899,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_5",
-            "X": 289,
+            "X": 299,
             "Y": 123,
             "Width": 57,
             "Height": 12,
@@ -1957,7 +1918,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_6",
-            "X": 289,
+            "X": 299,
             "Y": 134,
             "Width": 57,
             "Height": 12,
@@ -1976,7 +1937,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_7",
-            "X": 289,
+            "X": 299,
             "Y": 145,
             "Width": 57,
             "Height": 12,
@@ -1995,7 +1956,7 @@
           {
             "Type": "TextArea",
             "Name": "Cell2_8",
-            "X": 289,
+            "X": 299,
             "Y": 156,
             "Width": 57,
             "Height": 12,
@@ -2044,8 +2005,8 @@
           {
             "Type": "TextArea",
             "Name": "BQ1",
-            "X": 138,
-            "Y": 32,
+            "X": 115,
+            "Y": 36,
             "Width": 31,
             "Height": 18,
             "TextId": "__SingleUse_KCCK",
@@ -2060,8 +2021,8 @@
           {
             "Type": "TextArea",
             "Name": "BQ2",
-            "X": 302,
-            "Y": 32,
+            "X": 312,
+            "Y": 36,
             "Width": 31,
             "Height": 18,
             "TextId": "__SingleUse_0KRR",
@@ -2076,7 +2037,7 @@
           {
             "Type": "TextArea",
             "Name": "Over_voltage",
-            "X": 125,
+            "X": 102,
             "Y": 211,
             "Width": 92,
             "Height": 12,
@@ -2095,7 +2056,7 @@
           {
             "Type": "TextArea",
             "Name": "Over_voltage_1",
-            "X": 289,
+            "X": 299,
             "Y": 211,
             "Width": 92,
             "Height": 12,

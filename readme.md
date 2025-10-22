@@ -19,8 +19,14 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 ## Preview
 
 <p align="center">
-  <img src="dashboard-preview.png" alt="Dashboard prototype v0.2">
+  <img src="dashboard-preview-screen1.png" width="45%">
+  <img src="dashboard-preview-screen2.png" width="45%">
 </p>
+<p align="center">
+  <img src="dashboard-preview-screen3.png" width="45%">
+  <img src="dashboard-preview-screen4.png" width="45%">
+</p>
+
 
 ## Monitored Metrics  
 

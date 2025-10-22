@@ -13,6 +13,36 @@
             "LockPosition": true
           },
           {
+            "Type": "Button",
+            "Name": "ADVANCED_SCREEN_BUTTON",
+            "X": 310,
+            "Y": 4,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_action.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_tiny_round_disabled.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "BATTERY_BUTTON",
+            "X": 16,
+            "Y": 140,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_action.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_pressed.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "TEMP_BUTTON",
+            "X": 16,
+            "Y": 79,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_action.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_pressed.png"
+          },
+          {
             "Type": "TextArea",
             "Name": "ENGTEMP_TEXT",
             "X": 60,
@@ -792,20 +822,6 @@
               "Blue": 255
             },
             "AutoSize": true
-          },
-          {
-            "Type": "ButtonWithIcon",
-            "Name": "CHANGE_SCREEN_BUTTON",
-            "Width": 36,
-            "Height": 36,
-            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_action.png",
-            "Released": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
-            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_back_ios_25_25_E8F6FB.svg.png",
-            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_back_ios_25_25_E8F6FB.svg.png",
-            "IconX": 5,
-            "IconY": 6,
-            "IconHeight": 25,
-            "IconWidth": 25
           }
         ],
         "Interactions": [
@@ -821,16 +837,42 @@
             }
           },
           {
-            "InteractionName": "Interaction1",
+            "InteractionName": "ADVANCED_SCREEN2",
             "Trigger": {
               "Type": "TriggerClicked",
-              "TriggerComponent": "CHANGE_SCREEN_BUTTON"
+              "TriggerComponent": "ADVANCED_SCREEN_BUTTON"
             },
             "Action": {
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionSlide",
               "ScreenTransitionDirection": "West",
               "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "TEMP_SCRREN3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "TEMP_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen3"
+            }
+          },
+          {
+            "InteractionName": "VOLT_SCREEN4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BATTERY_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen4"
             }
           }
         ]
@@ -861,28 +903,12 @@
           },
           {
             "Type": "TextArea",
-            "Name": "VOLTAGES_TEXT",
-            "X": 18,
-            "Y": 43,
-            "Width": 78,
+            "Name": "BMS_ERRORS",
+            "X": 190,
+            "Y": 9,
+            "Width": 101,
             "Height": 18,
             "TextId": "__SingleUse_2GC9",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "AutoSize": true
-          },
-          {
-            "Type": "TextArea",
-            "Name": "TEMPERATURES_TEXT",
-            "X": 115,
-            "Y": 43,
-            "Width": 121,
-            "Height": 18,
-            "TextId": "__SingleUse_1U3H",
             "TextRotation": "0",
             "Color": {
               "Red": 255,
@@ -898,6 +924,1200 @@
             "Trigger": {
               "Type": "TriggerClicked",
               "TriggerComponent": "CHANGE_SCREEN_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen3",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BACK_BUTTON",
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_action.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_forward_ios_25_25_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_forward_ios_25_25_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 6,
+            "IconHeight": 25,
+            "IconWidth": 25
+          },
+          {
+            "Type": "TextArea",
+            "Name": "TEMPERATURE_TEXT",
+            "X": 159,
+            "Y": 9,
+            "Width": 162,
+            "Height": 18,
+            "TextId": "__SingleUse_1ME6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Temperature1",
+            "X": 112,
+            "Y": 90,
+            "Width": 68,
+            "Height": 12,
+            "TextId": "__SingleUse_OAMI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp1_1",
+            "X": 108,
+            "Y": 108,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_NUW8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_S7TR"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp1_2",
+            "X": 108,
+            "Y": 118,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_EFTO",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_M8TC"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp1_3",
+            "X": 108,
+            "Y": 127,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_ZPZG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_WFG1"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp1_4",
+            "X": 108,
+            "Y": 136,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_9C4V",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_UL6I"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp1_5",
+            "X": 108,
+            "Y": 145,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_IWPR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_IJP4"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp1_6",
+            "X": 108,
+            "Y": 153,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_KR21",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_6OAN"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp1_7",
+            "X": 108,
+            "Y": 162,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_UT3W",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_TBN4"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp1_8",
+            "X": 108,
+            "Y": 171,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_HQCQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_3YJG"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Temperature2",
+            "X": 291,
+            "Y": 90,
+            "Width": 68,
+            "Height": 12,
+            "TextId": "__SingleUse_NDNE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp2_1",
+            "X": 287,
+            "Y": 108,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_P949",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_WN8Q"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp2_2",
+            "X": 287,
+            "Y": 118,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_VQFF",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_HSIM"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp2_3",
+            "X": 287,
+            "Y": 127,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_FJYW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_3XW3"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp2_4",
+            "X": 287,
+            "Y": 136,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_QDK7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_S8U0"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp2_5",
+            "X": 287,
+            "Y": 145,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_B6R3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_O0W3"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp2_6",
+            "X": 287,
+            "Y": 153,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_66AQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_YH4O"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp2_7",
+            "X": 287,
+            "Y": 162,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_5FTD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_132M"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "temp2_8",
+            "X": 287,
+            "Y": 171,
+            "Width": 76,
+            "Height": 12,
+            "TextId": "__SingleUse_8XYI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_E2IE"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ1",
+            "X": 131,
+            "Y": 54,
+            "Width": 31,
+            "Height": 18,
+            "TextId": "__SingleUse_912V",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2",
+            "X": 310,
+            "Y": 54,
+            "Width": 31,
+            "Height": 18,
+            "TextId": "__SingleUse_5D4O",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Reference_temp_1",
+            "X": 108,
+            "Y": 191,
+            "Width": 86,
+            "Height": 12,
+            "TextId": "__SingleUse_X7MI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_GX7P"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Reference_temp_2",
+            "X": 287,
+            "Y": 191,
+            "Width": 86,
+            "Height": 12,
+            "TextId": "__SingleUse_2PAK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_HEAL"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Die_temp_1",
+            "X": 108,
+            "Y": 181,
+            "Width": 85,
+            "Height": 12,
+            "TextId": "__SingleUse_PCLH",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_87T5"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Die_temp_2",
+            "X": 287,
+            "Y": 181,
+            "Width": 85,
+            "Height": 12,
+            "TextId": "__SingleUse_7PXE",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_2YWH"
+            }
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 100,
+            "Y": 72,
+            "Width": 280,
+            "Height": 10,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 275.0,
+            "EndY": 5.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_1",
+            "X": 233,
+            "Y": 72,
+            "Width": 10,
+            "Height": 150,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 145.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "BACK_BUTTON",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BACK_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen4",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 99,
+            "Y": 50,
+            "Width": 280,
+            "Height": 10,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 275.0,
+            "EndY": 5.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_1",
+            "X": 232,
+            "Y": 50,
+            "Width": 10,
+            "Height": 200,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "StartX": 5.0,
+            "StartY": 5.0,
+            "EndX": 5.0,
+            "EndY": 190.0,
+            "LineWidth": 2.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Voltage",
+            "X": 130,
+            "Y": 62,
+            "Width": 49,
+            "Height": 12,
+            "TextId": "__SingleUse_07SD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_1",
+            "X": 125,
+            "Y": 77,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_9L08",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_HWT9"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_9",
+            "X": 125,
+            "Y": 166,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_IVL4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_Q5VZ"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_10",
+            "X": 125,
+            "Y": 178,
+            "Width": 63,
+            "Height": 12,
+            "TextId": "__SingleUse_EZLQ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_O4HE"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_11",
+            "X": 125,
+            "Y": 189,
+            "Width": 63,
+            "Height": 12,
+            "TextId": "__SingleUse_ADFI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_PYM6"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_12",
+            "X": 125,
+            "Y": 200,
+            "Width": 63,
+            "Height": 12,
+            "TextId": "__SingleUse_0C5V",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_NLU7"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_2",
+            "X": 125,
+            "Y": 89,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_MYFD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_IAFK"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_3",
+            "X": 125,
+            "Y": 100,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_921P",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_QY7J"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_4",
+            "X": 126,
+            "Y": 111,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_YIJN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_E207"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_5",
+            "X": 125,
+            "Y": 123,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_G5OI",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_Q4MW"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_6",
+            "X": 125,
+            "Y": 133,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_RKOV",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_LVHR"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_7",
+            "X": 125,
+            "Y": 144,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_76M6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_I4EY"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_8",
+            "X": 125,
+            "Y": 155,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_YPGS",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_I2OL"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Voltage_1",
+            "X": 294,
+            "Y": 62,
+            "Width": 49,
+            "Height": 12,
+            "TextId": "__SingleUse_N12N",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell2_1",
+            "X": 289,
+            "Y": 78,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_MMLR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_YM5Y"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_voltage_4_1",
+            "X": 289,
+            "Y": 167,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_UBFY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_F5LZ"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_voltage_1_3_1",
+            "X": 289,
+            "Y": 179,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_V9GX",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_BMXB"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_voltage_2_2_1",
+            "X": 289,
+            "Y": 190,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_WE8M",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_3XBH"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_voltage_1_1_2_1",
+            "X": 289,
+            "Y": 201,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_DHKZ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_EXSZ"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell2_2",
+            "X": 289,
+            "Y": 90,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_BHMB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_YGJ0"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_voltage_2_3",
+            "X": 289,
+            "Y": 101,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_K26O",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_SWLV"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_voltage_1_1_3",
+            "X": 289,
+            "Y": 112,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_QK0Q",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_SYB7"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_voltage_3_1",
+            "X": 289,
+            "Y": 123,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_RX35",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_L2NC"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_voltage_1_2_1",
+            "X": 289,
+            "Y": 134,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_G8LG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_89PL"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_voltage_2_1_1",
+            "X": 289,
+            "Y": 145,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_Y41A",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_YPN6"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Cell1_voltage_1_1_1_1",
+            "X": 289,
+            "Y": 156,
+            "Width": 57,
+            "Height": 12,
+            "TextId": "__SingleUse_DXOT",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_1UIQ"
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BACK_BUTTON",
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_action.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_pressed.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_forward_ios_25_25_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_forward_ios_25_25_E8F6FB.svg.png",
+            "IconX": 5,
+            "IconY": 6,
+            "IconHeight": 25,
+            "IconWidth": 25
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BETTERY_TEXT",
+            "X": 182,
+            "Y": 9,
+            "Width": 117,
+            "Height": 18,
+            "TextId": "__SingleUse_DFS2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ1",
+            "X": 138,
+            "Y": 32,
+            "Width": 31,
+            "Height": 18,
+            "TextId": "__SingleUse_KCCK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2",
+            "X": 302,
+            "Y": 32,
+            "Width": 31,
+            "Height": 18,
+            "TextId": "__SingleUse_0KRR",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Over_voltage",
+            "X": 113,
+            "Y": 211,
+            "Width": 77,
+            "Height": 12,
+            "TextId": "__SingleUse_R1V2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_OS3O"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Over_voltage_1",
+            "X": 278,
+            "Y": 211,
+            "Width": 77,
+            "Height": 12,
+            "TextId": "__SingleUse_DF9E",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_GTBE"
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "BACK_BUTTON",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BACK_BUTTON"
             },
             "Action": {
               "Type": "ActionGotoScreen",

@@ -10,11 +10,314 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_1U3H" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">TEMPERATURES</Translation>
+      <Text Id="__SingleUse_GTBE" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_OS3O" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_DF9E" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Overvoltage 2: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_R1V2" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Overvoltage 1: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_0KRR" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">BQ2</Translation>
+      </Text>
+      <Text Id="__SingleUse_KCCK" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">BQ1</Translation>
+      </Text>
+      <Text Id="__SingleUse_2YWH" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_7PXE" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Die Temp: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_87T5" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_PCLH" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Die Temp: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_HEAL" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_2PAK" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Ref Temp: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_GX7P" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_X7MI" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Ref Temp: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_5D4O" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">BQ2</Translation>
+      </Text>
+      <Text Id="__SingleUse_912V" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">BQ1</Translation>
+      </Text>
+      <Text Id="__SingleUse_NDNE" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temperature 2</Translation>
+      </Text>
+      <Text Id="__SingleUse_WN8Q" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_P949" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 1: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_HSIM" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_VQFF" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 2: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_3XW3" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_FJYW" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 3: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_S8U0" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_QDK7" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 4: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_O0W3" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_B6R3" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 5: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_YH4O" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_66AQ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 6: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_132M" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_5FTD" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 7: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_E2IE" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_8XYI" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 8: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_6OAN" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_KR21" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 6: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_TBN4" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_UT3W" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 7: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_3YJG" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_HQCQ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 8: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_IJP4" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_IWPR" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 5: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_UL6I" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_9C4V" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 4: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_WFG1" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_ZPZG" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 3: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_M8TC" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_EFTO" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 2: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_S7TR" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_NUW8" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp 1: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_OAMI" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temperature 1</Translation>
+      </Text>
+      <Text Id="__SingleUse_N12N" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Voltages 2</Translation>
+      </Text>
+      <Text Id="__SingleUse_YM5Y" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_MMLR" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_F5LZ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_UBFY" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_BMXB" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_V9GX" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_3XBH" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_WE8M" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_EXSZ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_DHKZ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_YGJ0" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_BHMB" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 2: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_SWLV" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_K26O" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_SYB7" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_QK0Q" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_L2NC" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_RX35" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_89PL" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_G8LG" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_YPN6" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y41A" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_1UIQ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_DXOT" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_07SD" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Voltages 1</Translation>
+      </Text>
+      <Text Id="__SingleUse_HWT9" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_9L08" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q5VZ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_IVL4" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 9: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_O4HE" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_EZLQ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 10: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_PYM6" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_ADFI" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 11: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_NLU7" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_0C5V" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 12: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_IAFK" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_MYFD" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 2: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_QY7J" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_921P" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 3: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_E207" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_YIJN" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 4: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q4MW" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_G5OI" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 5: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_LVHR" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_RKOV" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 6: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_I4EY" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_76M6" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 7: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_I2OL" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_YPGS" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Cell 8: &lt;value&gt; mV</Translation>
+      </Text>
+      <Text Id="__SingleUse_DFS2" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">BATTERY TABLE</Translation>
+      </Text>
+      <Text Id="__SingleUse_1ME6" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">TEMPERATURE TABLE</Translation>
       </Text>
       <Text Id="__SingleUse_2GC9" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">VOLTAGES</Translation>
+        <Translation Language="GB">ERROR TABLE</Translation>
       </Text>
       <Text Id="__SingleUse_H2X2" Alignment="Left" TypographyId="temp">
         <Translation Language="GB">°C</Translation>
@@ -92,5 +395,6 @@
     <Typography Id="kmh" Font="leelauib.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
     <Typography Id="temp" Font="bahnschrift.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="bat_proc" Font="bahnschrift.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="leelauib.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>

@@ -16,3 +16,13 @@ void Screen2Presenter::deactivate()
 {
 
 }
+
+void Screen2Presenter::setRelayStatus(bool status)
+{
+    model->setRelayStatus(status);
+}
+
+bool Screen2Presenter::getRelayStatus() const
+{
+    return model->getRelayStatus();
+}

@@ -11,7 +11,12 @@ public:
     virtual ~Screen2View() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    
+    bool relayState;
+    void RELAY_BUTTON_Clicked(); 
+    void updateRelayText();
 protected:
+
 };
 
 #endif // SCREEN2VIEW_HPP

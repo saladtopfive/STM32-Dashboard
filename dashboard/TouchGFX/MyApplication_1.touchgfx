@@ -48,7 +48,7 @@
             "X": 60,
             "Y": 100,
             "Width": 37,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_3MOD",
             "TextRotation": "0",
             "Color": {
@@ -398,7 +398,7 @@
             "X": 220,
             "Y": 57,
             "Width": 41,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_SNS3",
             "TextRotation": "0",
             "Color": {
@@ -414,7 +414,7 @@
             "X": 385,
             "Y": 177,
             "Width": 31,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_LUWQ",
             "TextRotation": "0",
             "Color": {
@@ -430,7 +430,7 @@
             "X": 310,
             "Y": 177,
             "Width": 30,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_6E9G",
             "TextRotation": "0",
             "Color": {
@@ -568,7 +568,7 @@
             "X": 60,
             "Y": 76,
             "Width": 33,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_XJ2P",
             "TextRotation": "0",
             "Color": {
@@ -594,7 +594,7 @@
             "X": 357,
             "Y": 14,
             "Width": 34,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_P0G6",
             "TextRotation": "0",
             "Color": {
@@ -687,7 +687,7 @@
             "X": 208,
             "Y": 177,
             "Width": 66,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_W0B8",
             "TextRotation": "0",
             "Color": {
@@ -723,7 +723,7 @@
             "X": 58,
             "Y": 136,
             "Width": 16,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_LW3T",
             "TextRotation": "0",
             "Color": {
@@ -739,7 +739,7 @@
             "X": 62,
             "Y": 158,
             "Width": 9,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_F4TM",
             "TextRotation": "0",
             "Color": {
@@ -765,7 +765,7 @@
             "X": 84,
             "Y": 136,
             "Width": 22,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_I7T3",
             "TextRotation": "0",
             "Color": {
@@ -781,7 +781,7 @@
             "X": 110,
             "Y": 135,
             "Width": 11,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_X7MS",
             "TextRotation": "0",
             "Color": {
@@ -797,7 +797,7 @@
             "X": 110,
             "Y": 158,
             "Width": 11,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_LIKG",
             "TextRotation": "0",
             "Color": {
@@ -813,7 +813,7 @@
             "X": 84,
             "Y": 158,
             "Width": 22,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_O3RJ",
             "TextRotation": "0",
             "Color": {
@@ -888,6 +888,28 @@
             "LockPosition": true
           },
           {
+            "Type": "ButtonWithLabel",
+            "Name": "RELAY_BUTTON",
+            "X": 190,
+            "Y": 118,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_action.png",
+            "TextId": "__SingleUse_05H9",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
             "Type": "ButtonWithIcon",
             "Name": "CHANGE_SCREEN_BUTTON",
             "Width": 36,
@@ -919,29 +941,10 @@
           },
           {
             "Type": "TextArea",
-            "Name": "Relay_status",
-            "X": 8,
-            "Y": 82,
-            "Width": 84,
-            "Height": 12,
-            "TextId": "__SingleUse_K38P",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "AutoSize": true,
-            "Wildcard1": {
-              "TextId": "__SingleUse_TGCD"
-            }
-          },
-          {
-            "Type": "TextArea",
-            "Name": "Comm_error",
-            "X": 8,
-            "Y": 94,
-            "Width": 83,
+            "Name": "BQ1Comm_error",
+            "X": 6,
+            "Y": 55,
+            "Width": 106,
             "Height": 12,
             "TextId": "__SingleUse_T3B5",
             "TextRotation": "0",
@@ -954,11 +957,50 @@
             "Wildcard1": {
               "TextId": "__SingleUse_MOWR"
             }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error",
+            "X": 6,
+            "Y": 67,
+            "Width": 106,
+            "Height": 12,
+            "TextId": "__SingleUse_RXK2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_O59P"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Relay_status",
+            "X": 198,
+            "Y": 154,
+            "Width": 100,
+            "Height": 12,
+            "TextId": "__SingleUse_I8T2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_SH7K",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           }
         ],
         "Interactions": [
           {
-            "InteractionName": "Interaction1",
+            "InteractionName": "BACK",
             "Trigger": {
               "Type": "TriggerClicked",
               "TriggerComponent": "CHANGE_SCREEN_BUTTON"
@@ -968,6 +1010,17 @@
               "ScreenTransitionType": "ScreenTransitionSlide",
               "ScreenTransitionDirection": "East",
               "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "RELAY",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "RELAY_BUTTON"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "RELAY_BUTTON_Clicked"
             }
           }
         ]
@@ -1002,7 +1055,7 @@
             "X": 159,
             "Y": 9,
             "Width": 162,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_1ME6",
             "TextRotation": "0",
             "Color": {
@@ -1354,7 +1407,7 @@
             "X": 131,
             "Y": 54,
             "Width": 31,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_912V",
             "TextRotation": "0",
             "Color": {
@@ -1370,7 +1423,7 @@
             "X": 310,
             "Y": 54,
             "Width": 31,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_5D4O",
             "TextRotation": "0",
             "Color": {

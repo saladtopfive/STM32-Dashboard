@@ -14,7 +14,12 @@ public:
     }
 
     void tick();
+
+    bool getRelayStatus() const;
+    void setRelayStatus(bool status);
+
 protected:
+    bool relayStatus;
     ModelListener* modelListener;
 };
 

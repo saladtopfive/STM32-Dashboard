@@ -10,14 +10,26 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_SH7K" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">error</Translation>
+      </Text>
+      <Text Id="__SingleUse_I8T2" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Relay Status: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_O59P" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_RXK2" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">BQ2 Comm Error: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_05H9" Alignment="Center" TypographyId="kmh">
+        <Translation Language="GB">RELAY</Translation>
+      </Text>
       <Text Id="__SingleUse_MOWR" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">false</Translation>
       </Text>
-      <Text Id="__SingleUse_TGCD" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">false</Translation>
-      </Text>
       <Text Id="__SingleUse_T3B5" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Comm Error: &lt;value&gt;</Translation>
+        <Translation Language="GB">BQ1 Comm Error: &lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_WNTC" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">false</Translation>
@@ -30,9 +42,6 @@
       </Text>
       <Text Id="__SingleUse_2IUY" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">Undervoltage 1: &lt;value&gt;</Translation>
-      </Text>
-      <Text Id="__SingleUse_K38P" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Relay Status: &lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_GTBE" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">false</Translation>

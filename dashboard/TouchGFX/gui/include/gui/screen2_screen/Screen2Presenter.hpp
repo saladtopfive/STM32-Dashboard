@@ -26,6 +26,9 @@ public:
     virtual void deactivate();
 
     virtual ~Screen2Presenter() {}
+    
+    void setRelayStatus(bool status);
+    bool getRelayStatus() const;
 
 private:
     Screen2Presenter();

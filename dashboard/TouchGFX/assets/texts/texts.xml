@@ -10,6 +10,15 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_MOWR" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_TGCD" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_T3B5" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Comm Error: &lt;value&gt;</Translation>
+      </Text>
       <Text Id="__SingleUse_WNTC" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">false</Translation>
       </Text>
@@ -22,8 +31,8 @@
       <Text Id="__SingleUse_2IUY" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">Undervoltage 1: &lt;value&gt;</Translation>
       </Text>
-      <Text Id="__SingleUse_K38P" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">Relay Status</Translation>
+      <Text Id="__SingleUse_K38P" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Relay Status: &lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_GTBE" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">false</Translation>

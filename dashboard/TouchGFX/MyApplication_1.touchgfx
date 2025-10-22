@@ -907,7 +907,7 @@
             "X": 190,
             "Y": 9,
             "Width": 101,
-            "Height": 20,
+            "Height": 18,
             "TextId": "__SingleUse_2GC9",
             "TextRotation": "0",
             "Color": {
@@ -920,10 +920,10 @@
           {
             "Type": "TextArea",
             "Name": "Relay_status",
-            "X": 7,
-            "Y": 46,
-            "Width": 93,
-            "Height": 20,
+            "X": 8,
+            "Y": 82,
+            "Width": 84,
+            "Height": 12,
             "TextId": "__SingleUse_K38P",
             "TextRotation": "0",
             "Color": {
@@ -931,7 +931,29 @@
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_TGCD"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "Comm_error",
+            "X": 8,
+            "Y": 94,
+            "Width": 83,
+            "Height": 12,
+            "TextId": "__SingleUse_T3B5",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_MOWR"
+            }
           }
         ],
         "Interactions": [
@@ -980,7 +1002,7 @@
             "X": 159,
             "Y": 9,
             "Width": 162,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_1ME6",
             "TextRotation": "0",
             "Color": {
@@ -1332,7 +1354,7 @@
             "X": 131,
             "Y": 54,
             "Width": 31,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_912V",
             "TextRotation": "0",
             "Color": {
@@ -1348,7 +1370,7 @@
             "X": 310,
             "Y": 54,
             "Width": 31,
-            "Height": 18,
+            "Height": 20,
             "TextId": "__SingleUse_5D4O",
             "TextRotation": "0",
             "Color": {

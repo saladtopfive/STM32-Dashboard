@@ -936,7 +936,6 @@
       },
       {
         "Name": "Screen3",
-        "CanvasBufferSize": 7200,
         "Components": [
           {
             "Type": "Box",
@@ -1418,44 +1417,6 @@
             "Wildcard1": {
               "TextId": "__SingleUse_2YWH"
             }
-          },
-          {
-            "Type": "Line",
-            "Name": "line1",
-            "X": 100,
-            "Y": 72,
-            "Width": 280,
-            "Height": 10,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 275.0,
-            "EndY": 5.0,
-            "LineWidth": 2.0,
-            "LineEndingStyle": "Round"
-          },
-          {
-            "Type": "Line",
-            "Name": "line1_1",
-            "X": 233,
-            "Y": 72,
-            "Width": 10,
-            "Height": 150,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "StartX": 5.0,
-            "StartY": 5.0,
-            "EndX": 5.0,
-            "EndY": 145.0,
-            "LineWidth": 2.0,
-            "LineEndingStyle": "Round"
           }
         ],
         "Interactions": [

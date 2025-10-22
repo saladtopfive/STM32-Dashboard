@@ -11,10 +11,10 @@
     </TextGroup>
     <TextGroup Id="Unsorted">
       <Text Id="__SingleUse_GTBE" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">0</Translation>
+        <Translation Language="GB">false</Translation>
       </Text>
       <Text Id="__SingleUse_OS3O" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">0</Translation>
+        <Translation Language="GB">false</Translation>
       </Text>
       <Text Id="__SingleUse_DF9E" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">Overvoltage 2: &lt;value&gt;</Translation>
@@ -173,25 +173,25 @@
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_UBFY" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+        <Translation Language="GB">Cell 9: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_BMXB" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_V9GX" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+        <Translation Language="GB">Cell 10: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_3XBH" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_WE8M" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+        <Translation Language="GB">Cell 11: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_EXSZ" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_DHKZ" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+        <Translation Language="GB">Cell 12: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_YGJ0" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">0</Translation>
@@ -203,37 +203,37 @@
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_K26O" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+        <Translation Language="GB">Cell 3: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_SYB7" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_QK0Q" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+        <Translation Language="GB">Cell 4: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_L2NC" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_RX35" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+        <Translation Language="GB">Cell 5: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_89PL" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_G8LG" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+        <Translation Language="GB">Cell 6: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_YPN6" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_Y41A" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+        <Translation Language="GB">Cell 7: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_1UIQ" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">0</Translation>
       </Text>
       <Text Id="__SingleUse_DXOT" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Cell 1: &lt;value&gt; mV</Translation>
+        <Translation Language="GB">Cell 8: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_07SD" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">Voltages 1</Translation>

@@ -22,7 +22,7 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 <table align="center">
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/saladtopfive/STM32-Dashboard/master/readme-img/dashboard-preview-screen1.png" width="200"><br><b>Main Screen</b>
+      <img src="readme-img/dashboard-preview-screen1.png" width="200"><br><b>Main Screen</b>
     </td>
     <td align="center">
       <img src="https://raw.githubusercontent.com/saladtopfive/STM32-Dashboard/master/readme-img/dashboard-preview-screen2.png" width="200"><br><b>Error Table</b>

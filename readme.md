@@ -21,12 +21,12 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 
 <table align="center">
   <tr>
-    <td align="center"><img src="dashboard-preview-screen1.png" width="200"><br><b>Main Screen</b></td>
-    <td align="center"><img src="dashboard-preview-screen2.png" width="200"><br><b>Error Table</b></td>
+    <td align="center"><img src="readme-img/dashboard-preview-screen1.png" width="200"><br><b>Main Screen</b></td>
+    <td align="center"><img src="readme-img/dashboard-preview-screen2.png" width="200"><br><b>Error Table</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="dashboard-preview-screen3.png" width="200"><br><b>Temperature Table</b></td>
-    <td align="center"><img src="dashboard-preview-screen4.png" width="200"><br><b>Battery Table</b></td>
+    <td align="center"><img src="readme-img/dashboard-preview-screen3.png" width="200"><br><b>Temperature Table</b></td>
+    <td align="center"><img src="readme-img/dashboard-preview-screen4.png" width="200"><br><b>Battery Table</b></td>
   </tr>
 </table>
 

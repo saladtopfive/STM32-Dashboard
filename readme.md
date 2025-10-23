@@ -18,25 +18,14 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 
 ## Preview
 
+| Main Screen | Error Table |
+|------------|-------------|
+| ![Main Screen](https://raw.githubusercontent.com/saladtopfive/STM32-Dashboard/master/readme-img/dashboard-preview-screen1.png) | ![Error Table](https://raw.githubusercontent.com/saladtopfive/STM32-Dashboard/master/readme-img/dashboard-preview-screen2.png) |
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="readme-img/dashboard-preview-screen1.png" width="200"><br><b>Main Screen</b>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/saladtopfive/STM32-Dashboard/master/readme-img/dashboard-preview-screen2.png" width="200"><br><b>Error Table</b>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/saladtopfive/STM32-Dashboard/master/readme-img/dashboard-preview-screen3.png" width="200"><br><b>Temperature Table</b>
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/saladtopfive/STM32-Dashboard/master/readme-img/dashboard-preview-screen4.png" width="200"><br><b>Battery Table</b>
-    </td>
-  </tr>
-</table>
+| Temperature Table | Battery Table |
+|-----------------|----------------|
+| ![Temperature Table](https://raw.githubusercontent.com/saladtopfive/STM32-Dashboard/master/readme-img/dashboard-preview-screen3.png) | ![Battery Table](https://raw.githubusercontent.com/saladtopfive/STM32-Dashboard/master/readme-img/dashboard-preview-screen4.png) |
+
 
 
 

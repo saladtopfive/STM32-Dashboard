@@ -39,7 +39,6 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 | **Throttle / Brake**       | Input level visualization.                  |
 | **Battery**                | Voltage and temperature monitoring.         |
 | **Motor Temperature**      | Prevents overheating and ensures reliability. |
-| **Motor Driver Status**    | Health and fault monitoring.                |
 | **G-Forces**               | Lateral and vertical forces in real time.   |
 | **BMS Data (External)**    | Additional telemetry provided by an external Battery Management System (BMS), developed as a separate thesis project. This work only focuses on visualization of the received data. |
 | **HOTLAP Button**           | Initiates a lap timer (stopwatch) in the dashboard, showing minutes, seconds, and centiseconds. Useful for tracking lap times during testing or racing sessions. |

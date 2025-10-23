@@ -24,7 +24,7 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 
 | Temperature Table | Battery Table |
 |-----------------|----------------|
-| <img width="580" height="331" alt="dashboard-preview-screen3" src="https://github.com/user-attachments/assets/12ac80af-a773-4039-b883-2c04a8215f41" /> | <img width="591" height="331" alt="dashboard-preview-screen4" src="https://github.com/user-attachments/assets/83479e40-0b1a-42e4-ab8f-da423cceb578" /> |
+| <img width="575" height="331" alt="dashboard-preview-screen3" src="https://github.com/user-attachments/assets/12ac80af-a773-4039-b883-2c04a8215f41" /> | <img width="591" height="331" alt="dashboard-preview-screen4" src="https://github.com/user-attachments/assets/83479e40-0b1a-42e4-ab8f-da423cceb578" /> |
 
 
 

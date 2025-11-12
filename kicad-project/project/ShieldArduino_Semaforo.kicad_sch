@@ -1390,6 +1390,174 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_TVS"
 			(pin_numbers
 				(hide yes)
@@ -3217,6 +3385,322 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Simulation_SPICE:PMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "PMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS54302DDCR:TPS54302DDCR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3793,7 +4277,7 @@
 	)
 	(rectangle
 		(start 12.7 50.8)
-		(end 92.71 86.36)
+		(end 92.71 87.63)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3816,7 +4300,7 @@
 		(uuid 255aa372-6a90-4355-ac92-89dbc3692582)
 	)
 	(rectangle
-		(start 207.01 87.63)
+		(start 193.04 87.63)
 		(end 284.48 123.19)
 		(stroke
 			(width 0)
@@ -3852,6 +4336,30 @@
 		(uuid 3390ec8f-559c-41b7-b6d9-fc620a27a3ed)
 	)
 	(rectangle
+		(start 92.71 50.8)
+		(end 207.01 87.63)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38f21ed4-dd42-484d-b4c9-cf12704a8124)
+	)
+	(rectangle
+		(start 92.71 87.63)
+		(end 193.04 123.19)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6300cf5f-9420-4d42-87d1-52988bfc62ac)
+	)
+	(rectangle
 		(start 12.7 12.7)
 		(end 130.81 50.8)
 		(stroke
@@ -3864,7 +4372,7 @@
 		(uuid 7f059876-eb03-4d97-a859-c3f8d5be9247)
 	)
 	(rectangle
-		(start 12.7 86.36)
+		(start 12.7 87.63)
 		(end 92.71 149.86)
 		(stroke
 			(width 0)
@@ -3887,6 +4395,17 @@
 		)
 		(uuid 9deed1ad-40af-4277-8b42-8764a49c4633)
 	)
+	(text "PSU:\n	ułożyć zasilacz tak jak na layout example (click+D)\n"
+		(exclude_from_sim no)
+		(at 212.598 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0aed4bf3-224c-43e3-baf6-e201b9931f70")
+	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 243.84 41.91 0)
@@ -3898,13 +4417,14 @@
 		)
 		(uuid "0fa23f61-c52d-42c5-bf09-c667fae9a8d3")
 	)
-	(text "dobrać fuze na zasilaczu\n"
+	(text "FARDRIVER:\n	jakie piny potrzeba,do czego podłączać = ile tranzystorów\n	bezpiecznik topikowy na zasilanie przekaźników/przekaźników\n\n\n"
 		(exclude_from_sim no)
-		(at 244.348 134.62 0)
+		(at 212.09 135.636 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "12a62072-63c5-4f9a-b715-3f2ee38b8624")
 	)
@@ -3919,16 +4439,6 @@
 			)
 		)
 		(uuid "1411a828-bf04-43f5-8e3b-ca2e127339e3")
-	)
-	(text "jakie piny maja i2c i dać na zlacze out"
-		(exclude_from_sim no)
-		(at 246.126 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1dac10ca-8f45-453b-9089-345e1317676d")
 	)
 	(text "OPAMP_ENG"
 		(exclude_from_sim no)
@@ -3968,7 +4478,7 @@
 	)
 	(text "https://www.youtube.com/watch?v=d6jllSmmwkE"
 		(exclude_from_sim no)
-		(at 244.602 146.304 0)
+		(at 231.394 159.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3976,13 +4486,14 @@
 		)
 		(uuid "5bc72c9f-880b-4a60-930a-b3166fe4767a")
 	)
-	(text "kazdy pinout musi miec tvs\n"
+	(text "TVS:\n	kazdy pinout musi miec tvs dobranego na working voltage +0.5V\n\n"
 		(exclude_from_sim no)
-		(at 245.618 142.748 0)
+		(at 212.344 141.732 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "7d5063a1-2572-4085-b34e-3990e93344bb")
 	)
@@ -4022,17 +4533,6 @@
 		)
 		(uuid "9ff205d2-4016-4d93-a862-e91871dbb0fe")
 	)
-	(text "Fuse:\n	MF-RX030"
-		(exclude_from_sim no)
-		(at 107.188 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0c7becf-d24c-4794-8ae9-a17c377a3ddd")
-	)
 	(text "PINOUT"
 		(exclude_from_sim no)
 		(at 220.726 92.964 0)
@@ -4045,7 +4545,17 @@
 		)
 		(uuid "e347183a-fe39-4fb4-a142-47546becc572")
 	)
-	(text "BRAKE/PEDAL_IN:\n	PESD5V0-1UP, SMBJ6.0A\n\nEX_CAN+-:\n	PESD1CAN, SMBJ24CA"
+	(text "REVERSE POLARITY PROTECTION"
+		(exclude_from_sim no)
+		(at 141.224 54.356 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "e4ff681b-45f9-4cd1-a0ad-5a83160183b3")
+	)
+	(text "BRAKE/PEDAL_IN:\n	PESD5V0-1UP, SMBJ6.0A\n\nEX_CAN+-:\n	gruby da\n"
 		(exclude_from_sim no)
 		(at 36.83 188.468 0)
 		(effects
@@ -4058,7 +4568,7 @@
 	)
 	(text "https://www.youtube.com/watch?v=MmG_m4xVNfQ"
 		(exclude_from_sim no)
-		(at 243.84 150.114 0)
+		(at 232.156 163.068 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4107,6 +4617,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "191ca88d-b05c-4bc5-8a77-a23d4f6281db")
+	)
+	(junction
+		(at 124.46 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b554d05-7332-4b61-ae43-1240c368a2e9")
 	)
 	(junction
 		(at 99.06 25.4)
@@ -4179,6 +4695,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9de4ae56-936d-4516-9a2f-a98b0c2fffce")
+	)
+	(junction
+		(at 135.89 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfb13d3c-1563-4450-b032-eba872833b8c")
 	)
 	(junction
 		(at 93.98 40.64)
@@ -4294,7 +4816,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 69.85) (xy 208.28 69.85)
+			(xy 236.22 69.85) (xy 210.82 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4474,6 +4996,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 64.77) (xy 113.03 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c92f63-f21c-4d70-ab80-70c86a57aafb")
+	)
+	(wire
+		(pts
 			(xy 93.98 38.1) (xy 93.98 40.64)
 		)
 		(stroke
@@ -4511,6 +5043,26 @@
 			(type default)
 		)
 		(uuid "3e0e0310-040c-4a12-9ae2-f0f03b079fc1")
+	)
+	(wire
+		(pts
+			(xy 124.46 73.66) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e687295-44bc-49a4-9978-c231b86e1e56")
+	)
+	(wire
+		(pts
+			(xy 135.89 64.77) (xy 153.67 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409645ed-3ddb-411c-ab2e-7d92461e5141")
 	)
 	(wire
 		(pts
@@ -4584,6 +5136,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 105.41) (xy 250.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528f3e8c-93c1-48fe-9359-ff4bef9db923")
+	)
+	(wire
+		(pts
 			(xy 107.95 25.4) (xy 111.76 25.4)
 		)
 		(stroke
@@ -4601,6 +5163,16 @@
 			(type default)
 		)
 		(uuid "53aa5c69-3172-486d-b64c-bc272536b6bb")
+	)
+	(wire
+		(pts
+			(xy 246.38 107.95) (xy 250.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547b1dc9-f819-4a13-90f7-02a1cd021f6e")
 	)
 	(wire
 		(pts
@@ -4814,6 +5386,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 78.74) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a00a986-59ff-40d6-ba92-19b8d28d970d")
+	)
+	(wire
+		(pts
 			(xy 49.53 107.95) (xy 52.07 107.95)
 		)
 		(stroke
@@ -4834,7 +5416,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 99.06) (xy 250.19 99.06)
+			(xy 246.38 95.25) (xy 250.19 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4924,7 +5506,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 96.52) (xy 250.19 96.52)
+			(xy 246.38 92.71) (xy 250.19 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4981,6 +5563,16 @@
 			(type default)
 		)
 		(uuid "973e09d2-8321-4f16-b54e-2b325df66e57")
+	)
+	(wire
+		(pts
+			(xy 124.46 72.39) (xy 135.89 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "974bd289-6c87-487d-83e5-cccb474fcbec")
 	)
 	(wire
 		(pts
@@ -5094,6 +5686,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 64.77) (xy 135.89 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9fd761d-f8fb-4ea5-a779-fefecdf90cc3")
+	)
+	(wire
+		(pts
 			(xy 41.91 107.95) (xy 41.91 110.49)
 		)
 		(stroke
@@ -5134,7 +5736,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 67.31) (xy 236.22 67.31)
+			(xy 231.14 67.31) (xy 236.22 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5144,7 +5746,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 24.13) (xy 33.02 24.13)
+			(xy 30.48 24.13) (xy 33.02 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5184,7 +5786,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 106.68) (xy 250.19 106.68)
+			(xy 246.38 102.87) (xy 250.19 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5274,7 +5876,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 101.6) (xy 250.19 101.6)
+			(xy 246.38 97.79) (xy 250.19 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5354,7 +5956,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 104.14) (xy 250.19 104.14)
+			(xy 246.38 100.33) (xy 250.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5414,7 +6016,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 26.67) (xy 193.04 26.67)
+			(xy 189.23 26.67) (xy 190.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -10366,8 +10968,8 @@
 		)
 		(uuid "0d6c9d19-50f0-4ec7-94f4-6ca16fa9c36d")
 	)
-	(label "analog_engine"
-		(at 246.38 106.68 180)
+	(label "pedal_out"
+		(at 246.38 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10375,6 +10977,16 @@
 			(justify right bottom)
 		)
 		(uuid "0e98e7e6-4ad0-4e6a-8707-b44ec1863798")
+	)
+	(label "12V_in_protected"
+		(at 153.67 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ee913f1-c4aa-4ee6-8645-6d0e9b540005")
 	)
 	(label "EX_CAN+"
 		(at 55.88 166.37 90)
@@ -10406,8 +11018,8 @@
 		)
 		(uuid "2a4f1ea1-c9e1-4de2-bf9d-24fabfd1b5d3")
 	)
-	(label "pedal_in"
-		(at 246.38 96.52 180)
+	(label "throttle_in"
+		(at 246.38 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10416,7 +11028,7 @@
 		)
 		(uuid "3ff1c56c-2fb3-4861-9068-bc1cc1740c86")
 	)
-	(label "brake_out"
+	(label "brake_in_3V3"
 		(at 67.31 68.58 0)
 		(effects
 			(font
@@ -10427,7 +11039,7 @@
 		(uuid "4980d62f-de3a-49a0-a6f0-0b1dbcde43ed")
 	)
 	(label "EX_CAN-"
-		(at 57.15 123.19 0)
+		(at 68.58 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10455,6 +11067,16 @@
 			(justify left bottom)
 		)
 		(uuid "5100c5d3-595a-496d-be23-42a4678041e4")
+	)
+	(label "UART_TX"
+		(at 265.43 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53eeeee5-5366-4bf8-8ee4-55721d82f8f5")
 	)
 	(label "5(**)"
 		(at 265.43 64.77 0)
@@ -10486,17 +11108,27 @@
 		)
 		(uuid "611f97d6-5ead-4677-8b2a-4590de7fa6d5")
 	)
-	(label "1(Tx)"
-		(at 265.43 74.93 0)
+	(label "UART_TX"
+		(at 246.38 107.95 180)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "644a6523-0291-4f3f-b192-2cbced969790")
+		(uuid "61341678-ee8a-4329-9ebc-136d216a77ae")
 	)
-	(label "pedal_in"
+	(label "inverter_signal_5V"
+		(at 212.09 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65b2c068-922a-48cb-9659-35ba22d1d48e")
+	)
+	(label "throttle_in"
 		(at 25.4 60.96 180)
 		(effects
 			(font
@@ -10536,7 +11168,7 @@
 		)
 		(uuid "8a75a16c-1ba6-45c9-b36f-11d3f823c822")
 	)
-	(label "pedal_out"
+	(label "throttle_in_3V3"
 		(at 36.83 68.58 0)
 		(effects
 			(font
@@ -10545,6 +11177,16 @@
 			(justify left bottom)
 		)
 		(uuid "8c55423a-9e88-4ef7-859a-e08aa57f1ed3")
+	)
+	(label "UART_RX"
+		(at 246.38 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "922136fe-f30d-4582-8cc7-0548946b105b")
 	)
 	(label "A5(SCL)"
 		(at 223.52 77.47 0)
@@ -10577,7 +11219,7 @@
 		(uuid "98ea469e-6337-44f6-9082-6d9a7c343f8e")
 	)
 	(label "EX_CAN-"
-		(at 246.38 104.14 180)
+		(at 246.38 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10586,8 +11228,8 @@
 		)
 		(uuid "9d537f1a-333e-49f8-a0cc-d2445b453186")
 	)
-	(label "12V_in"
-		(at 27.94 24.13 180)
+	(label "12V_in_protected"
+		(at 30.48 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10626,8 +11268,8 @@
 		)
 		(uuid "b706bf4f-6402-4244-b615-873f126802e0")
 	)
-	(label "analog_engine"
-		(at 193.04 26.67 0)
+	(label "inverter_signal_5V"
+		(at 190.5 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10635,6 +11277,16 @@
 			(justify left bottom)
 		)
 		(uuid "ba1d6464-f96d-469f-990f-fb93c1442d82")
+	)
+	(label "12V_in"
+		(at 113.03 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfb52a82-32d0-421b-934b-897cdddff5e9")
 	)
 	(label "IOREF"
 		(at 234.95 38.1 90)
@@ -10647,7 +11299,7 @@
 		(uuid "c2e66ffb-7d5a-47bb-a3a6-43e180205dac")
 	)
 	(label "EX_CAN+"
-		(at 57.15 118.11 0)
+		(at 68.58 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10697,7 +11349,7 @@
 		(uuid "e1c4feb0-dc9f-40c3-bf53-4b73f609cbaa")
 	)
 	(label "EX_CAN+"
-		(at 246.38 101.6 180)
+		(at 246.38 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10706,8 +11358,8 @@
 		)
 		(uuid "e26e8877-03d7-4c38-9f4f-bed3459db8b5")
 	)
-	(label "brake_out"
-		(at 232.41 67.31 180)
+	(label "brake_in_3V3"
+		(at 231.14 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10726,7 +11378,7 @@
 		)
 		(uuid "e41c5ee1-6cae-4a1c-aab1-5e0426ef15fa")
 	)
-	(label "pedal_out"
+	(label "throttle_in_3V3"
 		(at 232.41 64.77 180)
 		(effects
 			(font
@@ -10756,18 +11408,18 @@
 		)
 		(uuid "f357a2b4-114c-4eb9-ab7e-e204105228f2")
 	)
-	(label "0(Rx)"
-		(at 265.43 77.47 0)
+	(label "UART_RX"
+		(at 265.43 74.93 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f7afb94c-1945-4f00-b672-fd93a520ec66")
+		(uuid "fa16c82c-c80f-49f4-a8d8-da0bf83f7033")
 	)
-	(label "Analog_pedal_stm_out"
-		(at 208.28 69.85 0)
+	(label "inverter_signal_3V3"
+		(at 210.82 69.85 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -10776,7 +11428,7 @@
 		)
 		(uuid "fcbc200d-0dcb-4bdd-888b-602d729f791c")
 	)
-	(label "Analog_pedal_stm_out"
+	(label "inverter_signal_3V3"
 		(at 144.78 24.13 0)
 		(effects
 			(font
@@ -10787,7 +11439,7 @@
 		(uuid "fee2d0dd-f870-4bbd-93fc-101a84791b08")
 	)
 	(label "brake_in"
-		(at 246.38 99.06 180)
+		(at 246.38 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11713,100 +12365,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x10")
-		(at 255.27 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b4e50a3-0b36-4159-acde-ca206d89366c")
-		(property "Reference" "J1"
-			(at 257.81 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x10"
-			(at 257.81 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprint:M80-50010YY_2"
-			(at 255.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 255.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "03b4f5bf-8016-4b5a-a004-bc63122db8c4")
-		)
-		(pin "1"
-			(uuid "0fe68fca-7e14-4cbf-8621-6f8b5d715c27")
-		)
-		(pin "2"
-			(uuid "964f17db-610a-4272-886c-89ed8ef72d10")
-		)
-		(pin "4"
-			(uuid "399bb582-9aec-45c3-9871-244e0a223c75")
-		)
-		(pin "5"
-			(uuid "1dab518a-ad52-4205-8a91-63c4c14d76be")
-		)
-		(pin "8"
-			(uuid "01cd9724-16ff-4c78-9395-4607b812060b")
-		)
-		(pin "9"
-			(uuid "b099b6ea-7a38-4a9f-ae24-a12291639825")
-		)
-		(pin "10"
-			(uuid "f6e88f19-4079-4bb6-894d-ed7f09ab86ea")
-		)
-		(pin "6"
-			(uuid "e45de528-042f-4202-8905-5fbc8f559734")
-		)
-		(pin "7"
-			(uuid "7cd1d776-40d5-4bf7-b81d-ebc534e85a23")
-		)
-		(instances
-			(project ""
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 34.29 107.95 90)
 		(unit 1)
@@ -11994,6 +12552,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1db99e8f-e841-4f3e-b0f5-5e86e62155af")
+		(property "Reference" "J1"
+			(at 257.81 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ba597d7-9d3b-46f6-88ba-5eff4bfd30a9")
+		)
+		(instances
+			(project ""
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 30.48 72.39 0)
 		(unit 1)
@@ -12127,6 +12752,73 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bf388e6-4d92-4268-882a-2a0cfc2e0213")
+		(property "Reference" "J7"
+			(at 257.81 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bf6c86f-0042-4db4-b27a-8f348c5511f1")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -12330,6 +13022,139 @@
 			(project ""
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ad07842-0b21-4a38-b9db-f2133faf9ea3")
+		(property "Reference" "J11"
+			(at 257.81 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e7c727a-be7b-4ec8-ab2d-9057781538d3")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41c01b6a-a238-42a6-b053-f303ea265641")
+		(property "Reference" "#PWR013"
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bda9782-dbb1-4c53-a964-7aa442777929")
+		)
+		(instances
+			(project ""
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12751,6 +13576,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 217.17 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "598b4a64-9120-4eae-993e-c73a57e6ee31")
+		(property "Reference" "J12"
+			(at 219.71 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 219.71 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5647f636-7d66-4856-aaab-4d99d08c190b")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a16e9c4-f0d0-40ed-b8e3-81c1f358ea53")
+		(property "Reference" "R10"
+			(at 127 74.9299 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 127 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d017e694-d76e-4b2b-880d-2b0d2ad095e3")
+		)
+		(pin "2"
+			(uuid "fb527e8d-8a7d-46b6-9e3f-b137e58ddcd1")
+		)
+		(instances
+			(project ""
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 39.37 100.33 0)
 		(unit 1)
@@ -12810,6 +13772,73 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cc2edff-e249-403a-8b30-5268bccbf37d")
+		(property "Reference" "J5"
+			(at 257.81 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e95b372-cb5c-4687-9026-0164bd05dc9b")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -12876,6 +13905,73 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62036cc5-7077-42ea-a43d-180c80a509d4")
+		(property "Reference" "J4"
+			(at 257.81 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e694f37d-7d9f-4d11-882e-904466a4cf49")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13401,6 +14497,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "735922d0-66a2-45f7-a8ad-d39fd13b8002")
+		(property "Reference" "J6"
+			(at 257.81 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ea951c5-f732-4eff-99f8-95cf3c84e6ef")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77699ccc-4517-4d6c-93c3-259d69154294")
+		(property "Reference" "J10"
+			(at 257.81 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2942ef1f-fe5b-4bf2-827e-e4145a7cf1e3")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:ESDA5V3SC5")
 		(at 67.31 135.89 0)
 		(unit 1)
@@ -13498,7 +14728,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse_Small"
+		(property "Value" "1A"
 			(at 114.3 22.86 0)
 			(effects
 				(font
@@ -13506,7 +14736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder"
 			(at 114.3 25.4 0)
 			(effects
 				(font
@@ -13515,7 +14745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/YAGEO/SMDH2920B100TF?qs=jcD%2FCkGBYePvFP%2FivcP7cA%3D%3D"
 			(at 114.3 25.4 0)
 			(effects
 				(font
@@ -13543,6 +14773,171 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 124.46 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f0ebf25-bb14-4058-adf4-c3f7b5f6115c")
+		(property "Reference" "Q1"
+			(at 124.46 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 124.46 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 121.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/onsemi/NTR4502PT1G?qs=ZXBb0xZ9WeB%2Fr7xn7qkqLg%3D%3D"
+			(at 137.16 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 124.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 141.605 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 143.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c564d64-8c2d-4ad6-a9fd-728df5fdaa33")
+		)
+		(pin "3"
+			(uuid "a347040c-ff1e-4a9b-b929-6feda0a8e72f")
+		)
+		(pin "2"
+			(uuid "fe979709-a003-4db8-b8fd-32065e6ca63d")
+		)
+		(instances
+			(project ""
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f761bb9-0f14-4472-81b7-8402f1c4dd93")
+		(property "Reference" "J3"
+			(at 257.81 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4de22cf-cf38-43b1-817c-c592b0671b6c")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13743,6 +15138,73 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d4a0d75-3dd0-43d7-ad61-3bcb5ce0667d")
+		(property "Reference" "J2"
+			(at 257.81 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc62a936-02fd-456c-86e9-3ffeb996aabb")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14093,6 +15555,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb21e3c1-0158-4cd6-96c2-5ffde6aaee7f")
+		(property "Reference" "J9"
+			(at 257.81 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de158bc8-c60e-4d5c-8c99-3a95122a3219")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 173.99 0)
 		(unit 1)
@@ -14153,6 +15682,73 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 255.27 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd3ed87b-3803-43b2-b22f-7b4f3cb5e2d8")
+		(property "Reference" "J8"
+			(at 257.81 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 257.81 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
+			(at 255.27 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 255.27 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcc5f370-d800-4a15-9762-588a50ca0088")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -14242,7 +15838,7 @@
 				)
 			)
 		)
-		(property "Value" "Fuse_Small"
+		(property "Value" "0.5A"
 			(at 35.56 21.59 0)
 			(effects
 				(font
@@ -14250,7 +15846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 35.56 24.13 0)
 			(effects
 				(font
@@ -14259,7 +15855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/PTSAHT120624V050?qs=sGAEpiMZZMt8Ji9PfVTQzDC%2FQhf%2F9COsTqlHB7vDZt22fVe0wfbojQ%3D%3D"
 			(at 35.56 24.13 0)
 			(effects
 				(font
@@ -14287,6 +15883,94 @@
 			(project ""
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 135.89 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb398b6e-9331-4d21-aab7-25ec0b06133b")
+		(property "Reference" "D3"
+			(at 142.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Schottky"
+			(at 138.43 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Taiwan-Semiconductor/SD103BWH-RHG?qs=jcD%2FCkGBYeNNhWZ4uMM1kw%3D%3D"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "133313bc-09ce-4866-962f-cb28615b6f7c")
+		)
+		(pin "2"
+			(uuid "8f50faa2-b8f7-4a7b-92cd-70fdc99d708f")
+		)
+		(instances
+			(project ""
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "D3")
 					(unit 1)
 				)
 			)

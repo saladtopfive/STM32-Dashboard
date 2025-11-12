@@ -6,7 +6,7 @@
   <Texts>
     <TextGroup Id="Group1">
       <Text Id="__SingleUse_K7WG" Alignment="Center" TypographyId="speedfont">
-        <Translation Language="GB">0&#10;</Translation>
+        <Translation Language="GB">200&#10;</Translation>
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
@@ -55,12 +55,6 @@
       <Text Id="__SingleUse_R1V2" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">Overvoltage 1: &lt;value&gt;</Translation>
       </Text>
-      <Text Id="__SingleUse_0KRR" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">BQ2</Translation>
-      </Text>
-      <Text Id="__SingleUse_KCCK" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">BQ1</Translation>
-      </Text>
       <Text Id="__SingleUse_2YWH" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">0</Translation>
       </Text>
@@ -84,12 +78,6 @@
       </Text>
       <Text Id="__SingleUse_X7MI" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">Ref Temp: &lt;value&gt; deg C</Translation>
-      </Text>
-      <Text Id="__SingleUse_5D4O" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">BQ2</Translation>
-      </Text>
-      <Text Id="__SingleUse_912V" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">BQ1</Translation>
       </Text>
       <Text Id="__SingleUse_NDNE" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">Temperature 2</Translation>

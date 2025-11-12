@@ -4499,7 +4499,7 @@
 	)
 	(text "NOTES"
 		(exclude_from_sim no)
-		(at 218.948 128.524 0)
+		(at 235.204 128.524 0)
 		(effects
 			(font
 				(face "Ubuntu Sans Mono")

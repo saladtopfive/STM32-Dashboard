@@ -7997,17 +7997,6 @@
 		(layer "Edge.Cuts")
 		(uuid "fc5fd42b-c354-4982-8382-704bb08a60b3")
 	)
-	(gr_text "Diseñado por\nPiensa 3D\n2018"
-		(at 119.773 81.965 0)
-		(layer "F.SilkS")
-		(uuid "4b1211d6-3742-4163-9702-4c6cc716b26f")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-			)
-		)
-	)
 	(gr_text "1"
 		(at 138.938 121.285 90)
 		(layer "F.SilkS")
@@ -8016,17 +8005,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "Shield de semáforo para \nArduino UNO"
-		(at 149.073 118.54 0)
-		(layer "F.SilkS")
-		(uuid "9754aded-0132-4c90-bbf8-a95ef408c3ff")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
 			)
 		)
 	)

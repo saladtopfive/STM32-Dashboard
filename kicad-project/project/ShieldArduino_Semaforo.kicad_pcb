@@ -1598,7 +1598,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "06137983-56dd-4579-90c3-1924428a7dfc")
-		(at 154.848 45.865)
+		(at 141.998 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J11"
@@ -2039,7 +2039,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "140332fb-928e-4457-8c97-d90e558ed2f7")
-		(at 188.298 46.755)
+		(at 226.9355 62.365)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
@@ -2316,7 +2316,7 @@
 	(footprint "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
 		(layer "F.Cu")
 		(uuid "147d9ce3-6bf3-47e5-80c3-ff05c6a465b5")
-		(at 202.733 55.12)
+		(at 227.2105 68.165)
 		(descr "8-Lead Plastic Dual Flat, No Lead Package (MF) - 3x3x0.9 mm Body [DFN] (see Microchip Packaging Specification 00000049BS.pdf)")
 		(tags "DFN 0.65")
 		(property "Reference" "U1"
@@ -3430,7 +3430,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "1ebb5fc3-ea6b-4920-9438-04ad2381f7d7")
-		(at 143.898 45.865)
+		(at 131.048 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J7"
@@ -4144,7 +4144,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "2c9f1a01-71f7-4a1e-bcda-73a8b070a346")
-		(at 118.348 45.865)
+		(at 105.498 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J1"
@@ -4386,7 +4386,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2d28d93e-365c-4ee3-928c-298390a010a1")
-		(at 188.298 44.245)
+		(at 221.7355 62.365)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
@@ -4663,7 +4663,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "2ee2db02-8c7a-43e2-9e1f-6ed5581eca8b")
-		(at 132.948 45.865)
+		(at 120.098 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J3"
@@ -4905,7 +4905,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "2f393bd1-4520-4d00-a3df-2cf190354250")
-		(at 74.863 58.195)
+		(at 163.998 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J14"
@@ -5761,7 +5761,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "3a4da52d-fb87-428d-bf9c-a2c435b5e4a8")
-		(at 151.198 45.865)
+		(at 138.348 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J10"
@@ -6003,7 +6003,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-3"
 		(layer "F.Cu")
 		(uuid "4405bb99-3bc4-4286-98d3-e6d3f8d94c76")
-		(at 51.113 67.495)
+		(at 46.3355 174.615)
 		(descr "SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
@@ -7236,7 +7236,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "52677b86-4cb6-4b66-aafa-48560bfaec5f")
-		(at 67.563 58.195)
+		(at 156.698 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J12"
@@ -7677,7 +7677,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-3"
 		(layer "F.Cu")
 		(uuid "53966726-8b67-4550-8a53-7f9496a56767")
-		(at 76.6355 106.915)
+		(at 156.0355 156.815)
 		(descr "SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q5"
@@ -8040,7 +8040,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5cf33ec7-bcab-4474-ac65-023fe543aa5b")
-		(at 56.063 57.845)
+		(at 29.998 177.565)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
@@ -8239,7 +8239,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5fa48ed5-1293-41a4-a333-3fdd3e390bff")
-		(at 29.298 107.465)
+		(at 108.698 157.365)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
@@ -8641,7 +8641,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "712bb123-c827-47ac-9d2d-66aff3d42b62")
-		(at 74.998 112.865 -90)
+		(at 154.398 162.765 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R20"
@@ -8840,7 +8840,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "71609d41-171d-4c34-87a8-db723aa54376")
-		(at 125.648 45.865)
+		(at 112.798 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J9"
@@ -9285,7 +9285,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "76fd47b0-3bb6-4e6e-907e-429fc46858e7")
-		(at 136.598 45.865)
+		(at 123.748 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J5"
@@ -9730,7 +9730,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "7bd0082d-5e06-4bd3-bae8-dd08d291c546")
-		(at 71.213 58.195)
+		(at 160.348 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J13"
@@ -10172,7 +10172,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "87bfcd55-f263-477f-8573-50321a272da0")
-		(at 55.998 112.865 -90)
+		(at 135.398 162.765 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
@@ -10570,7 +10570,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "8ba090d6-f4d5-4fd9-a96d-cef1810859a9")
-		(at 121.998 45.865)
+		(at 109.148 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J2"
@@ -11011,7 +11011,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9bb6c576-d1c3-4174-a9ce-62dc2d89458d")
-		(at 35.798 112.965 -90)
+		(at 115.198 162.865 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
@@ -11409,7 +11409,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a33adae6-6c9f-4bfa-ba2f-49ba7b7ca34c")
-		(at 71.848 79.365)
+		(at 38.198 157.565)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D8"
@@ -13145,7 +13145,7 @@
 	(footprint "footprint:PR412V4501A"
 		(layer "F.Cu")
 		(uuid "b57e6258-917e-4161-9e29-f96116e26db7")
-		(at 51.788 53.52)
+		(at 47.398 161.165)
 		(descr "18.2mm x 10.2mm x 15.5mm")
 		(tags "Relay or Contactor")
 		(property "Reference" "K1"
@@ -13459,7 +13459,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "b9ad1f12-a2a8-4e0d-8f85-a6b7f9594045")
-		(at 147.548 45.865)
+		(at 134.698 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J8"
@@ -14036,7 +14036,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-3"
 		(layer "F.Cu")
 		(uuid "baae3242-dfd9-4fad-8042-5703b8074fde")
-		(at 57.1355 106.815)
+		(at 136.5355 156.715)
 		(descr "SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
@@ -14399,7 +14399,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "bb5a1b08-6fdc-461d-b451-fb0efeec201e")
-		(at 129.298 45.865)
+		(at 116.448 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J10"
@@ -14641,7 +14641,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "bf26883d-7464-4714-a63f-f8428b726156")
-		(at 63.913 58.195)
+		(at 153.048 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J11"
@@ -15099,7 +15099,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "c81a5d72-7339-4b66-ab62-54880e040056")
-		(at 207.148 45.39)
+		(at 236.9355 66.515)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D5"
@@ -15444,7 +15444,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "ccb201e5-ea84-4703-b233-d05f866290a4")
-		(at 158.498 45.865)
+		(at 145.648 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J4"
@@ -15789,7 +15789,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d695287b-f04b-457e-b2e7-10afd5033a0c")
-		(at 56.063 60.795)
+		(at 39.998 184.965)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
@@ -16187,7 +16187,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "dc999432-d880-4954-a444-b67a21f8ac9f")
-		(at 60.263 58.195)
+		(at 149.398 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J15"
@@ -17113,7 +17113,7 @@
 	(footprint "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm_Relief"
 		(layer "F.Cu")
 		(uuid "edc26a95-ae86-4aed-96f5-786903f0918e")
-		(at 140.248 45.865)
+		(at 127.398 23.965)
 		(descr "Soldered wire connection with feed through strain relief, for a single 0.1 mm² wire, basic insulation, conductor diameter 0.4mm, outer diameter 1mm, size source Multi-Contact FLEXI-E 0.10 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=9), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.1sqmm strain-relief")
 		(property "Reference" "J6"
@@ -17355,7 +17355,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ee373f45-051b-4e3e-8c8b-024a6790a69b")
-		(at 49.498 107.865)
+		(at 128.898 157.765)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
@@ -17956,7 +17956,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-3"
 		(layer "F.Cu")
 		(uuid "fb88eab7-e7fa-4a26-866e-32b559d4665f")
-		(at 36.9605 106.465)
+		(at 116.3605 156.365)
 		(descr "SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
@@ -18319,7 +18319,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fcc934fc-d898-49ec-bb19-4c6516f96d45")
-		(at 69.998 107.865)
+		(at 149.398 157.765)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R18"

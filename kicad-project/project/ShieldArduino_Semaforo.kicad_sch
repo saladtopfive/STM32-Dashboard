@@ -5543,6 +5543,16 @@
 		)
 		(uuid "edf0f282-29f4-42d4-a00c-d351f67a970d")
 	)
+	(text "INNY FOOTPRINT NIZ TEN SCHEMAT PRZEKAZNIKA 4,2 w innych miejscach\n"
+		(exclude_from_sim no)
+		(at 59.182 166.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3a67a60-96a4-4480-af67-667abb70ec71")
+	)
 	(text "STMPINS"
 		(exclude_from_sim no)
 		(at 184.15 17.78 0)
@@ -13201,6 +13211,16 @@
 		)
 		(uuid "7abbe062-1622-4488-8276-bda7879cfc09")
 	)
+	(label "CAN_RX"
+		(at 340.36 120.65 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b1e903d-0ad1-44ea-8be7-ead6e76f4621")
+	)
 	(label "signal_reverse"
 		(at 120.65 170.18 180)
 		(effects
@@ -13531,6 +13551,16 @@
 		)
 		(uuid "f357a2b4-114c-4eb9-ab7e-e204105228f2")
 	)
+	(label "CAN_TX"
+		(at 340.36 118.11 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "f691bda2-56ae-4d77-97a0-0d167863fc63")
+	)
 	(label "UART_RX"
 		(at 226.06 74.93 0)
 		(effects
@@ -13571,17 +13601,6 @@
 		)
 		(uuid "fefabab7-f1ef-47a9-ade3-5be9161e3b66")
 	)
-	(hierarchical_label "CAN_RX"
-		(shape input)
-		(at 340.36 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d717a61-e5c8-499f-96aa-3897453b32c1")
-	)
 	(hierarchical_label "0V_OUT"
 		(shape input)
 		(at 213.36 148.59 0)
@@ -13592,17 +13611,6 @@
 			(justify left)
 		)
 		(uuid "7655787d-dfe8-45d4-93f3-88b08feb12a3")
-	)
-	(hierarchical_label "CAN_TX"
-		(shape input)
-		(at 340.36 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d73d1596-7882-4b4f-a202-d4638b642fd1")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")

@@ -1,4 +1,4 @@
-26731248195021676
+26734774771295298
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106378,6 +106378,20 @@ Inductor
 0
 2
 2
+footprint
+L17HTHES4R1C
+L17HTHES4R1C-1
+Connector
+0
+17
+17
+footprint
+L717SDB25PA4CH3R
+L717SDB25PA4CH3R-2
+Connector
+0
+27
+27
 footprint
 M80-50010YY_2
 M80-50010YY_2

@@ -5750,7 +5750,7 @@
 	)
 	(text "ESD PROTECTION\n"
 		(exclude_from_sim no)
-		(at 268.732 95.504 0)
+		(at 266.7 94.488 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -5934,17 +5934,6 @@
 			)
 		)
 		(uuid "e7ed3e56-a129-498b-a73c-fdc07a66fac2")
-	)
-	(text "BRAKE/PEDAL_IN/INVERTER_SIGNAL_5V:\n	PESD5V0-1UP, SMBJ6.0A\n\nEX_CAN+-:\n	to samo co wyzej\n\n"
-		(exclude_from_sim no)
-		(at 247.142 145.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ede5ea42-4af8-4410-845b-b7fa4a598648")
 	)
 	(text "https://www.youtube.com/watch?v=MmG_m4xVNfQ"
 		(exclude_from_sim no)
@@ -13388,15 +13377,25 @@
 			"AFIAMABJAGoAYgBXAA=="
 		)
 	)
-	(label "pedal_in"
-		(at 262.89 123.19 90)
+	(label "reverse"
+		(at 264.16 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0197c1f9-a71e-42e5-bdd9-ab8670f7abf0")
+	)
+	(label "throttle_in"
+		(at 264.16 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "050df1a1-a95f-4235-9dd5-f27e1eb5c7f9")
 	)
 	(label "signal_high_speed"
 		(at 226.06 72.39 0)
@@ -13449,12 +13448,12 @@
 		(uuid "0ee913f1-c4aa-4ee6-8645-6d0e9b540005")
 	)
 	(label "EX_CAN+"
-		(at 303.53 121.92 90)
+		(at 297.18 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "15cd80b8-f586-46f0-b66a-b8d8ce66a092")
 	)
@@ -13508,6 +13507,16 @@
 		)
 		(uuid "2a4f1ea1-c9e1-4de2-bf9d-24fabfd1b5d3")
 	)
+	(label "brake_in"
+		(at 264.16 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e6a40ab-ae06-4532-86cc-67c956627616")
+	)
 	(label "reverse"
 		(at 322.58 38.1 180)
 		(effects
@@ -13527,6 +13536,16 @@
 			(justify right bottom)
 		)
 		(uuid "3ff1c56c-2fb3-4861-9068-bc1cc1740c86")
+	)
+	(label "inverter_signal_5V"
+		(at 264.16 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45c8365e-334c-4a66-b63e-0489d06d22db")
 	)
 	(label "brake_in_3V3"
 		(at 78.74 30.48 0)
@@ -13608,13 +13627,23 @@
 		)
 		(uuid "57087b14-f26f-4d3b-a826-0276e80127aa")
 	)
-	(label "brake_in"
-		(at 273.05 123.19 90)
+	(label "high_speed"
+		(at 264.16 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
+		)
+		(uuid "58763433-3a59-4df0-ab81-6ccf2784c092")
+	)
+	(label "relay_in"
+		(at 264.16 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "611f97d6-5ead-4677-8b2a-4590de7fa6d5")
 	)
@@ -13708,13 +13737,13 @@
 		)
 		(uuid "8c55423a-9e88-4ef7-859a-e08aa57f1ed3")
 	)
-	(label "inverter_signal_5V"
-		(at 254 123.19 90)
+	(label "low_speed"
+		(at 264.16 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "93e915a7-bfda-4a54-a17f-44d1bfb199af")
 	)
@@ -13889,12 +13918,12 @@
 		(uuid "cfe60813-1034-445e-b593-c2786eeb57b7")
 	)
 	(label "EX_CAN-"
-		(at 316.23 121.92 90)
+		(at 297.18 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d24047a4-0cd2-4f03-86e7-2a69d328f867")
 	)
@@ -14964,6 +14993,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 267.97 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "066b9403-5408-4a47-9ec7-2cbd0531678b")
+		(property "Reference" "D3"
+			(at 268.224 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V"
+			(at 267.97 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 267.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
+			(at 267.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 267.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 267.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c7e182b-56b6-4a77-bfb6-c150e4d2a97e")
+		)
+		(pin "2"
+			(uuid "1bc24857-bbbd-4387-bce1-50365cbb63e9")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 210.82 180.34 0)
 		(unit 1)
@@ -15294,7 +15400,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 130.81 0)
+		(at 271.78 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15303,7 +15409,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a3d6d9e-72a3-4bc3-88cb-5d691eef3ee2")
 		(property "Reference" "#PWR07"
-			(at 273.05 137.16 0)
+			(at 278.13 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15312,7 +15418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 135.89 0)
+			(at 276.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15320,7 +15426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 130.81 0)
+			(at 271.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15329,7 +15435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 130.81 0)
+			(at 271.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15338,7 +15444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 130.81 0)
+			(at 271.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15637,16 +15743,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 316.23 129.54 0)
+		(at 271.78 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39b5f7e2-94e0-4169-8493-4a71d4a88c7d")
-		(property "Reference" "#PWR017"
-			(at 316.23 135.89 0)
+		(uuid "3919f381-8753-41d1-afa0-fb48cf123753")
+		(property "Reference" "#PWR035"
+			(at 278.13 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15655,7 +15761,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 316.23 134.62 0)
+			(at 276.86 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15663,7 +15769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 129.54 0)
+			(at 271.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15672,7 +15778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 129.54 0)
+			(at 271.78 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15681,7 +15787,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 316.23 129.54 0)
+			(at 271.78 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05e55e7d-d9c7-4269-a237-b4cee45f80bb")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 304.8 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39b5f7e2-94e0-4169-8493-4a71d4a88c7d")
+		(property "Reference" "#PWR017"
+			(at 311.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 309.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 304.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15696,6 +15868,83 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 267.97 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ea2aaae-662b-4ac4-9546-e2ce71c04db6")
+		(property "Reference" "D13"
+			(at 267.97 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V"
+			(at 267.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 267.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
+			(at 267.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 267.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 267.97 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d692c9ee-742a-4eca-8544-95c6384e0616")
+		)
+		(pin "2"
+			(uuid "7c369b5b-c72f-4fda-9eae-22dfeb8ed022")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -15762,6 +16011,83 @@
 			(project ""
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 267.97 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4735d184-eb33-4e0b-8e15-e2da2d7e1bd9")
+		(property "Reference" "D11"
+			(at 268.224 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V"
+			(at 267.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 267.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c35dcebd-2424-4979-972b-0eba795b5347")
+		)
+		(pin "2"
+			(uuid "619b9987-d6b3-4366-9105-475d49f55419")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -16315,6 +16641,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 267.97 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53b6c4bb-bdf9-4b8d-a82a-8ea7442e4444")
+		(property "Reference" "D12"
+			(at 267.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V"
+			(at 267.97 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 267.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
+			(at 267.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 267.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 267.97 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5201d670-7eef-422f-b313-aed64bf223b5")
+		)
+		(pin "2"
+			(uuid "addba325-18a6-4041-a458-1e22d296ac15")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 104.14 77.47 0)
 		(unit 1)
@@ -16544,6 +16947,72 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5beb0f8d-7022-4063-8f54-aca1c18e49cb")
+		(property "Reference" "#PWR036"
+			(at 278.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65bb7406-513d-4750-b7c6-7ba1b9b56378")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -16875,7 +17344,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 303.53 129.54 0)
+		(at 304.8 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16884,7 +17353,7 @@
 		(fields_autoplaced yes)
 		(uuid "64270a7c-fe98-4f14-8626-a456cc8451e0")
 		(property "Reference" "#PWR014"
-			(at 303.53 135.89 0)
+			(at 311.15 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16893,7 +17362,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 303.53 134.62 0)
+			(at 309.88 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16901,7 +17370,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 129.54 0)
+			(at 304.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16910,7 +17379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 129.54 0)
+			(at 304.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16919,7 +17388,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 129.54 0)
+			(at 304.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17088,6 +17557,83 @@
 			(project ""
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 267.97 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d1bf547-22c9-40e5-8eb6-12202620dc8d")
+		(property "Reference" "D2"
+			(at 267.97 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V"
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44eb05e6-76bb-483a-b29b-4dd1887f6040")
+		)
+		(pin "2"
+			(uuid "d736dda0-cb70-4c59-b43e-4b8e8df88259")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -17832,73 +18378,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 254 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82757f00-f6df-4b53-bcc0-ea467fdababf")
-		(property "Reference" "D1"
-			(at 260.35 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6V"
-			(at 257.81 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 254 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SMBJ6.0A?qs=HR2RnyOI4E4ONaBgNaR6Ig%3D%3D"
-			(at 254 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 254 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1513dd0-3ce2-40a9-a4fd-23c807b41846")
-		)
-		(pin "2"
-			(uuid "437b2a1e-844d-432c-954b-bc30ac80d594")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x15")
 		(at 335.28 50.8 0)
 		(unit 1)
@@ -18212,6 +18691,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 271.78 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91b56d9d-23e2-4a3a-b707-d7a2f170131b")
+		(property "Reference" "#PWR015"
+			(at 278.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d7a5478-b5c9-4161-8481-b1df819c4308")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 60.96 212.09 0)
 		(unit 1)
@@ -18448,16 +18993,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 273.05 127 270)
+		(at 267.97 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a39f7a1f-b0e2-4965-a98a-1c3cce361936")
 		(property "Reference" "D4"
-			(at 279.4 127 0)
+			(at 267.97 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18465,15 +19009,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 276.86 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 273.05 127 0)
+			(at 267.97 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18481,8 +19017,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SMBJ6.0A?qs=HR2RnyOI4E4ONaBgNaR6Ig%3D%3D"
-			(at 273.05 127 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 267.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
+			(at 267.97 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18491,7 +19036,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 273.05 127 0)
+			(at 267.97 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18500,7 +19045,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 273.05 127 0)
+			(at 267.97 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18625,7 +19170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 130.81 0)
+		(at 271.78 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18634,7 +19179,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9b14a62-6100-477e-b9bf-852d3d591246")
 		(property "Reference" "#PWR01"
-			(at 254 137.16 0)
+			(at 278.13 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18643,7 +19188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 135.89 0)
+			(at 276.86 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18651,7 +19196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 130.81 0)
+			(at 271.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18660,7 +19205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 130.81 0)
+			(at 271.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18669,7 +19214,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 130.81 0)
+			(at 271.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18760,8 +19305,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 267.97 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba06beeb-7cc7-47e3-9263-1d4aabb52cd6")
+		(property "Reference" "D1"
+			(at 267.97 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V"
+			(at 267.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 267.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
+			(at 267.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 267.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 267.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "512fda11-0b45-4833-9b40-39563034cb78")
+		)
+		(pin "2"
+			(uuid "1fb67c1c-0ff5-4a3d-9ccb-a6be3924b29a")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 262.89 130.81 0)
+		(at 271.78 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18770,7 +19392,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb4edac5-5cff-4b05-a1db-79ebc77b5fc8")
 		(property "Reference" "#PWR04"
-			(at 262.89 137.16 0)
+			(at 278.13 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18779,7 +19401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 135.89 0)
+			(at 276.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18787,7 +19409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 130.81 0)
+			(at 271.78 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18796,7 +19418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 130.81 0)
+			(at 271.78 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18805,7 +19427,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 130.81 0)
+			(at 271.78 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19097,16 +19719,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 316.23 125.73 270)
+		(at 300.99 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c08c9ca7-9f71-414f-8ff9-8ee6726c3828")
 		(property "Reference" "D7"
-			(at 322.58 125.73 0)
+			(at 300.99 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19114,15 +19735,16 @@
 			)
 		)
 		(property "Value" "24V"
-			(at 320.04 125.73 0)
+			(at 300.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 316.23 125.73 0)
+			(at 300.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19131,7 +19753,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/product/ESD2CAN24-Q1"
-			(at 316.23 125.73 0)
+			(at 300.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19140,7 +19762,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 316.23 125.73 0)
+			(at 300.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19149,7 +19771,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 316.23 125.73 0)
+			(at 300.99 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19465,6 +20087,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 271.78 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd8716c1-ddcb-4096-849e-952d98f29c1e")
+		(property "Reference" "#PWR030"
+			(at 278.13 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f553d89c-84ad-4840-980e-270412ec5e2e")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 199.39 120.65 0)
 		(unit 1)
@@ -19668,74 +20356,6 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 262.89 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d27eb652-08ab-4893-99b2-eb1841993737")
-		(property "Reference" "D2"
-			(at 269.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6V"
-			(at 266.7 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMB_Handsoldering"
-			(at 262.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SMBJ6.0A?qs=HR2RnyOI4E4ONaBgNaR6Ig%3D%3D"
-			(at 262.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 262.89 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24e37fe1-9212-4713-bfcb-6a6429b7be90")
-		)
-		(pin "2"
-			(uuid "1eb439d9-48bc-445d-a9b9-7690c4b7d338")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -20161,16 +20781,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 303.53 125.73 270)
+		(at 300.99 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d957ec58-d751-44ae-9e7c-fa18e2c40c5e")
 		(property "Reference" "D6"
-			(at 309.88 125.73 0)
+			(at 300.99 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20178,15 +20797,16 @@
 			)
 		)
 		(property "Value" "24V"
-			(at 307.34 125.73 0)
+			(at 300.99 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 303.53 125.73 0)
+			(at 300.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20195,7 +20815,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/product/ESD2CAN24-Q1"
-			(at 303.53 125.73 0)
+			(at 300.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20204,7 +20824,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 303.53 125.73 0)
+			(at 300.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20213,7 +20833,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 303.53 125.73 0)
+			(at 300.99 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20800,7 +21420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
+		(property "Footprint" "footprint:SOIC127P600X175-8N"
 			(at 355.6 135.89 0)
 			(effects
 				(font
@@ -20810,7 +21430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2542FD-4FD-MCP2542WFD-4WFD-Data-Sheet20005514B.pdf"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Microchip-Technology/MCP2542FD-E-SN?qs=qdgZG5p0FZ5pNizBl1u80Q%3D%3D"
 			(at 355.6 123.19 0)
 			(effects
 				(font

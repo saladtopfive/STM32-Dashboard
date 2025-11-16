@@ -11,131 +11,6 @@
 		(company "Politechnika Poznańska")
 	)
 	(lib_symbols
-		(symbol "+5V_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Operational:LM321"
 			(pin_names
 				(offset 0.127)
@@ -6367,16 +6242,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 43.18) (xy 330.2 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "147bd521-e12d-403f-8d2e-a30d1e2db508")
-	)
-	(wire
-		(pts
 			(xy 383.54 129.54) (xy 383.54 133.35)
 		)
 		(stroke
@@ -6394,16 +6259,6 @@
 			(type default)
 		)
 		(uuid "1828201e-17e8-4dba-8e73-2a5784524d83")
-	)
-	(wire
-		(pts
-			(xy 322.58 55.88) (xy 330.2 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1964bab3-f797-4d1a-85d6-01a663dd6278")
 	)
 	(wire
 		(pts
@@ -6907,16 +6762,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 58.42) (xy 330.2 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f627b9c-7a22-4a08-810d-74474f8f8e98")
-	)
-	(wire
-		(pts
 			(xy 220.98 77.47) (xy 226.06 77.47)
 		)
 		(stroke
@@ -7047,6 +6892,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 45.72) (xy 330.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64644fd4-1232-4bea-ba55-47c82a7d7983")
+	)
+	(wire
+		(pts
 			(xy 44.45 30.48) (xy 44.45 35.56)
 		)
 		(stroke
@@ -7094,16 +6949,6 @@
 			(type default)
 		)
 		(uuid "68eab9af-138d-4642-94a2-ef295bbc5a96")
-	)
-	(wire
-		(pts
-			(xy 322.58 68.58) (xy 330.2 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a58523-e83e-44e5-afec-790499249a57")
 	)
 	(wire
 		(pts
@@ -7367,6 +7212,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 58.42) (xy 330.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5df76f-8b4d-4be8-8d0f-544c1b092ea9")
+	)
+	(wire
+		(pts
 			(xy 134.62 182.88) (xy 134.62 186.69)
 		)
 		(stroke
@@ -7524,16 +7379,6 @@
 			(type default)
 		)
 		(uuid "875477cd-e8a2-45bd-8c61-13e1ac744c71")
-	)
-	(wire
-		(pts
-			(xy 322.58 45.72) (xy 330.2 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890d80a5-a759-4cbb-afe5-244a123b87b4")
 	)
 	(wire
 		(pts
@@ -7747,6 +7592,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 68.58) (xy 330.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ba5aef-5f7e-4276-b30d-e8a895f25341")
+	)
+	(wire
+		(pts
 			(xy 355.6 135.89) (xy 340.36 135.89)
 		)
 		(stroke
@@ -7894,6 +7749,16 @@
 			(type default)
 		)
 		(uuid "b1c9bf9f-d93e-4315-9644-82cc229d90b8")
+	)
+	(wire
+		(pts
+			(xy 322.58 55.88) (xy 330.2 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b229733b-c62f-49c0-acc8-9d8338b3c60f")
 	)
 	(wire
 		(pts
@@ -8074,6 +7939,16 @@
 			(type default)
 		)
 		(uuid "c838b1c4-dbfd-482d-bcef-f7aff29fee65")
+	)
+	(wire
+		(pts
+			(xy 322.58 43.18) (xy 330.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8613637-452c-49ca-82eb-fecf4f0bd80d")
 	)
 	(wire
 		(pts
@@ -13447,16 +13322,6 @@
 		)
 		(uuid "0ee913f1-c4aa-4ee6-8645-6d0e9b540005")
 	)
-	(label "EX_CAN+"
-		(at 297.18 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "15cd80b8-f586-46f0-b66a-b8d8ce66a092")
-	)
 	(label "5V_unfused"
 		(at 177.8 104.14 0)
 		(effects
@@ -13478,7 +13343,7 @@
 		(uuid "1896c366-8a8d-4d2c-ad13-d5c8699fa50e")
 	)
 	(label "12V_in"
-		(at 322.58 68.58 180)
+		(at 322.58 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13527,8 +13392,18 @@
 		)
 		(uuid "2fe4f918-ff2b-4102-9e27-16643cb70753")
 	)
+	(label "Vin"
+		(at 219.71 104.14 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ea6407b-7127-42f8-b9a6-b9cb15078bab")
+	)
 	(label "throttle_in"
-		(at 322.58 45.72 180)
+		(at 322.58 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13578,7 +13453,7 @@
 		(uuid "4d1d3973-abbe-4c57-8915-da8fa3a7992a")
 	)
 	(label "high_speed"
-		(at 322.58 43.18 180)
+		(at 322.58 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13637,7 +13512,7 @@
 		)
 		(uuid "58763433-3a59-4df0-ab81-6ccf2784c092")
 	)
-	(label "relay_in"
+	(label " relay_in"
 		(at 264.16 123.19 180)
 		(effects
 			(font
@@ -13645,7 +13520,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "611f97d6-5ead-4677-8b2a-4590de7fa6d5")
+		(uuid "5e3c7bac-bcb8-4b7f-b211-ab85f3100b05")
 	)
 	(label "high_speed"
 		(at 223.52 161.29 180)
@@ -13788,7 +13663,7 @@
 		(uuid "98ea469e-6337-44f6-9082-6d9a7c343f8e")
 	)
 	(label "EX_CAN-"
-		(at 322.58 58.42 180)
+		(at 322.58 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13916,16 +13791,6 @@
 			(justify right bottom)
 		)
 		(uuid "cfe60813-1034-445e-b593-c2786eeb57b7")
-	)
-	(label "EX_CAN-"
-		(at 297.18 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d24047a4-0cd2-4f03-86e7-2a69d328f867")
 	)
 	(label "12V_in_protected"
 		(at 46.99 173.99 180)
@@ -15140,74 +15005,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 219.71 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1634272c-e81a-4733-bb63-480805943295")
-		(property "Reference" "#PWR090"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 223.52 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 219.71 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8e9f473-2edc-45a1-9c66-c8ef0c74e8c0")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 44.45 38.1 0)
 		(unit 1)
@@ -15802,72 +15599,6 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 304.8 105.41 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39b5f7e2-94e0-4169-8493-4a71d4a88c7d")
-		(property "Reference" "#PWR017"
-			(at 311.15 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 309.88 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 304.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86b74fe8-3046-4ed1-9a6b-fc4082526bbe")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17337,72 +17068,6 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 304.8 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64270a7c-fe98-4f14-8626-a456cc8451e0")
-		(property "Reference" "#PWR014"
-			(at 311.15 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 309.88 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 304.8 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cab41fb9-2955-4639-8b9f-5f6f85477ecb")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -19718,83 +19383,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 300.99 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c08c9ca7-9f71-414f-8ff9-8ee6726c3828")
-		(property "Reference" "D7"
-			(at 300.99 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24V"
-			(at 300.99 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 300.99 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/product/ESD2CAN24-Q1"
-			(at 300.99 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 300.99 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 300.99 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5878c09e-3de1-46ad-8047-7115821eaa5f")
-		)
-		(pin "2"
-			(uuid "a08bd266-01e5-4f56-a5ce-c16756ab51bf")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 83.82 125.73 0)
 		(unit 1)
@@ -20027,7 +19615,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cc4dba56-b305-4e7f-a5d2-2b5c9ee5f2ed")
 		(property "Reference" "#PWR029"
 			(at 316.23 60.96 0)
@@ -20039,7 +19626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 318.77 60.9599 90)
+			(at 319.278 60.706 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20774,83 +20361,6 @@
 			(project ""
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 300.99 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d957ec58-d751-44ae-9e7c-fa18e2c40c5e")
-		(property "Reference" "D6"
-			(at 300.99 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "24V"
-			(at 300.99 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 300.99 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/product/ESD2CAN24-Q1"
-			(at 300.99 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 300.99 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 300.99 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34a7797d-147f-4f4c-bd5c-11005a59b49b")
-		)
-		(pin "2"
-			(uuid "80cdba5d-0602-4698-befe-71aafc9bb7e0")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "D6")
 					(unit 1)
 				)
 			)

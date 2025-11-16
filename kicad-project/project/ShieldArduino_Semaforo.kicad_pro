@@ -137,7 +137,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.127,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0,
@@ -194,6 +194,7 @@
         0.15,
         0.2,
         0.4,
+        0.5,
         0.6
       ],
       "tuning_pattern_settings": {
@@ -501,6 +502,20 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.4,
+        "diff_pair_gap": 0.22,
+        "diff_pair_width": 0.13,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -508,7 +523,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "CAN",
+        "pattern": "/EX_CAN[+-]"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

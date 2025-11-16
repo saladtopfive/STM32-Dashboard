@@ -5753,7 +5753,7 @@
 		(at 268.732 95.504 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
@@ -5765,7 +5765,7 @@
 		(at 109.728 18.034 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
@@ -5777,7 +5777,7 @@
 		(at 42.164 95.25 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
@@ -5797,13 +5797,14 @@
 	)
 	(text "LOW SPEED"
 		(exclude_from_sim no)
-		(at 254.508 157.48 0)
+		(at 259.334 157.48 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
+			(href "#1")
 		)
 		(uuid "51434c48-708d-4056-b16c-adac189a733e")
 	)
@@ -5812,7 +5813,7 @@
 		(at 112.014 57.15 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
@@ -5845,7 +5846,7 @@
 		(at 119.634 157.48 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
@@ -5879,7 +5880,7 @@
 		(at 332.994 95.25 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
@@ -5891,7 +5892,7 @@
 		(at 22.352 17.78 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
@@ -5903,7 +5904,7 @@
 		(at 185.166 157.48 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
@@ -5915,7 +5916,7 @@
 		(at 261.366 17.78 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
@@ -5927,7 +5928,7 @@
 		(at 36.322 157.988 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)
@@ -5970,7 +5971,7 @@
 		(at 184.15 17.78 0)
 		(effects
 			(font
-				(face "Ubuntu Sans Mono")
+				(face "Calibri")
 				(size 4 4)
 				(bold yes)
 			)

@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|115048000|90252500|21fbf27e-760a-4a3e-90ae-83593a2586c4|65e22559-e6a0-41a0-9f19-99e1c8b5db61",
+          ""
+        ],
+        [
+          "clearance|115998000|90252500|65e22559-e6a0-41a0-9f19-99e1c8b5db61|63ef7a89-bc49-4d05-afb4-9f0c6df1f947",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -191,6 +200,7 @@
       ],
       "track_widths": [
         0.0,
+        0.13,
         0.15,
         0.2,
         0.4,

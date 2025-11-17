@@ -7302,7 +7302,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 66.04) (xy 330.2 66.04)
+			(xy 322.58 66.04) (xy 330.2 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7502,7 +7502,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 63.5) (xy 330.2 63.5)
+			(xy 322.58 63.5) (xy 330.2 63.5)
 		)
 		(stroke
 			(width 0)
@@ -13213,7 +13213,7 @@
 		)
 	)
 	(label "reverse"
-		(at 264.16 128.27 180)
+		(at 281.94 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13223,7 +13223,7 @@
 		(uuid "0197c1f9-a71e-42e5-bdd9-ab8670f7abf0")
 	)
 	(label "throttle_in"
-		(at 264.16 104.14 180)
+		(at 281.94 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13333,7 +13333,7 @@
 		(uuid "2a4f1ea1-c9e1-4de2-bf9d-24fabfd1b5d3")
 	)
 	(label "brake_in"
-		(at 264.16 109.22 180)
+		(at 281.94 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13373,7 +13373,7 @@
 		(uuid "3ff1c56c-2fb3-4861-9068-bc1cc1740c86")
 	)
 	(label "inverter_signal_5V"
-		(at 264.16 115.57 180)
+		(at 281.94 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13463,7 +13463,7 @@
 		(uuid "57087b14-f26f-4d3b-a826-0276e80127aa")
 	)
 	(label "high_speed"
-		(at 264.16 138.43 180)
+		(at 281.94 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13473,7 +13473,7 @@
 		(uuid "58763433-3a59-4df0-ab81-6ccf2784c092")
 	)
 	(label " relay_in"
-		(at 264.16 123.19 180)
+		(at 281.94 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13573,7 +13573,7 @@
 		(uuid "8c55423a-9e88-4ef7-859a-e08aa57f1ed3")
 	)
 	(label "low_speed"
-		(at 264.16 133.35 180)
+		(at 281.94 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14819,7 +14819,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 267.97 115.57 0)
+		(at 285.75 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14827,7 +14827,7 @@
 		(dnp no)
 		(uuid "066b9403-5408-4a47-9ec7-2cbd0531678b")
 		(property "Reference" "D3"
-			(at 268.224 112.776 0)
+			(at 286.004 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14835,7 +14835,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 267.97 111.76 0)
+			(at 285.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14844,7 +14844,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 267.97 115.57 0)
+			(at 285.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14853,7 +14853,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 267.97 115.57 0)
+			(at 285.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14862,7 +14862,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 267.97 115.57 0)
+			(at 285.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14871,7 +14871,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 267.97 115.57 0)
+			(at 285.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15157,7 +15157,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 123.19 90)
+		(at 289.56 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15166,7 +15166,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a3d6d9e-72a3-4bc3-88cb-5d691eef3ee2")
 		(property "Reference" "#PWR07"
-			(at 278.13 123.19 0)
+			(at 295.91 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15175,7 +15175,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 123.19 0)
+			(at 294.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15183,7 +15183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 123.19 0)
+			(at 289.56 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15192,7 +15192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 123.19 0)
+			(at 289.56 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15201,7 +15201,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 123.19 0)
+			(at 289.56 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15500,7 +15500,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 138.43 90)
+		(at 289.56 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15509,7 +15509,7 @@
 		(fields_autoplaced yes)
 		(uuid "3919f381-8753-41d1-afa0-fb48cf123753")
 		(property "Reference" "#PWR035"
-			(at 278.13 138.43 0)
+			(at 295.91 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15518,7 +15518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 138.43 0)
+			(at 294.64 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15526,7 +15526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 138.43 0)
+			(at 289.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15535,7 +15535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 138.43 0)
+			(at 289.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15544,7 +15544,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 138.43 0)
+			(at 289.56 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15566,7 +15566,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 267.97 104.14 0)
+		(at 285.75 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15574,7 +15574,7 @@
 		(dnp no)
 		(uuid "3ea2aaae-662b-4ac4-9546-e2ce71c04db6")
 		(property "Reference" "D13"
-			(at 267.97 101.6 0)
+			(at 285.75 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15582,7 +15582,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 267.97 100.33 0)
+			(at 285.75 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15591,7 +15591,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 267.97 104.14 0)
+			(at 285.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15600,7 +15600,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 267.97 104.14 0)
+			(at 285.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15609,7 +15609,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 267.97 104.14 0)
+			(at 285.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15618,7 +15618,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 267.97 104.14 0)
+			(at 285.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15709,7 +15709,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 267.97 109.22 0)
+		(at 285.75 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15717,7 +15717,7 @@
 		(dnp no)
 		(uuid "4735d184-eb33-4e0b-8e15-e2da2d7e1bd9")
 		(property "Reference" "D11"
-			(at 268.224 106.426 0)
+			(at 286.004 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15725,7 +15725,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 267.97 105.41 0)
+			(at 285.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15734,7 +15734,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 267.97 109.22 0)
+			(at 285.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15743,7 +15743,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 267.97 109.22 0)
+			(at 285.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15752,7 +15752,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 267.97 109.22 0)
+			(at 285.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15761,7 +15761,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 267.97 109.22 0)
+			(at 285.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16333,7 +16333,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 267.97 138.43 0)
+		(at 285.75 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16341,7 +16341,7 @@
 		(dnp no)
 		(uuid "53b6c4bb-bdf9-4b8d-a82a-8ea7442e4444")
 		(property "Reference" "D12"
-			(at 267.97 135.89 0)
+			(at 285.75 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16349,7 +16349,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 267.97 134.62 0)
+			(at 285.75 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16358,7 +16358,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 267.97 138.43 0)
+			(at 285.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16367,7 +16367,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 267.97 138.43 0)
+			(at 285.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16376,7 +16376,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 267.97 138.43 0)
+			(at 285.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16385,7 +16385,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 267.97 138.43 0)
+			(at 285.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16645,7 +16645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 104.14 90)
+		(at 289.56 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16654,7 +16654,7 @@
 		(fields_autoplaced yes)
 		(uuid "5beb0f8d-7022-4063-8f54-aca1c18e49cb")
 		(property "Reference" "#PWR036"
-			(at 278.13 104.14 0)
+			(at 295.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16663,7 +16663,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 104.14 0)
+			(at 294.64 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16671,7 +16671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 104.14 0)
+			(at 289.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16680,7 +16680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 104.14 0)
+			(at 289.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16689,7 +16689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 104.14 0)
+			(at 289.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17189,7 +17189,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 267.97 133.35 0)
+		(at 285.75 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17197,7 +17197,7 @@
 		(dnp no)
 		(uuid "6d1bf547-22c9-40e5-8eb6-12202620dc8d")
 		(property "Reference" "D2"
-			(at 267.97 130.81 0)
+			(at 285.75 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17205,7 +17205,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 267.97 129.54 0)
+			(at 285.75 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17214,7 +17214,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 267.97 133.35 0)
+			(at 285.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17223,7 +17223,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 267.97 133.35 0)
+			(at 285.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17232,7 +17232,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 267.97 133.35 0)
+			(at 285.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17241,7 +17241,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 267.97 133.35 0)
+			(at 285.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17410,7 +17410,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 323.85 63.5 90)
+		(at 322.58 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17418,7 +17418,7 @@
 		(dnp no)
 		(uuid "72f90b0c-1b11-4251-b9e8-83310a56f195")
 		(property "Reference" "#PWR027"
-			(at 327.66 63.5 0)
+			(at 326.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17427,7 +17427,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 319.786 63.5 90)
+			(at 318.516 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17436,7 +17436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 63.5 0)
+			(at 322.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17445,7 +17445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 63.5 0)
+			(at 322.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17454,7 +17454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 323.85 63.5 0)
+			(at 322.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18317,7 +18317,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 115.57 90)
+		(at 289.56 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18326,7 +18326,7 @@
 		(fields_autoplaced yes)
 		(uuid "91b56d9d-23e2-4a3a-b707-d7a2f170131b")
 		(property "Reference" "#PWR015"
-			(at 278.13 115.57 0)
+			(at 295.91 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18335,7 +18335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 115.57 0)
+			(at 294.64 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18343,7 +18343,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 115.57 0)
+			(at 289.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18352,7 +18352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 115.57 0)
+			(at 289.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18361,7 +18361,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 115.57 0)
+			(at 289.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18618,7 +18618,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 267.97 123.19 0)
+		(at 285.75 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18626,7 +18626,7 @@
 		(dnp no)
 		(uuid "a39f7a1f-b0e2-4965-a98a-1c3cce361936")
 		(property "Reference" "D4"
-			(at 267.97 120.65 0)
+			(at 285.75 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18634,7 +18634,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 267.97 119.38 0)
+			(at 285.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18643,7 +18643,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 267.97 123.19 0)
+			(at 285.75 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18652,7 +18652,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 267.97 123.19 0)
+			(at 285.75 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18661,7 +18661,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 267.97 123.19 0)
+			(at 285.75 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18670,7 +18670,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 267.97 123.19 0)
+			(at 285.75 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18795,7 +18795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 133.35 90)
+		(at 289.56 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18804,7 +18804,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9b14a62-6100-477e-b9bf-852d3d591246")
 		(property "Reference" "#PWR01"
-			(at 278.13 133.35 0)
+			(at 295.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18813,7 +18813,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 133.35 0)
+			(at 294.64 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18821,7 +18821,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 133.35 0)
+			(at 289.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18830,7 +18830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 133.35 0)
+			(at 289.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18839,7 +18839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 133.35 0)
+			(at 289.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18931,7 +18931,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 267.97 128.27 0)
+		(at 285.75 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18939,7 +18939,7 @@
 		(dnp no)
 		(uuid "ba06beeb-7cc7-47e3-9263-1d4aabb52cd6")
 		(property "Reference" "D1"
-			(at 267.97 125.984 0)
+			(at 285.75 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18947,7 +18947,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 267.97 124.46 0)
+			(at 285.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18956,7 +18956,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 267.97 128.27 0)
+			(at 285.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18965,7 +18965,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 267.97 128.27 0)
+			(at 285.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18974,7 +18974,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 267.97 128.27 0)
+			(at 285.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18983,7 +18983,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 267.97 128.27 0)
+			(at 285.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19008,7 +19008,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 128.27 90)
+		(at 289.56 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19017,7 +19017,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb4edac5-5cff-4b05-a1db-79ebc77b5fc8")
 		(property "Reference" "#PWR04"
-			(at 278.13 128.27 0)
+			(at 295.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19026,7 +19026,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 128.27 0)
+			(at 294.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19034,7 +19034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 128.27 0)
+			(at 289.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19043,7 +19043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 128.27 0)
+			(at 289.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19052,7 +19052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 128.27 0)
+			(at 289.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19635,7 +19635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 109.22 90)
+		(at 289.56 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19644,7 +19644,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd8716c1-ddcb-4096-849e-952d98f29c1e")
 		(property "Reference" "#PWR030"
-			(at 278.13 109.22 0)
+			(at 295.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19653,7 +19653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 109.22 0)
+			(at 294.64 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19661,7 +19661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 109.22 0)
+			(at 289.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19670,7 +19670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 109.22 0)
+			(at 289.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19679,7 +19679,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 109.22 0)
+			(at 289.56 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20193,7 +20193,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 323.85 66.04 90)
+		(at 322.58 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20202,7 +20202,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6309033-aa0f-4d56-8307-b36aa627b439")
 		(property "Reference" "#PWR028"
-			(at 327.66 66.04 0)
+			(at 326.39 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20211,7 +20211,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 320.04 66.0399 90)
+			(at 318.77 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20220,7 +20220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 66.04 0)
+			(at 322.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20229,7 +20229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 66.04 0)
+			(at 322.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20238,7 +20238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 323.85 66.04 0)
+			(at 322.58 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

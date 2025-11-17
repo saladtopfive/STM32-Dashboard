@@ -1,4 +1,4 @@
-26738301502018534
+26740065273702730
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106413,6 +106413,13 @@ Relay or Contactor
 0
 4
 4
+footprint
+SODFL3618X100N
+TS/SOD-123FL
+Diode
+0
+2
+2
 footprint
 SOIC127P600X175-8N
 MCP2542WFDT-E/SN

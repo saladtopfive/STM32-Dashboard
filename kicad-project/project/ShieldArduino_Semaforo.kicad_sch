@@ -6693,6 +6693,17 @@
 		)
 		(uuid "0b70748b-fe49-4eae-8c76-6de2dfb95764")
 	)
+	(text "current limiting resistor"
+		(exclude_from_sim no)
+		(at 202.692 180.34 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "0bbe22a9-7cab-4fab-8e48-471423fc2abe")
+	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 273.05 41.91 0)
@@ -6738,6 +6749,17 @@
 			)
 		)
 		(uuid "35bb24ac-0b0b-4aa1-8b64-10cc32730923")
+	)
+	(text "current limiting resistor"
+		(exclude_from_sim no)
+		(at 274.828 176.276 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "37972fdc-df07-496c-95fe-b2ad98a45c82")
 	)
 	(text "POWER SUPPLY UNIT"
 		(exclude_from_sim no)
@@ -6840,6 +6862,17 @@
 			)
 		)
 		(uuid "99c80cfd-9756-4146-a615-1344ef610a89")
+	)
+	(text "current limiting resistor"
+		(exclude_from_sim no)
+		(at 125.984 180.594 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "9a9946cb-a0bb-4e8a-bdf4-406135157bcd")
 	)
 	(text "CAN\n"
 		(exclude_from_sim no)
@@ -19234,7 +19267,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 44.45 127 0)
 			(effects
 				(font
@@ -21372,6 +21405,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 64.77 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3f9c4fa-970e-4cc3-b17e-6c3613f28e39")
+		(property "Reference" "F1"
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3A"
+			(at 64.77 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Bourns/SF-0603FP300F-2?qs=55YtniHzbhAz28pQ%252B5v2Gg%3D%3D"
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 64.77 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7550aa2-43c7-4b69-8668-9b03c0aff473")
+		)
+		(pin "2"
+			(uuid "461db567-cf35-43fe-bc2f-5f62aabc0b8d")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 76.2 34.29 0)
 		(unit 1)
@@ -21848,74 +21950,6 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 64.77 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf98e6be-dcf6-49cb-94a4-128cdae76bd1")
-		(property "Reference" "F2"
-			(at 64.77 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.5A"
-			(at 64.77 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 64.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/PTSAHT120624V050?qs=sGAEpiMZZMt8Ji9PfVTQzDC%2FQhf%2F9COsTqlHB7vDZt22fVe0wfbojQ%3D%3D"
-			(at 64.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 64.77 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c4de85f-4a75-4e07-b37d-7d55a509ca5d")
-		)
-		(pin "2"
-			(uuid "3e30e0a6-2af1-460d-b326-ac014ca32a0c")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "F2")
 					(unit 1)
 				)
 			)

@@ -45,6 +45,19 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 
 The objective of this work is to provide a **robust, responsive, and intuitive interface** that supports safe and efficient operation of the electric go-kart.  
 
+## Hardware
+
+As part of the project, a custom **Arduino Shield** is being developed to handle all sensor inputs, signal routing, and electrical interfacing between the go-kart hardware and the STM32 dashboard.  
+
+A full description of the PCB, schematics, and connection layout will be added as the hardware design progresses.
+
+### KiCad 3D Model Preview
+
+*(Placeholder for 3D model render — will be added soon)*
+
+![3D-model-placeholder](./docs/images/pcb_model_placeholder.png)
+
+
 ## Development Notes  
 
 The project was initially developed without version control, with the focus placed on prototyping and interface design. 

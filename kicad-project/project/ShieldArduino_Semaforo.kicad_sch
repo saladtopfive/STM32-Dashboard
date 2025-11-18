@@ -6669,9 +6669,9 @@
 		)
 		(uuid ffc092ed-bd2c-4ae0-b7f1-fc639b238bf2)
 	)
-	(text "PSU:\n	ułożyć zasilacz tak jak na layout example (click+D)\n	CHYBA GIT POTWIERDZIC Z WIKTOREM <3"
+	(text "PSU:\n	PRZED PRZETWORNICA 1A BEZPIECZNIK\n"
 		(exclude_from_sim no)
-		(at 17.78 -17.526 0)
+		(at 20.574 -26.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6714,17 +6714,6 @@
 			(justify left bottom)
 		)
 		(uuid "0fa23f61-c52d-42c5-bf09-c667fae9a8d3")
-	)
-	(text "FARDRIVER:\n	jakie piny potrzeba,do czego podłączać = ile tranzystorów\n	bezpiecznik topikowy na zasilanie przekaźników/przekaźników\n 	przekaznik ON/OFF\n	tranzystor REVERSE\n	tranzystor 3 grade speed (highspeed, medium speed, lowspeed)\n \n\n"
-		(exclude_from_sim no)
-		(at 17.78 -30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "12a62072-63c5-4f9a-b715-3f2ee38b8624")
 	)
 	(text "ESD PROTECTION\n"
 		(exclude_from_sim no)
@@ -6818,9 +6807,9 @@
 		)
 		(uuid "5bc72c9f-880b-4a60-930a-b3166fe4767a")
 	)
-	(text "TVS:\n	kazdy pinout musi miec tvs dobranego na working voltage +0.5V\n\n"
+	(text "TVS:\n	DODAĆ TVS NA I2C\n\n"
 		(exclude_from_sim no)
-		(at 18.034 -22.606 0)
+		(at 20.828 -31.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9291,16 +9280,6 @@
 			(type default)
 		)
 		(uuid "c5ad15f2-1f35-4a5d-82bc-f830304ba0f1")
-	)
-	(wire
-		(pts
-			(xy 134.62 186.69) (xy 134.62 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6b7908b-3ad2-4bab-8838-562c1ad03894")
 	)
 	(wire
 		(pts
@@ -23143,7 +23122,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 187.96 0)
+		(at 134.62 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23151,7 +23130,7 @@
 		(dnp no)
 		(uuid "dfbf6b16-bb7c-4c7e-b15c-0a8a64fe77d4")
 		(property "Reference" "#PWR024"
-			(at 134.62 194.31 0)
+			(at 134.62 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23160,7 +23139,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.874 192.532 0)
+			(at 134.874 191.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23168,7 +23147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 187.96 0)
+			(at 134.62 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23177,7 +23156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 187.96 0)
+			(at 134.62 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23186,7 +23165,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 187.96 0)
+			(at 134.62 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

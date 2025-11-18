@@ -1,4 +1,4 @@
-26740065273702730
+26741828757246290
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106423,6 +106423,13 @@ Diode
 footprint
 SOIC127P600X175-8N
 MCP2542WFDT-E/SN
+Integrated Circuit
+0
+8
+8
+footprint
+SOP65P490X110-8N
+MSOP
 Integrated Circuit
 0
 8

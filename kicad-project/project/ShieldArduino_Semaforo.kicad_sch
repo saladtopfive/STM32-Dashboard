@@ -17186,7 +17186,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2083e655-7935-4fbb-9c50-19562995237c")
 		(property "Reference" "R23"
 			(at 218.44 41.9099 0)
@@ -22732,7 +22731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 200.66 64.77 0)
 			(effects
 				(font
@@ -22868,7 +22867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 200.66 49.53 0)
 			(effects
 				(font

@@ -78,3 +78,8 @@ As the implementation approaches the stage of **hardware integration**, this rep
 | 🔄 **Ongoing** | Development of an export data feature. |
 | 🔄 **Ongoing** | Implementation of battery management visualization. |
 | 🔜 **Planned** | Integration of BLDC motor control. |
+
+
+
+## 📜 License
+This project is licensed under the MIT permissive license.

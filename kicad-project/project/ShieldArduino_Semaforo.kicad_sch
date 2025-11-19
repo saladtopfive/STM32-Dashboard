@@ -11,6 +11,113 @@
 		(company "Politechnika Poznańska")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
@@ -6956,6 +7063,12 @@
 		(uuid "f8a15340-93e1-467f-afd9-c05b2e7ddaf6")
 	)
 	(junction
+		(at 56.515 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "015b65f8-9c2c-4f22-bc11-09870db961c1")
+	)
+	(junction
 		(at 355.6 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6966,6 +7079,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "074a541e-1384-4285-bfc6-4be500111299")
+	)
+	(junction
+		(at 131.445 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0accbd50-6640-438c-a984-c4dde9322c63")
 	)
 	(junction
 		(at 66.04 104.14)
@@ -7004,6 +7123,12 @@
 		(uuid "1b1b0f38-e891-4b6c-9105-89e45c3587f6")
 	)
 	(junction
+		(at 35.56 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22695e28-55c9-4285-9c36-c4d51037b2ae")
+	)
+	(junction
 		(at 55.88 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7028,10 +7153,22 @@
 		(uuid "2629ef5e-c4b1-4827-bf9b-eeac1236d6be")
 	)
 	(junction
+		(at 143.51 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "264d9943-49b0-4b46-81ab-e84b8efb39a2")
+	)
+	(junction
 		(at 44.45 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b554d05-7332-4b61-ae43-1240c368a2e9")
+	)
+	(junction
+		(at 269.24 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c03bb04-a96e-40e6-b551-00d01c232e30")
 	)
 	(junction
 		(at 378.46 125.73)
@@ -7056,6 +7193,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ec8f4b4-2a9a-4a26-9a2e-e4d7e45acbfb")
+	)
+	(junction
+		(at 92.075 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "480ab48d-8068-4ec1-9975-61443a2de1c8")
 	)
 	(junction
 		(at 63.5 195.58)
@@ -7094,6 +7237,12 @@
 		(uuid "5b4a2d66-fe28-4b2e-b684-ba79d4173257")
 	)
 	(junction
+		(at 175.26 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63df96b6-07b9-4bc2-87a6-5bce2d651a14")
+	)
+	(junction
 		(at 189.23 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7104,6 +7253,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "658f6e9b-82f7-4a8e-aa84-d36b9415965e")
+	)
+	(junction
+		(at 261.62 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67ac557f-0c1e-4ea1-9be9-00c433b50f8f")
 	)
 	(junction
 		(at 204.47 26.67)
@@ -7118,10 +7273,28 @@
 		(uuid "74548908-d7a6-4348-a964-7d6a50810d97")
 	)
 	(junction
+		(at 47.625 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7529cc14-ef3e-437f-954b-56fd9a0e58a2")
+	)
+	(junction
+		(at 185.42 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "799c2148-a845-46f6-b0a9-e94085e3f93d")
+	)
+	(junction
 		(at 172.72 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f0cbb98-3505-4362-99ec-16f9590af5eb")
+	)
+	(junction
+		(at 197.485 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87e8979e-be4b-418c-bb4b-b42d05cba59d")
 	)
 	(junction
 		(at 210.82 170.18)
@@ -7154,6 +7327,12 @@
 		(uuid "9de4ae56-936d-4516-9a2f-a98b0c2fffce")
 	)
 	(junction
+		(at 261.62 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2422147-0052-43e0-8f42-d9081cdb5f74")
+	)
+	(junction
 		(at 166.37 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7170,6 +7349,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a99ea377-f8e8-4226-b634-9edd8b4514dc")
+	)
+	(junction
+		(at 339.1144 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa61620b-e8b8-46cd-ad9a-4fcad5d630a1")
+	)
+	(junction
+		(at 143.51 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac9909ee-7463-4abb-a542-0a8f5762d85e")
 	)
 	(junction
 		(at 189.23 140.97)
@@ -7196,6 +7387,12 @@
 		(uuid "c3b5a451-822b-4f9a-aae4-dca2816a00bd")
 	)
 	(junction
+		(at 339.09 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4f7ddfd-29ff-42f4-bd38-e5f1f133eb0d")
+	)
+	(junction
 		(at 127 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7220,6 +7417,12 @@
 		(uuid "cb8a71cf-43c2-40d2-b0cc-de36ec4ec973")
 	)
 	(junction
+		(at 131.445 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d840afde-2578-44aa-98f4-0dcc86a0cc92")
+	)
+	(junction
 		(at 44.45 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7230,6 +7433,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e22e82f4-8ca8-4b66-a73e-d2238a352a4c")
+	)
+	(junction
+		(at 257.175 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e670a1e3-cb6a-42af-9790-9b11536a7a2d")
 	)
 	(junction
 		(at 55.88 140.97)
@@ -7266,6 +7475,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f165e6f4-a517-4329-8274-4125761fdc80")
+	)
+	(junction
+		(at 123.19 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3476835-2262-4099-8800-e6b2b87e7ac2")
 	)
 	(junction
 		(at 184.15 104.14)
@@ -7331,7 +7546,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 30.48) (xy 46.99 30.48)
+			(xy 44.45 30.48) (xy 47.625 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7368,6 +7583,16 @@
 			(type default)
 		)
 		(uuid "06e3bc9b-975f-42fe-8130-39b843c8439e")
+	)
+	(wire
+		(pts
+			(xy 185.42 49.53) (xy 194.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ec7560-8087-4a12-a810-249fcb56456a")
 	)
 	(wire
 		(pts
@@ -7481,6 +7706,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 25.4) (xy 175.26 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d914a6-8afc-448f-9ae6-a920e9c58aba")
+	)
+	(wire
+		(pts
 			(xy 25.4 22.86) (xy 29.21 22.86)
 		)
 		(stroke
@@ -7551,7 +7786,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 118.11) (xy 340.36 118.11)
+			(xy 342.9 118.11) (xy 339.09 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7581,7 +7816,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 166.37) (xy 270.51 166.37)
+			(xy 267.97 166.37) (xy 269.24 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7601,7 +7836,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 173.99) (xy 63.5 173.99)
+			(xy 131.445 222.25) (xy 133.35 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c83b6b-56d0-4edc-8ec6-c803ef0e3e97")
+	)
+	(wire
+		(pts
+			(xy 46.99 173.99) (xy 56.515 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7618,6 +7863,16 @@
 			(type default)
 		)
 		(uuid "287ecb90-f062-4445-9dda-b00768c84931")
+	)
+	(wire
+		(pts
+			(xy 261.62 52.07) (xy 260.35 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2907cf33-1c31-4f63-8d17-7f324e25843a")
 	)
 	(wire
 		(pts
@@ -7851,7 +8106,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 49.53) (xy 260.35 49.53)
+			(xy 265.43 49.53) (xy 261.62 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7898,6 +8153,16 @@
 			(type default)
 		)
 		(uuid "3e0e0310-040c-4a12-9ae2-f0f03b079fc1")
+	)
+	(wire
+		(pts
+			(xy 56.515 173.99) (xy 63.5 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e27ba18-2475-4c9c-8ff3-4ec683623e6e")
 	)
 	(wire
 		(pts
@@ -8031,7 +8296,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 30.48) (xy 90.17 30.48)
+			(xy 88.9 30.48) (xy 92.075 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8061,6 +8326,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.075 30.48) (xy 95.885 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5210fe7e-e48f-4ff1-aa55-85ead3e657a0")
+	)
+	(wire
+		(pts
 			(xy 215.9 45.72) (xy 215.9 49.53)
 		)
 		(stroke
@@ -8081,7 +8356,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 52.07) (xy 260.35 52.07)
+			(xy 265.43 52.07) (xy 261.62 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8141,7 +8416,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 170.18) (xy 125.73 170.18)
+			(xy 120.65 170.18) (xy 123.19 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8168,6 +8443,16 @@
 			(type default)
 		)
 		(uuid "598b65f6-8c62-442b-8f52-c92e1de20a43")
+	)
+	(wire
+		(pts
+			(xy 143.51 52.07) (xy 147.32 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6a03ff-a496-43af-af4e-4b577988537b")
 	)
 	(wire
 		(pts
@@ -8431,6 +8716,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 49.53) (xy 147.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7436670e-e549-40b0-b411-8481fccc86e1")
+	)
+	(wire
+		(pts
 			(xy 163.83 214.63) (xy 163.83 213.36)
 		)
 		(stroke
@@ -8441,7 +8736,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 52.07) (xy 147.32 52.07)
+			(xy 128.27 52.07) (xy 143.51 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8458,6 +8753,16 @@
 			(type default)
 		)
 		(uuid "7676c9c3-4ef2-42d2-afbb-e115feefc126")
+	)
+	(wire
+		(pts
+			(xy 269.24 166.37) (xy 270.51 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e92291-cb37-4b6f-859c-ae3f5ef54bd6")
 	)
 	(wire
 		(pts
@@ -8521,7 +8826,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 49.53) (xy 194.31 49.53)
+			(xy 175.26 49.53) (xy 185.42 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8538,6 +8843,16 @@
 			(type default)
 		)
 		(uuid "7b45068f-dfae-4082-82b8-2a9c2f9f3d9f")
+	)
+	(wire
+		(pts
+			(xy 131.445 214.63) (xy 133.35 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b73f6b1-91e4-40e5-ad17-50f6230727d1")
 	)
 	(wire
 		(pts
@@ -8601,7 +8916,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 120.65) (xy 342.9 120.65)
+			(xy 336.55 120.65) (xy 339.1144 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8621,7 +8936,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 222.25) (xy 133.35 222.25)
+			(xy 129.54 222.25) (xy 131.445 222.25)
 		)
 		(stroke
 			(width 0)
@@ -8648,16 +8963,6 @@
 			(type default)
 		)
 		(uuid "8132dd92-96de-48cb-9130-6f3bb56371d9")
-	)
-	(wire
-		(pts
-			(xy 265.43 59.69) (xy 260.35 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "814e4798-a02d-4fb8-8fdd-819217226a10")
 	)
 	(wire
 		(pts
@@ -8828,6 +9133,16 @@
 			(type default)
 		)
 		(uuid "8d777666-d52b-4e5e-920f-fb6bfd17a1ed")
+	)
+	(wire
+		(pts
+			(xy 35.56 212.09) (xy 38.1 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da5914e-f1df-4fe1-9ab7-cabc114aac67")
 	)
 	(wire
 		(pts
@@ -9051,6 +9366,16 @@
 	)
 	(wire
 		(pts
+			(xy 197.485 170.18) (xy 198.12 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a49739-61de-4586-90ae-b15e374eda05")
+	)
+	(wire
+		(pts
 			(xy 184.15 140.97) (xy 172.72 140.97)
 		)
 		(stroke
@@ -9101,7 +9426,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 44.45) (xy 175.26 20.32)
+			(xy 175.26 44.45) (xy 175.26 25.4)
 		)
 		(stroke
 			(width 0)
@@ -9188,6 +9513,26 @@
 			(type default)
 		)
 		(uuid "b466ea89-9a28-4884-b874-bc0da4a606d1")
+	)
+	(wire
+		(pts
+			(xy 33.02 212.09) (xy 35.56 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b569f17f-dd15-473c-bb8d-a204ed653690")
+	)
+	(wire
+		(pts
+			(xy 47.625 30.48) (xy 51.435 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60dee18-8b1e-48dd-b120-6853d29fda7c")
 	)
 	(wire
 		(pts
@@ -9288,6 +9633,16 @@
 			(type default)
 		)
 		(uuid "be801a5c-5fa9-45b2-86e4-d41c6a414e9c")
+	)
+	(wire
+		(pts
+			(xy 257.175 59.69) (xy 265.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf13e9a8-a25e-483e-bd37-01fd6d09f0ed")
 	)
 	(wire
 		(pts
@@ -9541,7 +9896,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 170.18) (xy 198.12 170.18)
+			(xy 195.58 170.18) (xy 197.485 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9561,7 +9916,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 214.63) (xy 133.35 214.63)
+			(xy 129.54 214.63) (xy 131.445 214.63)
 		)
 		(stroke
 			(width 0)
@@ -9588,6 +9943,16 @@
 			(type default)
 		)
 		(uuid "dc0b4cff-0c86-4bfb-9ba4-60f1c9134394")
+	)
+	(wire
+		(pts
+			(xy 123.19 170.18) (xy 125.73 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc162156-c1b4-4d4e-80a7-d84b9b7de6c0")
 	)
 	(wire
 		(pts
@@ -9661,6 +10026,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.175 59.69) (xy 255.27 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b155f5-6f12-4bd2-823f-8d1247adb312")
+	)
+	(wire
+		(pts
 			(xy 350.52 31.75) (xy 358.14 31.75)
 		)
 		(stroke
@@ -9701,7 +10076,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 49.53) (xy 147.32 49.53)
+			(xy 128.905 49.53) (xy 143.51 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9761,6 +10136,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.1144 120.65) (xy 342.9 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b0b33a-e278-4b2c-a2a5-08bf2ce1fbb8")
+	)
+	(wire
+		(pts
 			(xy 76.2 22.86) (xy 74.93 22.86)
 		)
 		(stroke
@@ -9808,6 +10193,16 @@
 			(type default)
 		)
 		(uuid "f07fbb81-3d5c-44b0-9567-d3274c6e8e53")
+	)
+	(wire
+		(pts
+			(xy 261.62 49.53) (xy 260.35 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d1575d-b55f-4baa-891a-7aa83a2e305d")
 	)
 	(wire
 		(pts
@@ -9898,6 +10293,16 @@
 			(type default)
 		)
 		(uuid "faf5e41c-835d-44ba-a85d-e7c13e4aec1d")
+	)
+	(wire
+		(pts
+			(xy 339.09 118.11) (xy 336.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0f62cc-1ce9-438f-9759-ffed852eb832")
 	)
 	(wire
 		(pts
@@ -14758,7 +15163,43 @@
 			"NgBjAGIAVABUAC8AWABrADMAcgB0AGoAMgBMAHMAdgBpAHkAOABXAEgAZQBlAEYAZQBiADMAeAA4"
 			"ADEAUAB6ADIAOABZAFUAYgBoAGoANgBuAFUAVQBjAEgAVAB0ADQAOAArAG4ASABOADkARwBsAGkA"
 			"NQAvADUAZQBqACsAdgBPAGMAdgBTAGIAMAA5AHgAOABGAEEAMgBoAFkAVQA2ADcATwB4AHMAOABQ"
-			"AFIAMABJAGoAYgBXAA=="
+			"AFIAMABJAGoAYgBXADYAQwBOAGQAdQBYAHQAeQBOAEcAcQAxADAAbQBKAGUAWABsADQAbABQAC8A"
+			"MgBjAHgATwA3AGQARwBmAFQAcgBHADgAeQBVAHkAZABHAFgAZABBACsAVgBsAFMAYgAyADcATQAz"
+			"AGsAcQA2ADkAUAA0AE8AKwB2ADUAdABWAFgAKwBsAHMAYwAxACsAbABNADUATwBWAFYAbwBsAEQA"
+			"WQBVAEYAeABjAGgAVQA1AG4AeABHAGkAcwBJAFMAKwB2AEEAcQBPAHgAbABvAEEAQQB0AFgAbAB1"
+			"AFQAbQA0AEYANwA3ADkALwBpAEkAOAArAE8AWQBKAGUAWAA4ADMASQBrAGUARwA4ADkAawBwAC8A"
+			"QQBnAE0AMQA1AGoAawBWAEYAVQBZADIAYgBEAGoAUAB2AEIAZAAzAEUAaAArAGYAagA3AE8AegBQ"
+			"AFUATwBIAGgAdgBIAEMAYwAzADIASQBpAHYASwBpAHMAdABMAEkAagBoADMAcABmAFAAYgBGAE0A"
+			"WAA1AGMAbgBrAGgAawBoAEEAZQAvAGIAYgBpAGQAbwBDAEEATgBEAGEAbQBvAE0ATABMAHMAKwA5"
+			"AFAAYwBlADkAOAA2AEEATgB6AGQAVgBjAHkAWgAzAFoAMAA1AHMANwBvAEQAWQBEAFQAVwBjAFAA"
+			"eABFAFAAbQArAC8AcwA1ADkAZgBmADAAcwBtAEwANgA4AFMAZQAzAHQAYgBZAG0ASwA4AHUAWABO"
+			"AFMAZQAvAHIAMwBEADIAYgB0ADIAcgBNADgAOQBtAGcAYwBLADEAWQBtAE0AdQBuAE8AbgB5AC8A"
+			"NgBlAHIAbQA1AE8AYgBCAHkAKwBWAGoANgA5AHcAdQB1AGQAOAB4AG8AcgBPAEgAbgBOAFUAbQBN"
+			"AHYAWABXAGwAZQBVAHkAcAB0AE8AUAB4AHgAKwBMAG8ARgB1AGYAUAA2AEYAdQBXAG0AOABkAHQA"
+			"YgBXADMAbwAwAHkAZQBJAHIAWgBzAG0AWQBqAFQAVwBNAE8AZgBKAEwAUwB4ADgAKwB3AEEAQQBD"
+			"AG8AVQB0ADYAOQBhAE0AWgA4AGoAZwBVAEcAcAByADQAZQB6AFoAWQBoAGEAOAB0AFkALwBVADEA"
+			"RABKACsAVwBUAGYAKwBvAHYASAA5ADQAYgBlAE4ASwBRAHkANwArAFgAdABNAHAAaABxAEwAOABV"
+			"AGMAZgA2AGMAcAByADgAdwBkAGcAYgAyADkAWgByAHoAQgBnADgARgBKADIANwBFAGkAbgB1AHIA"
+			"cQAyADMAbAByAE8AegBrAHEANgB4AGYAbgB4AGYAdwA5ADMANABhAGEAaAByAGMAegBuAEQAaAAy"
+			"ADIAagBFADIAYgBVAE0ANQB0AGQAKwBEAHUAcgBtAEwAUAB6AHIAdgBNAEMAZQBaAHoANQAwAG8A"
+			"NABlAEMAaQBiAG4AOQBlAGMAcABhAHgAYwAzACsAVAB2ADcAWgBEAEIAbwBSAGkAcgBaAHYAUABB"
+			"AGoATQA3AFkAMgB0AG8AdwBlAEYAQQBvAE8AWgBrAFAAOABlAFkAYgBnACsAbwBsAG0AQQBHADIA"
+			"YgBKAHgASQBVAHMASgAwAG4ASgAzAHQAQQBTAGcAcABmAEoAUgBhADAAMQB5AEsAOABoAC8AaAAz"
+			"AGIAYwBIAGMAeQBJACsAbgA5AEcAMwBMAE8AZgByAGIAMAA1AGcATQBGAFEARAA4AE0AdQA2AEMA"
+			"ZgB5ADIANABUAFoAYwBYAFIAMwBvADMATgBtAFgAdwByAHoALwBzAC8AagA1AFQAegA3ADcAQQBD"
+			"AFoAagBUAFkATwBKAGEAeQBHAHUAbABvAE0ASABzADcAbAByAHkAcwArADgAOQBzAFkAZQBSAG8A"
+			"MQBzAHoAZQBuADQAKwA2AGcAMQB6AFcAWABIADEAagB0AFEAcQA1AFUAOABQAG0AcwB6AHkANwA0"
+			"AC8AegBlAFMANwBvAHQAbQAyAGUAUwBKAFAAUABOADQATgBWADEAYwBIAFYAcQB4AE0ANQBLAHUA"
+			"dgBUADEAQgBaAGUAZQBGADkAcwBWAC8AZgBJAE4AYQB2AEgAYwA5AGIAQwB3AFkAeQA3AEsAWgBX"
+			"AGIATgB4AHcAVwA3ADAARQBNADgAQQB2AEcANQBMADUAOQBQAE4AagA2AFAAVwBtAHEAMwBtAHIA"
+			"UQBnAGcAaABoAEIAQwBYAFIAWgBMAE0AUQBnAGcAaAB4AEQAWABBAHgAVQBWAEoAQwArACsARwBx"
+			"AHoAUwBqAG8AMQBzAHcAWQAzAHAAbgBPAG4AZgB5AEkAVABXADEARgBDAGQASABlADEAYgA4AE0A"
+			"SQBZAHYAUABoAHYARwBmADkAKwA3AGcAYwA4AC8ARwBjAGEARQA4AFcAMQBKAFMAQwB4AGsANwBi"
+			"AHEAegBBAEoAdwA3AFYAOAB6AGkAeABTAGMAeABWAGQAZAB5ADkANQBRAFkAZwBvAEoAYwBHAEQA"
+			"ZwBnAGgARQBtADMAUgA3AEYAaABRAHoASQBiAGYAawAwADIAcgArAC8AdAA3AGMAVAB3AFkAYQAz"
+			"AHAAMwBTAHYAdwBzAG0ASgAzAGMAbABMAFEAcQBaAE0AUABRADIAOABNAHcANwB1AFIAZQArAGoA"
+			"VQB5AFkAYwBmAHYANwArAEYAZAB1ADIAOAArAE8AKwBIAGgAOABuAEoAcQBlAEQANwBIAHgATwBZ"
+			"ADkAMgB4AHYAMwBuAA=="
 		)
 	)
 	(label "reverse"
@@ -14792,7 +15233,7 @@
 		(uuid "07c5a2c1-ef54-41f9-8869-404a84d1a42f")
 	)
 	(label "Vin"
-		(at 260.35 59.69 180)
+		(at 255.27 59.69 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14932,7 +15373,7 @@
 		(uuid "3ea6407b-7127-42f8-b9a6-b9cb15078bab")
 	)
 	(label "11(**/MOSI)"
-		(at 133.35 52.07 0)
+		(at 128.27 52.07 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -14962,7 +15403,7 @@
 		(uuid "45c8365e-334c-4a66-b63e-0489d06d22db")
 	)
 	(label "brake_in_3V3"
-		(at 90.17 30.48 0)
+		(at 95.885 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15012,7 +15453,7 @@
 		(uuid "4e38f2aa-75c1-4a48-8f44-50d770cb52ed")
 	)
 	(label "13(SCK)"
-		(at 133.35 49.53 0)
+		(at 128.905 49.53 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -15162,7 +15603,7 @@
 		(uuid "7abbe062-1622-4488-8276-bda7879cfc09")
 	)
 	(label "CAN_RX"
-		(at 340.36 120.65 180)
+		(at 336.55 120.65 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -15192,7 +15633,7 @@
 		(uuid "8a75a16c-1ba6-45c9-b36f-11d3f823c822")
 	)
 	(label "throttle_in_3V3"
-		(at 46.99 30.48 0)
+		(at 51.435 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15402,7 +15843,7 @@
 		(uuid "ccc8f853-12d0-465c-b0a3-de78a38078f0")
 	)
 	(label "signal_relay"
-		(at 38.1 212.09 180)
+		(at 33.02 212.09 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -15542,7 +15983,7 @@
 		(uuid "f357a2b4-114c-4eb9-ab7e-e204105228f2")
 	)
 	(label "CAN_TX"
-		(at 340.36 118.11 180)
+		(at 336.55 118.11 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -16549,6 +16990,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 175.26 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "005bbbf0-5b70-4cc1-8690-cf5e40f0432a")
+		(property "Reference" "TP13"
+			(at 173.99 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 177.165 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 180.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 175.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bb5d92b-fa70-4068-a835-45b6ee314330")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 92.075 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01e2665b-3f41-4ac7-83b7-32ae2feeb587")
+		(property "Reference" "TP14"
+			(at 90.805 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 93.98 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 97.155 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.155 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.075 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09627f97-a991-46fe-9051-f6cd2d0a3bd8")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 285.75 115.57 0)
 		(unit 1)
@@ -17095,6 +17670,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 184.15 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18d4f9c2-be6a-49bb-8513-fb54cc89596b")
+		(property "Reference" "R14"
+			(at 186.69 21.5899 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 186.69 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 184.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 184.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "feba6109-ef06-43ef-8281-6f8e7890e00c")
+		)
+		(pin "1"
+			(uuid "629d1b8f-c72c-4aab-af4f-83bc7c0ff078")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCP4901T-E_MS:MCP4901T-E_MS")
 		(at 147.32 44.45 0)
 		(unit 1)
@@ -17227,75 +17872,6 @@
 			(project ""
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "IC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 196.85 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a147f3f-2c0f-4536-9b9e-097697e5b506")
-		(property "Reference" "R19"
-			(at 198.374 24.638 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "200"
-			(at 198.628 28.956 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 196.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 196.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13bc206e-4b52-4ac4-9aab-36271155d9f5")
-		)
-		(pin "2"
-			(uuid "ad5fdbe2-7a18-4a42-af58-039f0f0d470b")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -17507,25 +18083,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 184.15 22.86 0)
+		(lib_id "Connector:TestPoint_Small")
+		(at 143.51 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "241e2c46-b859-49a9-b2aa-47f366138133")
-		(property "Reference" "R14"
-			(at 180.086 23.114 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k"
-			(at 185.674 22.86 0)
+		(uuid "24ce567d-8ad7-479b-b72b-a251239254bd")
+		(property "Reference" "TP11"
+			(at 142.24 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17533,8 +18100,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 184.15 22.86 0)
+		(property "Value" "TestPoint_Small"
+			(at 145.415 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 148.59 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17543,7 +18120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 22.86 0)
+			(at 148.59 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17551,8 +18128,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 184.15 22.86 0)
+		(property "Description" "test point"
+			(at 143.51 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17561,15 +18138,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "11802cbe-1d33-4de0-b049-9f605c485358")
-		)
-		(pin "2"
-			(uuid "18a6df7f-50d5-4745-80ce-db9bab907173")
+			(uuid "b0552e79-9a4b-49b9-959b-7da360b4cf52")
 		)
 		(instances
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "R14")
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 131.445 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26f83ffe-8de5-441c-8f7f-48ca07a9d877")
+		(property "Reference" "TP7"
+			(at 130.175 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 133.35 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 136.525 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.525 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 131.445 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b308d9d-cbd8-419b-af87-20245dc7af5c")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -17947,6 +18588,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 56.515 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36eea52e-a333-4a4c-a132-82155c0df1e1")
+		(property "Reference" "TP20"
+			(at 55.245 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 58.42 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 61.595 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 61.595 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 56.515 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56f5addb-bd7a-4a1a-9772-98c7a0393240")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 197.485 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37ccda20-a25a-42bd-ba1d-b913e1191b4c")
+		(property "Reference" "TP5"
+			(at 196.215 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 199.39 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 202.565 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 202.565 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 197.485 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "919c7bf5-88d4-47fb-9ffc-abe13ed52e83")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 289.56 138.43 90)
 		(unit 1)
@@ -18007,6 +18782,76 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 184.15 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b6ecf4d-a50f-4cc9-b46f-87258dc0abec")
+		(property "Reference" "R16"
+			(at 186.69 29.2099 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 186.69 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3bb02875-07b9-4463-ac27-3280c786ca4d")
+		)
+		(pin "1"
+			(uuid "cb3dbd9a-949f-4e84-9965-b458c4795b94")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -18891,6 +19736,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 261.62 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "526da629-6658-4c89-b5da-2f9488cbdf55")
+		(property "Reference" "TP17"
+			(at 260.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 263.525 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 266.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51c51d77-90d0-4faa-8edc-95969ca6b68c")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 76.2 40.64 0)
 		(unit 1)
@@ -19028,6 +19940,207 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 47.625 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57171e62-47f4-497f-9c12-5d8ce20f1a68")
+		(property "Reference" "TP15"
+			(at 46.355 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 49.53 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 52.705 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.705 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 47.625 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "463a18e7-a3df-4989-ab07-39a706973ee3")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 339.1144 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57fe9021-8567-4d03-8e04-32a2f87e2b1b")
+		(property "Reference" "TP3"
+			(at 337.8444 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 341.0194 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 344.1944 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.1944 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 339.1144 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5bd7d82-6924-4e91-a141-0804d18166d8")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 269.24 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5989e560-6543-4a2b-a667-99bb6545cb83")
+		(property "Reference" "TP4"
+			(at 267.97 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 271.145 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 274.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 269.24 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fe64413-eef4-4a7a-95a6-82a0807968ac")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -20694,6 +21807,208 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 143.51 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a33342d-de96-431a-962f-85f1818a6c67")
+		(property "Reference" "TP10"
+			(at 142.24 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 145.415 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 148.59 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 143.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e867def8-d049-4fba-b2b8-a89429d9e6df")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 261.62 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c19d9e3-7380-455c-bcb6-008eba8ed0e2")
+		(property "Reference" "TP18"
+			(at 260.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 263.525 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 266.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 261.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14fbb0ac-8360-4fd2-8abf-09369c44e48f")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 196.85 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fb239d9-b0fe-423c-b7d8-cc5c511c2b7a")
+		(property "Reference" "R19"
+			(at 196.85 21.59 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 196.85 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01a1b638-8975-4b3f-9adc-2cd1c5e4e04b")
+		)
+		(pin "2"
+			(uuid "8a370798-8b12-4118-b8f6-e235f3aff919")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 85.09 30.48 270)
 		(unit 1)
@@ -21186,75 +22501,6 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 184.15 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c8118c6-d484-4638-a79f-962c8b163419")
-		(property "Reference" "R16"
-			(at 179.832 30.48 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 185.42 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 184.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 184.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "585fe419-17db-4286-9136-74886ea3a95c")
-		)
-		(pin "2"
-			(uuid "324fc835-2189-4065-8c59-57eafcaeb122")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -22031,6 +23277,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 339.09 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8f7defb-ed0e-4c6f-a239-a46e630f700b")
+		(property "Reference" "TP2"
+			(at 337.82 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 340.995 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 344.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 339.09 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8930fa0c-0101-463c-81aa-70d3f2ba9c83")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 285.75 128.27 0)
 		(unit 1)
@@ -22506,6 +23819,73 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "C119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 131.445 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3733982-732a-4be4-9f4e-9e67fc398db7")
+		(property "Reference" "TP8"
+			(at 130.175 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 133.35 223.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 136.525 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 136.525 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 131.445 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "392fc35b-5961-41d6-8797-71fcb374d514")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -23003,6 +24383,73 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "R166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 123.19 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d02c891b-34b9-43e0-88cf-d53e1669b6b3")
+		(property "Reference" "TP6"
+			(at 121.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 125.095 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 128.27 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22f72ede-6381-4517-be89-b8f4b08ae43c")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -24154,6 +25601,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 35.56 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec808c0a-e35b-4774-92a1-bffa2467c55d")
+		(property "Reference" "TP9"
+			(at 34.29 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 37.465 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 40.64 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfd22ca1-e63b-4a1d-adcf-2e3741123410")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 283.21 184.15 0)
 		(unit 1)
@@ -24214,6 +25728,73 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 185.42 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eddded90-f87e-415a-a2a8-71f8169a368b")
+		(property "Reference" "TP12"
+			(at 184.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 187.325 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "408fb53d-1a26-4fc1-9457-3dfbaf228c1d")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -24588,6 +26169,73 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 257.175 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb604afe-098f-41fb-a05b-54bac6dbfa8b")
+		(property "Reference" "TP19"
+			(at 255.905 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 259.08 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 262.255 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.255 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 257.175 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb2b1e2c-a9aa-4167-b0ef-b42430e01b0c")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "TP19")
 					(unit 1)
 				)
 			)

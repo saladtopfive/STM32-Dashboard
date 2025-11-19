@@ -6669,7 +6669,7 @@
 		)
 		(uuid ffc092ed-bd2c-4ae0-b7f1-fc639b238bf2)
 	)
-	(text "PSU:\n	PRZED PRZETWORNICA 1A BEZPIECZNIK\n"
+	(text "PSU:\n	PRZED PRZETWORNICA 1A BEZPIECZNIK\nDAC:\n	CZY A3 pin git?\n"
 		(exclude_from_sim no)
 		(at 20.574 -26.416 0)
 		(effects
@@ -7106,6 +7106,12 @@
 		(uuid "658f6e9b-82f7-4a8e-aa84-d36b9415965e")
 	)
 	(junction
+		(at 204.47 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73400b13-3a1b-4e92-9225-da1afc16b1c2")
+	)
+	(junction
 		(at 172.72 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7134,6 +7140,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99e986ed-17c2-4dbf-94c9-808353faeb4b")
+	)
+	(junction
+		(at 175.26 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bcef651-f196-49db-8296-f7a8ac6d4466")
 	)
 	(junction
 		(at 355.6 135.89)
@@ -7273,6 +7285,12 @@
 		(color 0 0 0 0)
 		(uuid "fbe2e609-77d3-4f6e-aa45-194c931ab93e")
 	)
+	(junction
+		(at 184.15 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff0c0233-9ec1-4e55-a7a2-146b7e5c8ce4")
+	)
 	(no_connect
 		(at 265.43 41.91)
 		(uuid "0577537b-a276-4a5b-9a12-02a2a7440893")
@@ -7300,6 +7318,16 @@
 	(no_connect
 		(at 161.29 222.25)
 		(uuid "f46898c8-ae89-44b0-a741-5343d9c936c6")
+	)
+	(wire
+		(pts
+			(xy 184.15 25.4) (xy 184.15 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0258146b-3274-4fa5-aeb5-0e6b78a4ae01")
 	)
 	(wire
 		(pts
@@ -7393,6 +7421,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 22.86) (xy 207.01 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12062db5-6208-48ab-ad35-8a1524caea4a")
+	)
+	(wire
+		(pts
 			(xy 358.14 110.49) (xy 355.6 110.49)
 		)
 		(stroke
@@ -7410,16 +7448,6 @@
 			(type default)
 		)
 		(uuid "144d23c1-7a7a-40e7-80cd-24d8065fca9f")
-	)
-	(wire
-		(pts
-			(xy 175.26 44.45) (xy 177.8 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a4692e-b171-4050-85c4-b739f10b7374")
 	)
 	(wire
 		(pts
@@ -7913,6 +7941,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 26.67) (xy 204.47 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44db8e9b-5e8a-4bfb-ba9a-9052c4ffacb1")
+	)
+	(wire
+		(pts
 			(xy 285.75 72.39) (xy 290.83 72.39)
 		)
 		(stroke
@@ -8093,6 +8131,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 20.32) (xy 184.15 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578125bb-1249-4332-8b7f-f5f2d93ad346")
+	)
+	(wire
+		(pts
 			(xy 120.65 170.18) (xy 125.73 170.18)
 		)
 		(stroke
@@ -8213,6 +8261,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 26.67) (xy 194.31 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688a6c20-35de-4263-86d0-8ef3963a3bcd")
+	)
+	(wire
+		(pts
 			(xy 44.45 104.14) (xy 44.45 123.19)
 		)
 		(stroke
@@ -8303,6 +8361,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 26.67) (xy 204.47 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711beaa2-0a87-440c-9242-9dba9c2968e9")
+	)
+	(wire
+		(pts
 			(xy 283.21 179.07) (xy 283.21 182.88)
 		)
 		(stroke
@@ -8350,6 +8418,16 @@
 			(type default)
 		)
 		(uuid "73b042a6-1ff3-424a-9573-005bd364578e")
+	)
+	(wire
+		(pts
+			(xy 184.15 26.67) (xy 184.15 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cf83e2-7158-4ef8-9236-3669bdac0484")
 	)
 	(wire
 		(pts
@@ -9023,7 +9101,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 44.45) (xy 177.8 34.29)
+			(xy 175.26 44.45) (xy 175.26 20.32)
 		)
 		(stroke
 			(width 0)
@@ -9373,7 +9451,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 46.99) (xy 181.61 40.64)
+			(xy 181.61 46.99) (xy 181.61 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9663,6 +9741,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 26.67) (xy 204.47 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6df4695-aa12-45a1-8571-86c8e7d4dda3")
+	)
+	(wire
+		(pts
 			(xy 191.77 217.17) (xy 191.77 215.9)
 		)
 		(stroke
@@ -9700,6 +9788,16 @@
 			(type default)
 		)
 		(uuid "ef11a7e8-c8d8-4def-b7e6-d477411bf6a2")
+	)
+	(wire
+		(pts
+			(xy 175.26 20.32) (xy 175.26 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f011f7e8-8ac5-4ec4-b9d7-d2f45f9ce5ea")
 	)
 	(wire
 		(pts
@@ -14723,6 +14821,16 @@
 		)
 		(uuid "0ee913f1-c4aa-4ee6-8645-6d0e9b540005")
 	)
+	(label "A3"
+		(at 207.01 22.86 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "14a60333-1305-4a1a-af83-daa0f29f44f9")
+	)
 	(label "5V_unfused"
 		(at 177.8 104.14 0)
 		(effects
@@ -14784,7 +14892,7 @@
 		(uuid "2a4f1ea1-c9e1-4de2-bf9d-24fabfd1b5d3")
 	)
 	(label "inverter_signal_5V"
-		(at 177.8 34.29 0)
+		(at 175.26 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17125,6 +17233,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 196.85 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a147f3f-2c0f-4536-9b9e-097697e5b506")
+		(property "Reference" "R19"
+			(at 198.374 24.638 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200"
+			(at 198.628 28.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 196.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13bc206e-4b52-4ac4-9aab-36271155d9f5")
+		)
+		(pin "2"
+			(uuid "ad5fdbe2-7a18-4a42-af58-039f0f0d470b")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 289.56 123.19 90)
 		(unit 1)
@@ -17324,6 +17501,75 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 184.15 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "241e2c46-b859-49a9-b2aa-47f366138133")
+		(property "Reference" "R14"
+			(at 180.086 23.114 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 185.674 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 184.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 184.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11802cbe-1d33-4de0-b049-9f605c485358")
+		)
+		(pin "2"
+			(uuid "18a6df7f-50d5-4745-80ce-db9bab907173")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -17972,6 +18218,68 @@
 		)
 	)
 	(symbol
+		(lib_id "ShieldArduino_Semaforo-rescue:GND-power")
+		(at 184.15 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41c8feb0-b2cb-4ded-89f5-78425d70f6cf")
+		(property "Reference" "#PWR021"
+			(at 184.15 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32e26633-28e4-42b2-a818-1468db31982f")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
 		(at 285.75 109.22 0)
 		(unit 1)
@@ -18252,7 +18560,7 @@
 	)
 	(symbol
 		(lib_id "ShieldArduino_Semaforo-rescue:GND-power")
-		(at 181.61 40.64 180)
+		(at 181.61 43.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18260,7 +18568,7 @@
 		(dnp no)
 		(uuid "4dcfa6d1-a2ef-4036-bc4d-bbf76bffdefd")
 		(property "Reference" "#PWR042"
-			(at 181.61 34.29 0)
+			(at 181.61 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18269,7 +18577,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 36.83 0)
+			(at 181.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18277,7 +18585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 40.64 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18285,7 +18593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 40.64 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18293,7 +18601,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 40.64 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18447,6 +18755,68 @@
 			(project ""
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ShieldArduino_Semaforo-rescue:GND-power")
+		(at 204.47 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51808b56-fbfe-4997-95be-0f41d2c07a15")
+		(property "Reference" "#PWR022"
+			(at 204.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3190ee40-2d6b-4df4-a4e1-d4b87dd03a02")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -20822,6 +21192,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 184.15 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c8118c6-d484-4638-a79f-962c8b163419")
+		(property "Reference" "R16"
+			(at 179.832 30.48 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "585fe419-17db-4286-9136-74886ea3a95c")
+		)
+		(pin "2"
+			(uuid "324fc835-2189-4065-8c59-57eafcaeb122")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 140.97 270)
 		(unit 1)
@@ -21022,6 +21461,75 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 204.47 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4d3ac44-75b4-42fb-929f-c768c06c63c0")
+		(property "Reference" "C8"
+			(at 199.39 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8424017d-82e8-4e93-9b81-47048a3417d0")
+		)
+		(pin "2"
+			(uuid "6fbd5eef-204a-49ab-80ba-83047e28779d")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "C8")
 					(unit 1)
 				)
 			)

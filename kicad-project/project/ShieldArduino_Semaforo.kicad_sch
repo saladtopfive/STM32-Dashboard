@@ -8468,7 +8468,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 237.49) (xy 191.77 241.3)
+			(xy 191.77 237.49) (xy 191.77 242.57)
 		)
 		(stroke
 			(width 0)
@@ -15995,7 +15995,7 @@
 		(uuid "98ea469e-6337-44f6-9082-6d9a7c343f8e")
 	)
 	(label "12V_in_protected"
-		(at 191.77 241.3 0)
+		(at 191.77 242.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21022,7 +21022,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
+		(property "Footprint" "footprint:SOD2613X100N"
 			(at 167.64 209.55 0)
 			(effects
 				(font
@@ -21031,7 +21031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Texas-Instruments/ESD1LIN24DYFR?qs=rQFj71Wb1eUZk7C7kdpseg%3D%3D"
 			(at 167.64 209.55 0)
 			(effects
 				(font

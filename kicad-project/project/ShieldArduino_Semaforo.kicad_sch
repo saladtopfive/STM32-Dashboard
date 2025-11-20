@@ -4968,119 +4968,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ShieldArduino_Semaforo-rescue:+3.3V-power"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "power:+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V-power_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ShieldArduino_Semaforo-rescue:+5V-power"
 			(power)
 			(pin_names
@@ -6903,6 +6790,18 @@
 		(uuid 9992222c-7dc2-4b5b-8eba-c4f846bdc853)
 	)
 	(rectangle
+		(start 318.77 152.4)
+		(end 406.4 194.31)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a6dc025-5d1b-4f7c-bc48-48c185e12060)
+	)
+	(rectangle
 		(start 12.446 -45.974)
 		(end 89.916 -4.064)
 		(stroke
@@ -7156,6 +7055,18 @@
 		)
 		(uuid "9ff205d2-4016-4d93-a862-e91871dbb0fe")
 	)
+	(text "PULL UP"
+		(exclude_from_sim no)
+		(at 330.2 156.972 0)
+		(effects
+			(font
+				(face "Calibri")
+				(size 3.9878 3.9878)
+				(bold yes)
+			)
+		)
+		(uuid "b513b95e-418d-498d-a757-5d39ca689a58")
+	)
 	(text "HIGH SPEED"
 		(exclude_from_sim no)
 		(at 183.642 156.972 0)
@@ -7261,6 +7172,12 @@
 		(uuid "154c1acd-625f-42fd-b6eb-31cb678cac4c")
 	)
 	(junction
+		(at 331.47 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16949c22-5c2c-47a4-a602-60cc94cb68c3")
+	)
+	(junction
 		(at 63.5 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7277,6 +7194,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b1b0f38-e891-4b6c-9105-89e45c3587f6")
+	)
+	(junction
+		(at 331.47 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20a4dd2e-3013-457e-9f02-a2c7b24d0391")
 	)
 	(junction
 		(at 35.56 212.09)
@@ -7345,6 +7268,12 @@
 		(uuid "33c0938e-4fd4-40b9-a3d2-c2f1766b5f25")
 	)
 	(junction
+		(at 331.47 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e50ccaf-dc86-42eb-9d5a-f800a10c092d")
+	)
+	(junction
 		(at 283.21 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7379,6 +7308,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "521a4f6b-01cf-4811-a557-c1d0d2fd7a85")
+	)
+	(junction
+		(at 331.47 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "523064db-1ef8-479f-ab9d-2bb760d7ca0f")
 	)
 	(junction
 		(at 91.44 140.97)
@@ -7475,6 +7410,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fa6b7bd-1b28-4cf5-b020-2daf50eefea2")
+	)
+	(junction
+		(at 331.47 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fc95404-6d4a-4cbe-a98a-5e7f6c51f3ac")
 	)
 	(junction
 		(at 184.15 140.97)
@@ -7585,6 +7526,12 @@
 		(uuid "cb8a71cf-43c2-40d2-b0cc-de36ec4ec973")
 	)
 	(junction
+		(at 331.47 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d464e3b4-6155-4990-b2ac-9321dee85f5a")
+	)
+	(junction
 		(at 131.445 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7601,6 +7548,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e22e82f4-8ca8-4b66-a73e-d2238a352a4c")
+	)
+	(junction
+		(at 331.47 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e356742c-3c83-4fcc-b757-9044534fc683")
 	)
 	(junction
 		(at 203.2 217.17)
@@ -7718,6 +7671,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 179.07) (xy 331.47 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024daf1a-e00c-4f49-8d30-ffd7262453c0")
+	)
+	(wire
+		(pts
 			(xy 184.15 25.4) (xy 184.15 26.67)
 		)
 		(stroke
@@ -7738,6 +7701,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 168.91) (xy 358.14 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02de88ff-842b-45f9-b972-d25bfd91ceb1")
+	)
+	(wire
+		(pts
 			(xy 73.66 193.04) (xy 73.66 196.85)
 		)
 		(stroke
@@ -7755,6 +7728,16 @@
 			(type default)
 		)
 		(uuid "04f1152a-df29-499f-a84d-fd2571867057")
+	)
+	(wire
+		(pts
+			(xy 331.47 168.91) (xy 342.9 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f06469-c7c5-4c00-ad19-3f80fd3749f2")
 	)
 	(wire
 		(pts
@@ -7938,6 +7921,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 208.28) (xy 106.68 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d6672bb-d202-42c2-b69b-b4ece3300599")
+	)
+	(wire
+		(pts
 			(xy 63.5 193.04) (xy 63.5 195.58)
 		)
 		(stroke
@@ -7955,6 +7948,16 @@
 			(type default)
 		)
 		(uuid "1e9dcad9-9d8e-414e-8ca6-3f16f88b5441")
+	)
+	(wire
+		(pts
+			(xy 326.39 173.99) (xy 331.47 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2179415a-e26b-47a3-a19c-cf10149be841")
 	)
 	(wire
 		(pts
@@ -8055,6 +8058,16 @@
 			(type default)
 		)
 		(uuid "287ecb90-f062-4445-9dda-b00768c84931")
+	)
+	(wire
+		(pts
+			(xy 347.98 176.53) (xy 358.14 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c5aeb9-93b5-49f3-b39a-ddc8f112daa7")
 	)
 	(wire
 		(pts
@@ -8205,6 +8218,16 @@
 			(type default)
 		)
 		(uuid "32a48666-8531-4edd-b796-5318b3cb96b6")
+	)
+	(wire
+		(pts
+			(xy 331.47 168.91) (xy 331.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b3ca42-e51e-4289-90b8-d723eac820f9")
 	)
 	(wire
 		(pts
@@ -8538,6 +8561,26 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 179.07) (xy 358.14 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6ad4ca-79bb-4c8e-9734-e4bb663cab1e")
+	)
+	(wire
+		(pts
+			(xy 347.98 161.29) (xy 358.14 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc4a4f9-5cf8-4d51-8586-d78c33fa0c78")
+	)
+	(wire
+		(pts
 			(xy 350.52 67.31) (xy 358.14 67.31)
 		)
 		(stroke
@@ -8605,6 +8648,16 @@
 			(type default)
 		)
 		(uuid "55ee07fa-5414-4fec-a239-599fedb8557e")
+	)
+	(wire
+		(pts
+			(xy 331.47 163.83) (xy 342.9 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561d90fa-3df3-4f19-995c-59f3ab298c4b")
 	)
 	(wire
 		(pts
@@ -8938,6 +8991,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 171.45) (xy 358.14 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d4dd15-0780-41a2-ad0f-8cc8b327c78d")
+	)
+	(wire
+		(pts
 			(xy 143.51 49.53) (xy 147.32 49.53)
 		)
 		(stroke
@@ -8965,6 +9028,16 @@
 			(type default)
 		)
 		(uuid "757471aa-9a22-4672-b6bb-4599a96efd15")
+	)
+	(wire
+		(pts
+			(xy 347.98 184.15) (xy 358.14 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7579748b-8d59-480b-9f1a-de0c5866e494")
 	)
 	(wire
 		(pts
@@ -9118,6 +9191,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 179.07) (xy 342.9 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cedbba9-517d-4ee3-b958-be69f46d6fe7")
+	)
+	(wire
+		(pts
 			(xy 223.52 161.29) (xy 223.52 165.1)
 		)
 		(stroke
@@ -9228,6 +9311,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 184.15) (xy 342.9 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852c12a0-c790-4917-a437-12369befa12e")
+	)
+	(wire
+		(pts
 			(xy 295.91 182.88) (xy 283.21 182.88)
 		)
 		(stroke
@@ -9315,6 +9408,16 @@
 			(type default)
 		)
 		(uuid "8a988c98-5bb1-4fa4-b148-a5baa320a29a")
+	)
+	(wire
+		(pts
+			(xy 331.47 161.29) (xy 342.9 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6b149f-e2a5-4b31-8b8b-068e2e3d3274")
 	)
 	(wire
 		(pts
@@ -9678,6 +9781,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 171.45) (xy 342.9 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af43db95-f380-47ed-a421-0f2ba38d4697")
+	)
+	(wire
+		(pts
 			(xy 184.15 104.14) (xy 172.72 104.14)
 		)
 		(stroke
@@ -9705,6 +9818,16 @@
 			(type default)
 		)
 		(uuid "b1c9bf9f-d93e-4315-9644-82cc229d90b8")
+	)
+	(wire
+		(pts
+			(xy 331.47 176.53) (xy 342.9 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ca956a-336c-4dc0-9446-3fd92a42364c")
 	)
 	(wire
 		(pts
@@ -9918,6 +10041,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 176.53) (xy 331.47 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fd4315-f2c4-4d80-b9fa-f3010b0d5cf7")
+	)
+	(wire
+		(pts
 			(xy 275.59 166.37) (xy 283.21 166.37)
 		)
 		(stroke
@@ -9945,6 +10078,16 @@
 			(type default)
 		)
 		(uuid "ca1f886b-0ed3-4f3a-9c43-31e8b707d829")
+	)
+	(wire
+		(pts
+			(xy 331.47 171.45) (xy 331.47 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3a9218-ebe7-4f15-b212-cc9343640bb4")
 	)
 	(wire
 		(pts
@@ -9985,6 +10128,16 @@
 			(type default)
 		)
 		(uuid "cd1490ad-ac25-4e22-865b-fba9eebb6610")
+	)
+	(wire
+		(pts
+			(xy 347.98 186.69) (xy 358.14 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2f882e-7366-419a-923a-082e4425cafe")
 	)
 	(wire
 		(pts
@@ -10125,6 +10278,16 @@
 			(type default)
 		)
 		(uuid "d8903110-6cb8-4847-a02b-63257c0e54d0")
+	)
+	(wire
+		(pts
+			(xy 347.98 163.83) (xy 358.14 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d909ed23-bc71-4e6b-adcb-d12afd105eb1")
 	)
 	(wire
 		(pts
@@ -10298,6 +10461,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 186.69) (xy 342.9 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e10626-0680-4ea5-81ed-d08ee1555104")
+	)
+	(wire
+		(pts
 			(xy 210.82 170.18) (xy 215.9 170.18)
 		)
 		(stroke
@@ -10328,6 +10501,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 163.83) (xy 331.47 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cd00ae-2701-4c71-aa03-f9565ebf1d05")
+	)
+	(wire
+		(pts
 			(xy 204.47 26.67) (xy 204.47 22.86)
 		)
 		(stroke
@@ -10345,6 +10528,16 @@
 			(type default)
 		)
 		(uuid "e7b0b33a-e278-4b2c-a2a5-08bf2ce1fbb8")
+	)
+	(wire
+		(pts
+			(xy 331.47 171.45) (xy 331.47 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb939ea-913d-4678-b88d-ba9881858c6f")
 	)
 	(wire
 		(pts
@@ -10455,6 +10648,26 @@
 			(type default)
 		)
 		(uuid "f46bce22-22de-4b86-b593-50dd2f969745")
+	)
+	(wire
+		(pts
+			(xy 331.47 173.99) (xy 331.47 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48d3bba-b8f5-4be1-92cb-cfc14ccab06a")
+	)
+	(wire
+		(pts
+			(xy 331.47 184.15) (xy 331.47 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f772c0b7-be1e-40cb-9fb1-c0a924f082ab")
 	)
 	(wire
 		(pts
@@ -15405,7 +15618,7 @@
 		)
 	)
 	(label "reverse"
-		(at 281.94 128.27 180)
+		(at 281.94 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15415,7 +15628,7 @@
 		(uuid "0197c1f9-a71e-42e5-bdd9-ab8670f7abf0")
 	)
 	(label "throttle_in"
-		(at 281.94 104.14 180)
+		(at 281.94 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15443,6 +15656,16 @@
 			(justify right bottom)
 		)
 		(uuid "08925784-42f5-46d1-b052-f31881f191bb")
+	)
+	(label "11(**/MOSI)"
+		(at 358.14 186.69 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c93471a-c471-4c63-882b-6ec384fda5df")
 	)
 	(label "A3"
 		(at 260.35 72.39 180)
@@ -15545,7 +15768,7 @@
 		(uuid "2a869ff0-2db0-4890-b7dd-4dbf7b188a8c")
 	)
 	(label "brake_in"
-		(at 281.94 109.22 180)
+		(at 281.94 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15594,8 +15817,18 @@
 		)
 		(uuid "3ff1c56c-2fb3-4861-9068-bc1cc1740c86")
 	)
+	(label "UART_RX"
+		(at 358.14 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "435b8baa-edd8-4acc-90c7-8a00abfecb2f")
+	)
 	(label "inverter_signal_5V"
-		(at 281.94 115.57 180)
+		(at 281.94 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15705,7 +15938,7 @@
 		(uuid "57087b14-f26f-4d3b-a826-0276e80127aa")
 	)
 	(label "high_speed"
-		(at 281.94 138.43 180)
+		(at 281.94 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15714,8 +15947,18 @@
 		)
 		(uuid "58763433-3a59-4df0-ab81-6ccf2784c092")
 	)
+	(label "UART_TX"
+		(at 358.14 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59586f1f-cfba-40f1-a5c7-5010dda550f0")
+	)
 	(label " relay_in"
-		(at 281.94 123.19 180)
+		(at 281.94 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15784,6 +16027,16 @@
 		)
 		(uuid "6a46ffff-efb3-4472-ac2e-343d7fafc97b")
 	)
+	(label "UART_TX"
+		(at 209.55 -52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fbd232a-a849-409d-bbfa-3d2fc6e74429")
+	)
 	(label "STM_DAC_IN"
 		(at 125.73 46.99 180)
 		(effects
@@ -15804,6 +16057,26 @@
 		)
 		(uuid "7696df3a-13ca-40f4-a1ba-ae6a56428f4d")
 	)
+	(label "CAN_RX"
+		(at 358.14 168.91 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "78d62e22-61ae-4dd2-9b6c-0d79c1e2711c")
+	)
+	(label "13(SCK)"
+		(at 358.14 184.15 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "79591f33-57a6-4510-a486-9990aafed918")
+	)
 	(label "low_speed"
 		(at 347.98 36.83 180)
 		(effects
@@ -15823,6 +16096,26 @@
 			(justify right bottom)
 		)
 		(uuid "7b1e903d-0ad1-44ea-8be7-ead6e76f4621")
+	)
+	(label "CAN_TX"
+		(at 358.14 171.45 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c4b3a4e-28b9-48a8-ad6b-3f68d91ede7b")
+	)
+	(label "UART_RX"
+		(at 209.55 -49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f922edb-4ab4-4ad1-8cb7-0c1be624c957")
 	)
 	(label "signal_reverse"
 		(at 120.65 170.18 180)
@@ -15854,8 +16147,18 @@
 		)
 		(uuid "8c55423a-9e88-4ef7-859a-e08aa57f1ed3")
 	)
+	(label "A4(SDA)"
+		(at 358.14 179.07 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cacc6a0-3b02-488f-9054-4047a4688bbb")
+	)
 	(label "low_speed"
-		(at 281.94 133.35 180)
+		(at 281.94 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15944,6 +16247,26 @@
 		)
 		(uuid "a27f9b83-b7fa-4fd9-8194-1687a30a5588")
 	)
+	(label "A5(SCL)"
+		(at 281.94 146.05 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "a417780e-ba5f-4495-94f6-a644b5f710eb")
+	)
+	(label "A5(SCL)"
+		(at 358.14 176.53 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "a46d78c7-6f8d-4109-af8e-931b3f3bab77")
+	)
 	(label "brake_in"
 		(at 74.93 22.86 180)
 		(effects
@@ -16004,6 +16327,16 @@
 		)
 		(uuid "bfb52a82-32d0-421b-934b-897cdddff5e9")
 	)
+	(label "UART_RX"
+		(at 396.24 308.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0eda185-a48e-4d89-9a9d-7cb3d1dabc85")
+	)
 	(label "IOREF"
 		(at 260.35 44.45 180)
 		(effects
@@ -16053,6 +16386,16 @@
 			(justify right bottom)
 		)
 		(uuid "cfe60813-1034-445e-b593-c2786eeb57b7")
+	)
+	(label "UART_TX"
+		(at 396.24 311.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dac23e1c-f472-475d-99be-1e42a41105b1")
 	)
 	(label "12V_in_protected"
 		(at 46.99 173.99 180)
@@ -16194,6 +16537,16 @@
 		)
 		(uuid "f691bda2-56ae-4d77-97a0-0d167863fc63")
 	)
+	(label "A4(SDA)"
+		(at 281.94 139.7 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "f89bae9d-9f15-44bc-936a-19ce8c7f4483")
+	)
 	(label "UART_RX"
 		(at 290.83 74.93 0)
 		(effects
@@ -16312,68 +16665,6 @@
 			(project ""
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ShieldArduino_Semaforo-rescue:+3.3V-power")
-		(at 260.35 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000056d70538")
-		(property "Reference" "#PWR032"
-			(at 264.16 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 254.762 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdfa8deb-4b39-412b-9d02-9e58a5a9d422")
-		)
-		(instances
-			(project ""
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -17130,68 +17421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ShieldArduino_Semaforo-rescue:+3.3V-power")
-		(at 215.9 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "003479b6-9b1a-463f-acfb-1422ddaeb41a")
-		(property "Reference" "#PWR044"
-			(at 215.9 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 215.9 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4ebd738-7b1d-4821-b725-d274c3c55313")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 175.26 25.4 0)
 		(unit 1)
@@ -17327,7 +17556,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 285.75 115.57 0)
+		(at 285.75 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17335,7 +17564,7 @@
 		(dnp no)
 		(uuid "066b9403-5408-4a47-9ec7-2cbd0531678b")
 		(property "Reference" "D3"
-			(at 286.004 112.776 0)
+			(at 286.004 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17343,7 +17572,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 285.75 111.76 0)
+			(at 285.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17352,7 +17581,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 285.75 115.57 0)
+			(at 285.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17361,7 +17590,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 285.75 115.57 0)
+			(at 285.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17370,7 +17599,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 285.75 115.57 0)
+			(at 285.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17379,7 +17608,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 285.75 115.57 0)
+			(at 285.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17467,6 +17696,74 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 345.44 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e2c7a7b-3a96-411d-a6f7-2037fe77fda8")
+		(property "Reference" "R27"
+			(at 345.44 166.37 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.44 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 345.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 345.44 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e59dd2b2-1097-4c04-9331-cf903162bdea")
+		)
+		(pin "2"
+			(uuid "3d936b34-e847-4cb1-9aeb-01a934fa7c09")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -18010,17 +18307,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 289.56 123.19 90)
+		(lib_id "power:+3.3V")
+		(at 215.9 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a3d6d9e-72a3-4bc3-88cb-5d691eef3ee2")
-		(property "Reference" "#PWR07"
-			(at 295.91 123.19 0)
+		(uuid "19dcdfba-bdb6-45d3-88ce-abff2e7344ee")
+		(property "Reference" "#PWR029"
+			(at 215.9 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18028,8 +18324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 294.64 123.19 0)
+		(property "Value" "+3.3V"
+			(at 215.9 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18037,7 +18333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 123.19 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18046,7 +18342,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 123.19 0)
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adf4ea3c-d611-452d-b0b2-9425070f5af8")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a3d6d9e-72a3-4bc3-88cb-5d691eef3ee2")
+		(property "Reference" "#PWR07"
+			(at 295.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 294.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18055,7 +18417,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 123.19 0)
+			(at 289.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18855,7 +19217,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 289.56 138.43 90)
+		(at 289.56 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18864,7 +19226,7 @@
 		(fields_autoplaced yes)
 		(uuid "3919f381-8753-41d1-afa0-fb48cf123753")
 		(property "Reference" "#PWR035"
-			(at 295.91 138.43 0)
+			(at 295.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18873,7 +19235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.64 138.43 0)
+			(at 294.64 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18881,7 +19243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 138.43 0)
+			(at 289.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18890,7 +19252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 138.43 0)
+			(at 289.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18899,7 +19261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 138.43 0)
+			(at 289.56 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19052,8 +19414,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 345.44 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb1ed3e-2c9b-4626-b3ac-4b85dd63a605")
+		(property "Reference" "R25"
+			(at 345.44 158.75 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.44 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 345.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 345.44 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf4aacb5-45a1-40df-8a61-9be2cdaa38c0")
+		)
+		(pin "2"
+			(uuid "bdfa880c-623e-4c2c-b449-10c59ee3afc1")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
-		(at 285.75 104.14 0)
+		(at 285.75 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19061,7 +19491,7 @@
 		(dnp no)
 		(uuid "3ea2aaae-662b-4ac4-9546-e2ce71c04db6")
 		(property "Reference" "D13"
-			(at 285.75 101.6 0)
+			(at 285.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19069,7 +19499,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 285.75 100.33 0)
+			(at 285.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19078,7 +19508,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 285.75 104.14 0)
+			(at 285.75 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19087,7 +19517,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 285.75 104.14 0)
+			(at 285.75 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19096,7 +19526,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 285.75 104.14 0)
+			(at 285.75 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19105,7 +19535,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 285.75 104.14 0)
+			(at 285.75 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19257,8 +19687,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 345.44 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "436533af-348e-4f40-91cd-ee06874ccc47")
+		(property "Reference" "R24"
+			(at 345.44 156.21 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.44 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 345.44 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 345.44 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d855fe72-6abe-4703-af2a-23c7dc9e81fc")
+		)
+		(pin "2"
+			(uuid "51ffc8f4-e536-498c-95db-673a12b66ad5")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 345.44 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44d5b708-e0fd-4750-8f81-7128f21dd4de")
+		(property "Reference" "R29"
+			(at 345.44 173.99 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.44 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 345.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 345.44 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bda0bf9a-0359-47d5-8dc5-a0141887f5f7")
+		)
+		(pin "2"
+			(uuid "b6dd3e09-48f8-4bcf-8f3a-bb4cf7df4e88")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_TVS")
-		(at 285.75 109.22 0)
+		(at 285.75 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19266,7 +19832,7 @@
 		(dnp no)
 		(uuid "4735d184-eb33-4e0b-8e15-e2da2d7e1bd9")
 		(property "Reference" "D11"
-			(at 286.004 106.426 0)
+			(at 286.004 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19274,7 +19840,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 285.75 105.41 0)
+			(at 285.75 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19283,7 +19849,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 285.75 109.22 0)
+			(at 285.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19292,7 +19858,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 285.75 109.22 0)
+			(at 285.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19301,7 +19867,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 285.75 109.22 0)
+			(at 285.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19310,7 +19876,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 285.75 109.22 0)
+			(at 285.75 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20002,7 +20568,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 285.75 138.43 0)
+		(at 285.75 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20010,7 +20576,7 @@
 		(dnp no)
 		(uuid "53b6c4bb-bdf9-4b8d-a82a-8ea7442e4444")
 		(property "Reference" "D12"
-			(at 285.75 135.89 0)
+			(at 285.75 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20018,7 +20584,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 285.75 134.62 0)
+			(at 285.75 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20027,7 +20593,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 285.75 138.43 0)
+			(at 285.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20036,7 +20602,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 285.75 138.43 0)
+			(at 285.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20045,7 +20611,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 285.75 138.43 0)
+			(at 285.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20054,7 +20620,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 285.75 138.43 0)
+			(at 285.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20206,6 +20772,74 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 345.44 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58503c8b-33a0-43df-8aec-c32f1960889d")
+		(property "Reference" "R28"
+			(at 345.44 171.45 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.44 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 345.44 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 345.44 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05b9ab5a-d2e5-41f3-9710-e1e283fea0e4")
+		)
+		(pin "2"
+			(uuid "de5f04c1-9019-4d95-aa9b-51c20dc3ff4c")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -20515,7 +21149,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 289.56 104.14 90)
+		(at 289.56 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20524,7 +21158,7 @@
 		(fields_autoplaced yes)
 		(uuid "5beb0f8d-7022-4063-8f54-aca1c18e49cb")
 		(property "Reference" "#PWR036"
-			(at 295.91 104.14 0)
+			(at 295.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20533,7 +21167,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.64 104.14 0)
+			(at 294.64 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20541,7 +21175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 104.14 0)
+			(at 289.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20550,7 +21184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 104.14 0)
+			(at 289.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20559,7 +21193,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 104.14 0)
+			(at 289.56 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20574,6 +21208,71 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 326.39 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c9554a2-27bd-4169-a7cc-03ae5969ff77")
+		(property "Reference" "#PWR027"
+			(at 330.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 324.104 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92ac8d5c-f2fa-47f7-ad73-ba62b0adc615")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -21064,7 +21763,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 285.75 133.35 0)
+		(at 285.75 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21072,7 +21771,7 @@
 		(dnp no)
 		(uuid "6d1bf547-22c9-40e5-8eb6-12202620dc8d")
 		(property "Reference" "D2"
-			(at 285.75 130.81 0)
+			(at 285.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21080,7 +21779,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 285.75 129.54 0)
+			(at 285.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21089,7 +21788,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 285.75 133.35 0)
+			(at 285.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21098,7 +21797,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 285.75 133.35 0)
+			(at 285.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21107,7 +21806,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 285.75 133.35 0)
+			(at 285.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21116,7 +21815,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 285.75 133.35 0)
+			(at 285.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21134,6 +21833,74 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 345.44 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6db3d994-c62a-4cbc-8af3-2e298c24e432")
+		(property "Reference" "R31"
+			(at 345.44 181.61 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.44 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 345.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1421ec3d-1ff8-4c4b-b678-166694cb25a0")
+		)
+		(pin "2"
+			(uuid "b17057c9-3625-44d2-9522-8b6353605fd3")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -21944,6 +22711,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 260.35 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "889aa1d9-20b9-48d9-94c0-c78fbcf470b0")
+		(property "Reference" "#PWR023"
+			(at 264.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 254.762 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68f2ca9f-9e92-4dad-8e50-f831a93a716b")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint_Small")
 		(at 143.51 49.53 0)
 		(unit 1)
@@ -22285,7 +23117,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 289.56 115.57 90)
+		(at 289.56 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22294,7 +23126,7 @@
 		(fields_autoplaced yes)
 		(uuid "91b56d9d-23e2-4a3a-b707-d7a2f170131b")
 		(property "Reference" "#PWR015"
-			(at 295.91 115.57 0)
+			(at 295.91 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22303,7 +23135,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.64 115.57 0)
+			(at 294.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22311,7 +23143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 115.57 0)
+			(at 289.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22320,7 +23152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 115.57 0)
+			(at 289.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22329,7 +23161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 115.57 0)
+			(at 289.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22774,7 +23606,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 285.75 123.19 0)
+		(at 285.75 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22782,7 +23614,7 @@
 		(dnp no)
 		(uuid "a39f7a1f-b0e2-4965-a98a-1c3cce361936")
 		(property "Reference" "D4"
-			(at 285.75 120.65 0)
+			(at 285.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22790,7 +23622,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 285.75 119.38 0)
+			(at 285.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22799,7 +23631,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 285.75 123.19 0)
+			(at 285.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22808,7 +23640,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 285.75 123.19 0)
+			(at 285.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22817,7 +23649,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 285.75 123.19 0)
+			(at 285.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22826,7 +23658,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 285.75 123.19 0)
+			(at 285.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23020,7 +23852,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 289.56 133.35 90)
+		(at 289.56 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23029,7 +23861,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9b14a62-6100-477e-b9bf-852d3d591246")
 		(property "Reference" "#PWR01"
-			(at 295.91 133.35 0)
+			(at 295.91 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23038,7 +23870,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.64 133.35 0)
+			(at 294.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23046,7 +23878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 133.35 0)
+			(at 289.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23055,7 +23887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 133.35 0)
+			(at 289.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23064,7 +23896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 133.35 0)
+			(at 289.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23079,6 +23911,151 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 285.75 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab4ce58a-261d-4ecf-9ae4-457d26940aa3")
+		(property "Reference" "D10"
+			(at 285.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V"
+			(at 285.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 285.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
+			(at 285.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 285.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 285.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63fa3b7c-b3ae-4513-a629-52cca0a4556f")
+		)
+		(pin "2"
+			(uuid "d54ded5c-54d5-4c0d-8c1b-c31b81609828")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 345.44 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abab8feb-ba7b-4544-8933-81733b41658b")
+		(property "Reference" "R30"
+			(at 345.44 179.07 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.44 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 345.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 345.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd53c6fb-bdad-41fa-a469-29e92e2b2fc8")
+		)
+		(pin "2"
+			(uuid "5935ddf7-a66c-4bd6-8b81-699bec3f8576")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -23213,16 +24190,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ShieldArduino_Semaforo-rescue:+3.3V-power")
-		(at 106.68 212.09 0)
+		(lib_id "power:GND")
+		(at 289.56 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "aff6e960-75d2-4a19-9553-cf69bb86e157")
-		(property "Reference" "#PWR026"
-			(at 106.68 215.9 0)
+		(fields_autoplaced yes)
+		(uuid "ad4f3c49-b8b3-4687-a169-5e8b414583f5")
+		(property "Reference" "#PWR044"
+			(at 295.91 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23230,8 +24208,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 106.68 208.28 0)
+		(property "Value" "GND"
+			(at 294.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23239,36 +24217,39 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 212.09 0)
+			(at 289.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 212.09 0)
+			(at 289.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 106.68 212.09 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 289.56 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "5733f8ea-e7a3-40f7-993d-95d794974767")
+			(uuid "aba9de8d-0da4-42e0-bdf6-cd9486f82ce2")
 		)
 		(instances
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "#PWR026")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -23482,7 +24463,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 285.75 128.27 0)
+		(at 285.75 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23490,7 +24471,7 @@
 		(dnp no)
 		(uuid "ba06beeb-7cc7-47e3-9263-1d4aabb52cd6")
 		(property "Reference" "D1"
-			(at 285.75 125.984 0)
+			(at 285.75 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23498,7 +24479,7 @@
 			)
 		)
 		(property "Value" "6V"
-			(at 285.75 124.46 0)
+			(at 285.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23507,7 +24488,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 285.75 128.27 0)
+			(at 285.75 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23516,7 +24497,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
-			(at 285.75 128.27 0)
+			(at 285.75 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23525,7 +24506,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 285.75 128.27 0)
+			(at 285.75 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23534,7 +24515,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 285.75 128.27 0)
+			(at 285.75 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23559,7 +24540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 289.56 128.27 90)
+		(at 289.56 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23568,7 +24549,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb4edac5-5cff-4b05-a1db-79ebc77b5fc8")
 		(property "Reference" "#PWR04"
-			(at 295.91 128.27 0)
+			(at 295.91 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23577,7 +24558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.64 128.27 0)
+			(at 294.64 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23585,7 +24566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 128.27 0)
+			(at 289.56 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23594,7 +24575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 128.27 0)
+			(at 289.56 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23603,7 +24584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 128.27 0)
+			(at 289.56 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23887,6 +24868,74 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 345.44 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be8e084f-80ad-4ce6-8ea8-a9f3331adef8")
+		(property "Reference" "R26"
+			(at 345.44 163.83 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 345.44 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 345.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 345.44 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa78788a-1052-48d6-b398-0e22ad6689dd")
+		)
+		(pin "2"
+			(uuid "f8bd55ac-d94d-4ab4-8baa-188e58ba53f9")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -24326,7 +25375,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 289.56 109.22 90)
+		(at 289.56 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24335,7 +25384,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd8716c1-ddcb-4096-849e-952d98f29c1e")
 		(property "Reference" "#PWR030"
-			(at 295.91 109.22 0)
+			(at 295.91 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24344,7 +25393,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 294.64 109.22 0)
+			(at 294.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24352,7 +25401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 109.22 0)
+			(at 289.56 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24361,7 +25410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 109.22 0)
+			(at 289.56 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24370,7 +25419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 289.56 109.22 0)
+			(at 289.56 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24667,6 +25716,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 106.68 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0f0a092-e101-4d00-9dc0-fb50bf2cfb4a")
+		(property "Reference" "#PWR026"
+			(at 106.68 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 106.68 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fe08df0-8166-4c4b-9678-15a7a99d936b")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 189.23 120.65 0)
 		(unit 1)
@@ -24951,6 +26065,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 285.75 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4e49e06-98cd-43e2-a182-872782b80d98")
+		(property "Reference" "D14"
+			(at 285.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6V"
+			(at 285.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 285.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Littelfuse/SZSMF6L6.0AT3G?qs=NeOn4crkEuuL8kPOknXE%2Fw%3D%3D"
+			(at 285.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 285.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 285.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bffa9da-a935-4237-9420-7936c4647c21")
+		)
+		(pin "2"
+			(uuid "8dde858e-600a-453b-bae4-1c9b3e829a60")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
 		(at 200.66 49.53 0)
 		(unit 1)
@@ -25145,6 +26336,72 @@
 			(project "ShieldArduino_Semaforo"
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db2b2e9d-b782-487e-b28e-a60e81ab2508")
+		(property "Reference" "#PWR032"
+			(at 295.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 294.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 289.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f6546e4-a3bd-4168-bb23-c05e4f75f665")
+		)
+		(instances
+			(project "ShieldArduino_Semaforo"
+				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)

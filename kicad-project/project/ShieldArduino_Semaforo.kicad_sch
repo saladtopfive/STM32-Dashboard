@@ -7693,12 +7693,20 @@
 		(uuid "36700a85-7029-47cc-9b72-534a8acfd0c7")
 	)
 	(no_connect
+		(at 358.14 69.85)
+		(uuid "508b7cdf-691e-4dfc-b7fa-76a587d74c33")
+	)
+	(no_connect
 		(at 302.26 22.86)
 		(uuid "8fc55356-71ea-459f-890f-216b3bd95452")
 	)
 	(no_connect
 		(at 307.34 22.86)
 		(uuid "ac1785d3-7857-4ac4-b74c-35f8f7b72dc7")
+	)
+	(no_connect
+		(at 358.14 72.39)
+		(uuid "acf22ad8-3c5b-420e-bd88-ce53b453ecc2")
 	)
 	(no_connect
 		(at 309.88 22.86)
@@ -9490,16 +9498,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 69.85) (xy 358.14 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c6b36f0-e6bd-4582-b2b1-fe7e38ff626a")
-	)
-	(wire
-		(pts
 			(xy 172.72 125.73) (xy 172.72 140.97)
 		)
 		(stroke
@@ -10407,16 +10405,6 @@
 			(type default)
 		)
 		(uuid "f0d1575d-b55f-4baa-891a-7aa83a2e305d")
-	)
-	(wire
-		(pts
-			(xy 349.25 72.39) (xy 358.14 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f16eaa06-151c-44b2-97ab-b6c7e60ec8a3")
 	)
 	(wire
 		(pts
@@ -15767,7 +15755,7 @@
 		(uuid "65b2c068-922a-48cb-9659-35ba22d1d48e")
 	)
 	(label "A5(SCL)"
-		(at 349.25 72.39 180)
+		(at 350.52 59.69 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -15777,7 +15765,7 @@
 		(uuid "67f14ce5-49d9-4d53-a984-246ff2e9b1b6")
 	)
 	(label "A4(SDA)"
-		(at 349.25 69.85 180)
+		(at 358.14 49.53 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -21296,72 +21284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 350.52 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72f90b0c-1b11-4251-b9e8-83310a56f195")
-		(property "Reference" "#PWR027"
-			(at 354.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 346.456 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 350.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "119927c2-024c-4586-a5f1-ed055ceaf14d")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 88.9 38.1 0)
 		(unit 1)
@@ -24327,72 +24249,6 @@
 			(project ""
 				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 358.14 49.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc4dba56-b305-4e7f-a5d2-2b5c9ee5f2ed")
-		(property "Reference" "#PWR029"
-			(at 351.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 354.838 49.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 358.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 358.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7310a2e1-0b87-45f1-b68f-0e3ed4e8a3ab")
-		)
-		(instances
-			(project "ShieldArduino_Semaforo"
-				(path "/9ffb0a36-b6c4-4251-92f7-01d561ef1727"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)

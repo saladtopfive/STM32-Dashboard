@@ -546,10 +546,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../../../../Users/ignac/Desktop/kicad-gerber/",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ShieldArduino_Semaforo.step",
+      "step": "step/ShieldArduino_Semaforo.step",
       "svg": "",
       "vrml": ""
     },

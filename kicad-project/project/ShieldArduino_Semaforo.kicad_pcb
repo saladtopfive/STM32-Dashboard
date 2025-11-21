@@ -132,7 +132,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../../../../../../Users/ignac/Desktop/kicad-gerber/")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")

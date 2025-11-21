@@ -21984,7 +21984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:PR412V4501A"
+		(property "Footprint" "footprint:RE034012"
 			(at 80.01 186.69 0)
 			(effects
 				(font
@@ -21994,7 +21994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Same-Sky/PR4-12V-450-1A?qs=T%2BzbugeAwjjCCwvXyr7kQA%3D%3D"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/TE-Connectivity/RE034012?qs=9VCAlN3zIjnPkD8RaiRpIA%3D%3D"
 			(at 86.36 189.23 0)
 			(effects
 				(font

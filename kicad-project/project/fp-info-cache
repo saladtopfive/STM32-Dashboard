@@ -1,4 +1,4 @@
-26752411724437630
+26754175474152613
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106444,6 +106444,13 @@ Connector
 footprint
 PR412V4501A
 18.2mm x 10.2mm x 15.5mm
+Relay or Contactor
+0
+4
+4
+footprint
+RE034012
+RE034012-1
 Relay or Contactor
 0
 4

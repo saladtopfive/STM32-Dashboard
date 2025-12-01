@@ -49,13 +49,15 @@ The objective of this work is to provide a **robust, responsive, and intuitive i
 
 As part of the project, a custom **Arduino Shield** is being developed to handle all sensor inputs, signal routing, and electrical interfacing between the go-kart hardware and the STM32 dashboard.  
 
-A full description of the PCB, schematics, and connection layout will be added as the hardware design progresses.
+### KiCad Schematic Preview
+
+<img width="1910" height="1132" alt="kicad_schematic" src="https://github.com/user-attachments/assets/4fd876d4-188f-4809-ac2c-20aef8e32b69" />
+
 
 ### KiCad 3D Model Preview
 
-*(Placeholder for 3D model render — will be added soon)*
+<img width="1880" height="1242" alt="3d-render" src="https://github.com/user-attachments/assets/117e01ed-9ab8-4378-8149-d1702311744b" />
 
-![3D-model-placeholder](./docs/images/pcb_model_placeholder.png)
 
 
 ## Development Notes  

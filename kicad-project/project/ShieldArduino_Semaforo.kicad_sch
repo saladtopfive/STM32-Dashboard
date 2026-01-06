@@ -7985,7 +7985,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 54.61) (xy 358.14 54.61)
+			(xy 350.52 54.61) (xy 358.14 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8405,7 +8405,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 41.91) (xy 358.14 41.91)
+			(xy 350.52 41.91) (xy 358.14 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8455,6 +8455,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 44.45) (xy 358.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c288a3-ac15-4bdf-b728-1c20110992df")
+	)
+	(wire
+		(pts
 			(xy 356.87 185.42) (xy 351.79 185.42)
 		)
 		(stroke
@@ -8485,7 +8495,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 36.83) (xy 358.14 36.83)
+			(xy 350.52 36.83) (xy 358.14 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8592,16 +8602,6 @@
 			(type default)
 		)
 		(uuid "4ec17db3-8ae7-4d79-a7a5-5ac89d4af226")
-	)
-	(wire
-		(pts
-			(xy 350.52 67.31) (xy 358.14 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50d88297-5967-48f7-b49e-94958b219a10")
 	)
 	(wire
 		(pts
@@ -8905,7 +8905,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 62.23) (xy 358.14 62.23)
+			(xy 350.52 62.23) (xy 358.14 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9282,6 +9282,16 @@
 			(type default)
 		)
 		(uuid "809a6f1b-2820-4419-8e99-f27fec69d62e")
+	)
+	(wire
+		(pts
+			(xy 350.52 29.21) (xy 358.14 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813065b1-ddfa-478d-8ca8-8ea533348355")
 	)
 	(wire
 		(pts
@@ -9935,7 +9945,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 39.37) (xy 358.14 39.37)
+			(xy 350.52 39.37) (xy 358.14 39.37)
 		)
 		(stroke
 			(width 0)
@@ -10385,6 +10395,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 49.53) (xy 358.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de309b4d-7314-43b6-867d-1069dfb27da0")
+	)
+	(wire
+		(pts
 			(xy 375.92 124.46) (xy 383.54 124.46)
 		)
 		(stroke
@@ -10605,6 +10625,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 46.99) (xy 358.14 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f169f65a-0a14-4149-a529-99ebbfece7ab")
+	)
+	(wire
+		(pts
 			(xy 76.2 36.83) (xy 76.2 40.64)
 		)
 		(stroke
@@ -10652,6 +10682,16 @@
 			(type default)
 		)
 		(uuid "f46bce22-22de-4b86-b593-50dd2f969745")
+	)
+	(wire
+		(pts
+			(xy 350.52 57.15) (xy 358.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72222e4-23bb-4cf4-9146-6fe66e7dd119")
 	)
 	(wire
 		(pts
@@ -15702,7 +15742,7 @@
 		(uuid "1896c366-8a8d-4d2c-ad13-d5c8699fa50e")
 	)
 	(label "12V_in"
-		(at 358.14 29.21 180)
+		(at 350.52 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15792,7 +15832,7 @@
 		(uuid "3ee33a52-290c-4542-8974-bfeaefaa2979")
 	)
 	(label "throttle_in"
-		(at 349.25 54.61 180)
+		(at 350.52 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15852,7 +15892,7 @@
 		(uuid "4d1d3973-abbe-4c57-8915-da8fa3a7992a")
 	)
 	(label "high_speed"
-		(at 358.14 57.15 180)
+		(at 350.52 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15972,7 +16012,7 @@
 		(uuid "6554ec16-7eba-4fc5-ad25-887c4233f4cc")
 	)
 	(label "inverter_signal_5V"
-		(at 347.98 39.37 180)
+		(at 350.52 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15992,7 +16032,7 @@
 		(uuid "67f14ce5-49d9-4d53-a984-246ff2e9b1b6")
 	)
 	(label "A4(SDA)"
-		(at 358.14 49.53 180)
+		(at 350.52 49.53 180)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -16062,7 +16102,7 @@
 		(uuid "79591f33-57a6-4510-a486-9990aafed918")
 	)
 	(label "low_speed"
-		(at 347.98 36.83 180)
+		(at 350.52 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16172,7 +16212,7 @@
 		(uuid "9467a27b-82a1-4f00-a5c0-f05468fb701c")
 	)
 	(label " relay_in"
-		(at 347.98 41.91 180)
+		(at 350.52 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16202,7 +16242,7 @@
 		(uuid "98ea469e-6337-44f6-9082-6d9a7c343f8e")
 	)
 	(label "EX_CAN-"
-		(at 358.14 46.99 180)
+		(at 350.52 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16432,7 +16472,7 @@
 		(uuid "e1c4feb0-dc9f-40c3-bf53-4b73f609cbaa")
 	)
 	(label "EX_CAN+"
-		(at 358.14 44.45 180)
+		(at 350.52 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16552,7 +16592,7 @@
 		(uuid "fcbc200d-0dcb-4bdd-888b-602d729f791c")
 	)
 	(label "brake_in"
-		(at 349.25 62.23 180)
+		(at 350.52 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -26261,7 +26301,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 350.52 67.31 90)
+		(at 358.14 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26269,7 +26309,7 @@
 		(dnp no)
 		(uuid "d6309033-aa0f-4d56-8307-b36aa627b439")
 		(property "Reference" "#PWR028"
-			(at 354.33 67.31 0)
+			(at 361.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26278,7 +26318,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 346.71 67.3099 90)
+			(at 354.33 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26287,7 +26327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 350.52 67.31 0)
+			(at 358.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26296,7 +26336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 350.52 67.31 0)
+			(at 358.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26305,7 +26345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 350.52 67.31 0)
+			(at 358.14 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

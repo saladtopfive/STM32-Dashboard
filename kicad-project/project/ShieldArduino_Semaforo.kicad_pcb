@@ -7376,6 +7376,18 @@
 		)
 		(embedded_fonts no)
 		(model "ESD1LIN24DYFR.stp"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/include/model/ESD1LIN24DYFR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11787,6 +11799,18 @@
 		)
 		(embedded_fonts no)
 		(model "TLIN1039DDFRQ1.stp"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/include/model/TLIN1039DDFRQ1.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25776,6 +25800,18 @@
 		)
 		(embedded_fonts no)
 		(model "MCP4901T-E_MS.stp"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/include/model/MCP4901T-E_MS.stp"
 			(offset
 				(xyz 0 0 0)
 			)

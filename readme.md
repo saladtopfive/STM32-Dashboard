@@ -51,12 +51,14 @@ As part of the project, a custom **Arduino Shield** is being developed to handle
 
 ### KiCad Schematic Preview
 
-<img width="1910" height="1132" alt="kicad_schematic" src="https://github.com/user-attachments/assets/4fd876d4-188f-4809-ac2c-20aef8e32b69" />
+<img width="2214" height="1309" alt="kicad_schematic" src="https://github.com/user-attachments/assets/48d0d5a3-c4eb-4991-8c15-5e25d219e718" />
+
 
 
 ### KiCad 3D Model Preview
 
-<img width="1880" height="1242" alt="3d-render" src="https://github.com/user-attachments/assets/117e01ed-9ab8-4378-8149-d1702311744b" />
+<img width="1948" height="1269" alt="3d-render" src="https://github.com/user-attachments/assets/b3053609-9086-46fe-ac76-2d9abe352ecb" />
+
 
 
 

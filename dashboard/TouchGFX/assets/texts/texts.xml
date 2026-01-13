@@ -10,6 +10,18 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_HQJ1" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_P3J0" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Temp: &lt;value&gt; deg C</Translation>
+      </Text>
+      <Text Id="__SingleUse_TGFJ" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">ENGINE TEMPERATURE </Translation>
+      </Text>
+      <Text Id="__SingleUse_TND2" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">BATTERY TEMPERATURE TABLE</Translation>
+      </Text>
       <Text Id="__SingleUse_NJPP" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">false</Translation>
       </Text>
@@ -411,9 +423,6 @@
       </Text>
       <Text Id="__SingleUse_DFS2" Alignment="Left" TypographyId="kmh">
         <Translation Language="GB">BATTERY TABLE</Translation>
-      </Text>
-      <Text Id="__SingleUse_1ME6" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">TEMPERATURE TABLE</Translation>
       </Text>
       <Text Id="__SingleUse_2GC9" Alignment="Left" TypographyId="kmh">
         <Translation Language="GB">BMS ERROR TABLE</Translation>

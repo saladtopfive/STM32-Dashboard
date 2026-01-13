@@ -10,15 +10,6 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_HQJ1" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">0</Translation>
-      </Text>
-      <Text Id="__SingleUse_P3J0" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Temp: &lt;value&gt; deg C</Translation>
-      </Text>
-      <Text Id="__SingleUse_TGFJ" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">ENGINE TEMPERATURE </Translation>
-      </Text>
       <Text Id="__SingleUse_TND2" Alignment="Left" TypographyId="kmh">
         <Translation Language="GB">BATTERY TEMPERATURE TABLE</Translation>
       </Text>
@@ -156,18 +147,6 @@
       </Text>
       <Text Id="__SingleUse_PCLH" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">Die Temp: &lt;value&gt; deg C</Translation>
-      </Text>
-      <Text Id="__SingleUse_HEAL" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">0</Translation>
-      </Text>
-      <Text Id="__SingleUse_2PAK" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Ref Temp: &lt;value&gt; deg C</Translation>
-      </Text>
-      <Text Id="__SingleUse_GX7P" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">0</Translation>
-      </Text>
-      <Text Id="__SingleUse_X7MI" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Ref Temp: &lt;value&gt; deg C</Translation>
       </Text>
       <Text Id="__SingleUse_NDNE" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">Temperature 2</Translation>
@@ -422,7 +401,7 @@
         <Translation Language="GB">Cell 8: &lt;value&gt; mV</Translation>
       </Text>
       <Text Id="__SingleUse_DFS2" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">BATTERY TABLE</Translation>
+        <Translation Language="GB">BATTERY VOLTAGE TABLE</Translation>
       </Text>
       <Text Id="__SingleUse_2GC9" Alignment="Left" TypographyId="kmh">
         <Translation Language="GB">BMS ERROR TABLE</Translation>

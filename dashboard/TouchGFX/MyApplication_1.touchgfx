@@ -13,6 +13,63 @@
             "LockPosition": true
           },
           {
+            "Type": "ButtonWithLabel",
+            "Name": "SOC_EST_BUTTON",
+            "X": 37,
+            "Y": -13,
+            "Width": 150,
+            "Height": 80,
+            "Visible": false,
+            "Pressed": "__generated\\glass_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+            "Released": "__generated\\glass_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+            "TextId": "__SingleUse_R14U",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "glass_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "DRIVE_1_BUTTON",
+            "X": 127,
+            "Y": 210,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_pressed.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_action.png",
+            "IconPressed": "up_arrow.png",
+            "IconReleased": "up_arrow.png",
+            "IconX": 10,
+            "IconY": 10,
+            "IconHeight": 16,
+            "IconWidth": 16,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\micro_fill_action.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "REVERSE_BUTTON",
+            "X": 342,
+            "Y": 210,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_micro_fill_normal.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_micro_fill_disabled.png",
+            "IconPressed": "down_arrow.png",
+            "IconReleased": "down_arrow.png",
+            "IconX": 10,
+            "IconY": 13,
+            "IconHeight": 16,
+            "IconWidth": 16
+          },
+          {
             "Type": "Button",
             "Name": "ADVANCED_SCREEN_BUTTON",
             "X": 310,
@@ -25,8 +82,8 @@
           {
             "Type": "Button",
             "Name": "BATTERY_BUTTON",
-            "X": 16,
-            "Y": 140,
+            "X": 27,
+            "Y": 135,
             "Width": 36,
             "Height": 36,
             "Pressed": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_action.png",
@@ -35,8 +92,8 @@
           {
             "Type": "Button",
             "Name": "TEMP_BUTTON",
-            "X": 16,
-            "Y": 79,
+            "X": 27,
+            "Y": 74,
             "Width": 36,
             "Height": 36,
             "Pressed": "__generated\\dark_theme_images_widgets_button_icon_round_micro_outline_action.png",
@@ -45,8 +102,8 @@
           {
             "Type": "TextArea",
             "Name": "ENGTEMP_TEXT",
-            "X": 60,
-            "Y": 100,
+            "X": 71,
+            "Y": 95,
             "Width": 37,
             "Height": 18,
             "TextId": "__SingleUse_3MOD",
@@ -62,7 +119,7 @@
             "Type": "Line",
             "Name": "left_top_line",
             "X": 49,
-            "Y": 41,
+            "Y": 44,
             "Width": 130,
             "Height": 10,
             "Color": {
@@ -121,8 +178,8 @@
           {
             "Type": "Line",
             "Name": "left_box3_1_1",
-            "X": 49,
-            "Y": 69,
+            "X": 60,
+            "Y": 64,
             "Width": 106,
             "Height": 15,
             "Color": {
@@ -140,8 +197,8 @@
           {
             "Type": "Line",
             "Name": "left_box3_1_1_1",
-            "X": 49,
-            "Y": 116,
+            "X": 60,
+            "Y": 111,
             "Width": 97,
             "Height": 15,
             "Color": {
@@ -160,7 +217,7 @@
             "Type": "Line",
             "Name": "right_bottom_line",
             "X": 295,
-            "Y": 199,
+            "Y": 195,
             "Width": 130,
             "Height": 15,
             "Color": {
@@ -180,7 +237,7 @@
             "Type": "Line",
             "Name": "left_bottom_line",
             "X": 49,
-            "Y": 200,
+            "Y": 195,
             "Width": 130,
             "Height": 15,
             "Color": {
@@ -200,7 +257,7 @@
             "Type": "Line",
             "Name": "right_top_line",
             "X": 295,
-            "Y": 41,
+            "Y": 44,
             "Width": 130,
             "Height": 10,
             "Color": {
@@ -219,8 +276,8 @@
           {
             "Type": "Line",
             "Name": "left_box1",
-            "X": 49,
-            "Y": 69,
+            "X": 60,
+            "Y": 64,
             "Width": 15,
             "Height": 58,
             "Color": {
@@ -238,8 +295,8 @@
           {
             "Type": "Line",
             "Name": "left_box1_3",
-            "X": 140,
-            "Y": 69,
+            "X": 151,
+            "Y": 64,
             "Width": 15,
             "Height": 58,
             "Color": {
@@ -257,8 +314,8 @@
           {
             "Type": "Line",
             "Name": "left_box3_1_1_2",
-            "X": 49,
-            "Y": 129,
+            "X": 60,
+            "Y": 124,
             "Width": 106,
             "Height": 15,
             "Color": {
@@ -276,8 +333,8 @@
           {
             "Type": "Line",
             "Name": "left_box3_1_1_1_1",
-            "X": 49,
-            "Y": 176,
+            "X": 60,
+            "Y": 171,
             "Width": 97,
             "Height": 15,
             "Color": {
@@ -295,8 +352,8 @@
           {
             "Type": "Line",
             "Name": "left_box1_4",
-            "X": 49,
-            "Y": 129,
+            "X": 60,
+            "Y": 124,
             "Width": 15,
             "Height": 58,
             "Color": {
@@ -314,8 +371,8 @@
           {
             "Type": "Line",
             "Name": "left_box1_3_1",
-            "X": 140,
-            "Y": 129,
+            "X": 151,
+            "Y": 124,
             "Width": 15,
             "Height": 58,
             "Color": {
@@ -334,7 +391,7 @@
             "Type": "LineProgress",
             "Name": "BRAKE_BAR",
             "X": 316,
-            "Y": 66,
+            "Y": 58,
             "Width": 18,
             "Height": 100,
             "FileNameProgress": "__generated\\dark_theme_images_widgets_lineprogress_fillers_plain_thick_tiny_action_90.png",
@@ -357,7 +414,7 @@
             "Type": "LineProgress",
             "Name": "THROTTLE_BAR",
             "X": 391,
-            "Y": 66,
+            "Y": 58,
             "Width": 18,
             "Height": 100,
             "FileNameProgress": "__generated\\dark_theme_images_widgets_lineprogress_fillers_plain_thick_tiny_action_90.png",
@@ -411,7 +468,7 @@
             "Type": "TextArea",
             "Name": "ACC_TEXT",
             "X": 385,
-            "Y": 177,
+            "Y": 169,
             "Width": 31,
             "Height": 18,
             "TextId": "__SingleUse_LUWQ",
@@ -427,7 +484,7 @@
             "Type": "TextArea",
             "Name": "BRAKE_TEXT",
             "X": 310,
-            "Y": 177,
+            "Y": 169,
             "Width": 30,
             "Height": 18,
             "TextId": "__SingleUse_6E9G",
@@ -464,8 +521,8 @@
           {
             "Type": "ScalableImage",
             "Name": "TEMP_ICON",
-            "X": 16,
-            "Y": 83,
+            "X": 27,
+            "Y": 78,
             "Width": 36,
             "Height": 32,
             "Filename": "icons8-temperature-48.png",
@@ -474,8 +531,8 @@
           {
             "Type": "ScalableImage",
             "Name": "BATPROC_ICON",
-            "X": 69,
-            "Y": 8,
+            "X": 66,
+            "Y": 15,
             "Width": 41,
             "Height": 34,
             "Filename": "icons8-battery-32.png",
@@ -484,8 +541,8 @@
           {
             "Type": "TextArea",
             "Name": "BATPROC_TEXT",
-            "X": 114,
-            "Y": 12,
+            "X": 121,
+            "Y": 21,
             "Width": 35,
             "Height": 20,
             "TextId": "__SingleUse_Q5QN",
@@ -500,8 +557,8 @@
           {
             "Type": "TextArea",
             "Name": "BATTEMP",
-            "X": 103,
-            "Y": 74,
+            "X": 114,
+            "Y": 69,
             "Width": 11,
             "Height": 20,
             "TextId": "__SingleUse_62EH",
@@ -516,8 +573,8 @@
           {
             "Type": "TextArea",
             "Name": "BATTEMP_UNIT",
-            "X": 119,
-            "Y": 74,
+            "X": 130,
+            "Y": 69,
             "Width": 19,
             "Height": 20,
             "TextId": "__SingleUse_9KLQ",
@@ -532,8 +589,8 @@
           {
             "Type": "TextArea",
             "Name": "ENGTEMP_UNIT",
-            "X": 119,
-            "Y": 97,
+            "X": 130,
+            "Y": 92,
             "Width": 19,
             "Height": 20,
             "TextId": "__SingleUse_H2X2",
@@ -548,8 +605,8 @@
           {
             "Type": "TextArea",
             "Name": "ENGTEMP",
-            "X": 103,
-            "Y": 97,
+            "X": 114,
+            "Y": 92,
             "Width": 16,
             "Height": 20,
             "TextId": "__SingleUse_NG2D",
@@ -564,8 +621,8 @@
           {
             "Type": "TextArea",
             "Name": "BATTEMP_TEXT",
-            "X": 60,
-            "Y": 76,
+            "X": 71,
+            "Y": 71,
             "Width": 33,
             "Height": 18,
             "TextId": "__SingleUse_XJ2P",
@@ -719,8 +776,8 @@
           {
             "Type": "TextArea",
             "Name": "VOLTAGE_TEXT",
-            "X": 58,
-            "Y": 136,
+            "X": 69,
+            "Y": 131,
             "Width": 16,
             "Height": 18,
             "TextId": "__SingleUse_LW3T",
@@ -735,8 +792,8 @@
           {
             "Type": "TextArea",
             "Name": "CURRENT_TEXT",
-            "X": 62,
-            "Y": 158,
+            "X": 73,
+            "Y": 153,
             "Width": 9,
             "Height": 18,
             "TextId": "__SingleUse_F4TM",
@@ -751,8 +808,8 @@
           {
             "Type": "ScalableImage",
             "Name": "BATTERY_ICON",
-            "X": 19,
-            "Y": 143,
+            "X": 27,
+            "Y": 137,
             "Width": 30,
             "Height": 28,
             "Filename": "icons-battery-50.png",
@@ -761,8 +818,8 @@
           {
             "Type": "TextArea",
             "Name": "VOLTAGE",
-            "X": 84,
-            "Y": 136,
+            "X": 95,
+            "Y": 131,
             "Width": 22,
             "Height": 18,
             "TextId": "__SingleUse_I7T3",
@@ -777,8 +834,8 @@
           {
             "Type": "TextArea",
             "Name": "VOLTAGE_UNIT",
-            "X": 110,
-            "Y": 135,
+            "X": 121,
+            "Y": 130,
             "Width": 11,
             "Height": 18,
             "TextId": "__SingleUse_X7MS",
@@ -793,8 +850,8 @@
           {
             "Type": "TextArea",
             "Name": "CURRENT_UNIT",
-            "X": 110,
-            "Y": 158,
+            "X": 121,
+            "Y": 153,
             "Width": 11,
             "Height": 18,
             "TextId": "__SingleUse_LIKG",
@@ -809,11 +866,76 @@
           {
             "Type": "TextArea",
             "Name": "CURRENT",
-            "X": 84,
-            "Y": 158,
+            "X": 95,
+            "Y": 153,
             "Width": 22,
             "Height": 18,
             "TextId": "__SingleUse_O3RJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "DRIVE_2_BUTTON",
+            "X": 60,
+            "Y": 210,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_pressed.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_action.png",
+            "IconPressed": "double_up_arrow_black.png",
+            "IconReleased": "double_up_arrow_white.png",
+            "IconX": 10,
+            "IconY": 10,
+            "IconHeight": 16,
+            "IconWidth": 16,
+            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\micro_fill_action.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "DRIVE_TEXT",
+            "X": 86,
+            "Y": 246,
+            "Width": 47,
+            "Height": 18,
+            "TextId": "__SingleUse_0D4X",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "DRIVE_TEXT_1",
+            "X": 80,
+            "Y": 4,
+            "Width": 62,
+            "Height": 18,
+            "TextId": "__SingleUse_5TM7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "REVERSE_TEXT",
+            "X": 327,
+            "Y": 246,
+            "Width": 67,
+            "Height": 18,
+            "TextId": "__SingleUse_FWT0",
             "TextRotation": "0",
             "Color": {
               "Red": 255,
@@ -880,6 +1002,50 @@
         "Name": "Screen2",
         "Components": [
           {
+            "Type": "ButtonWithLabel",
+            "Name": "RELAY_BUTTON_4",
+            "X": 190,
+            "Y": 98,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_action.png",
+            "TextId": "__SingleUse_2JXY",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "RELAY_BUTTON_2",
+            "X": 190,
+            "Y": 98,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_active.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_action.png",
+            "TextId": "__SingleUse_QF70",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
             "Type": "Box",
             "Name": "background",
             "Width": 480,
@@ -889,8 +1055,8 @@
           {
             "Type": "ButtonWithLabel",
             "Name": "RELAY_BUTTON",
-            "X": 190,
-            "Y": 118,
+            "X": 192,
+            "Y": 98,
             "Width": 100,
             "Height": 36,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_active.png",
@@ -980,7 +1146,7 @@
             "Type": "TextArea",
             "Name": "Relay_status",
             "X": 198,
-            "Y": 154,
+            "Y": 134,
             "Width": 100,
             "Height": 12,
             "TextId": "__SingleUse_I8T2",

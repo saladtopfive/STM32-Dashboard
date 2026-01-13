@@ -10,6 +10,24 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_5TM7" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">SOC EST</Translation>
+      </Text>
+      <Text Id="__SingleUse_R14U" Alignment="Center" TypographyId="kmh">
+        <Translation Language="GB">SOC EST</Translation>
+      </Text>
+      <Text Id="__SingleUse_FWT0" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">REVERSE</Translation>
+      </Text>
+      <Text Id="__SingleUse_0D4X" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">DRIVE</Translation>
+      </Text>
+      <Text Id="__SingleUse_2JXY" Alignment="Center" TypographyId="kmh">
+        <Translation Language="GB">RELAY</Translation>
+      </Text>
+      <Text Id="__SingleUse_QF70" Alignment="Center" TypographyId="kmh">
+        <Translation Language="GB">RELAY</Translation>
+      </Text>
       <Text Id="__SingleUse_SH7K" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">error</Translation>
       </Text>

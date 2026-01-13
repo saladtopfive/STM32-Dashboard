@@ -637,8 +637,8 @@
           {
             "Type": "ScalableImage",
             "Name": "BMS_ICON",
-            "X": 321,
-            "Y": 10,
+            "X": 316,
+            "Y": 9,
             "Width": 26,
             "Height": 26,
             "Filename": "icons8-warning-30.png",
@@ -647,9 +647,9 @@
           {
             "Type": "TextArea",
             "Name": "BMS_TEXT",
-            "X": 357,
-            "Y": 14,
-            "Width": 34,
+            "X": 344,
+            "Y": 13,
+            "Width": 60,
             "Height": 18,
             "TextId": "__SingleUse_P0G6",
             "TextRotation": "0",
@@ -1004,8 +1004,8 @@
           {
             "Type": "ButtonWithLabel",
             "Name": "RELAY_BUTTON_4",
-            "X": 190,
-            "Y": 98,
+            "X": 186,
+            "Y": 184,
             "Width": 100,
             "Height": 36,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_active.png",
@@ -1026,8 +1026,8 @@
           {
             "Type": "ButtonWithLabel",
             "Name": "RELAY_BUTTON_2",
-            "X": 190,
-            "Y": 98,
+            "X": 186,
+            "Y": 184,
             "Width": 100,
             "Height": 36,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_active.png",
@@ -1053,10 +1053,178 @@
             "LockPosition": true
           },
           {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error_1",
+            "X": 45,
+            "Y": 55,
+            "Width": 113,
+            "Height": 12,
+            "TextId": "__SingleUse_EDGY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_NFHH"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error_1_2",
+            "X": 286,
+            "Y": 55,
+            "Width": 139,
+            "Height": 12,
+            "TextId": "__SingleUse_KNPP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_5VF8"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error_1_2_2",
+            "X": 286,
+            "Y": 67,
+            "Width": 132,
+            "Height": 12,
+            "TextId": "__SingleUse_JU8Z",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_49F5"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error_1_2_2_1",
+            "X": 286,
+            "Y": 79,
+            "Width": 142,
+            "Height": 12,
+            "TextId": "__SingleUse_1HHW",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_QOSI"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error_1_2_2_1_1",
+            "X": 286,
+            "Y": 91,
+            "Width": 108,
+            "Height": 12,
+            "TextId": "__SingleUse_6SI8",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_NJPP"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error_1_2_1",
+            "X": 286,
+            "Y": 103,
+            "Width": 82,
+            "Height": 12,
+            "TextId": "__SingleUse_KRQJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_LBEH"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error_1_1",
+            "X": 45,
+            "Y": 90,
+            "Width": 112,
+            "Height": 12,
+            "TextId": "__SingleUse_0O6X",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_DY91"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error_1_1_1",
+            "X": 45,
+            "Y": 141,
+            "Width": 105,
+            "Height": 12,
+            "TextId": "__SingleUse_8SLB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error_2_1_1",
+            "X": 45,
+            "Y": 102,
+            "Width": 118,
+            "Height": 12,
+            "TextId": "__SingleUse_MTR5",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_X9JE"
+            }
+          },
+          {
             "Type": "ButtonWithLabel",
             "Name": "RELAY_BUTTON",
-            "X": 192,
-            "Y": 98,
+            "X": 188,
+            "Y": 184,
             "Width": 100,
             "Height": 36,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_active.png",
@@ -1091,9 +1259,9 @@
           {
             "Type": "TextArea",
             "Name": "BMS_ERRORS",
-            "X": 190,
-            "Y": 9,
-            "Width": 101,
+            "X": 45,
+            "Y": 36,
+            "Width": 139,
             "Height": 18,
             "TextId": "__SingleUse_2GC9",
             "TextRotation": "0",
@@ -1106,10 +1274,26 @@
           },
           {
             "Type": "TextArea",
+            "Name": "BMS_ERRORS_1",
+            "X": 286,
+            "Y": 36,
+            "Width": 149,
+            "Height": 18,
+            "TextId": "__SingleUse_TZ2V",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
             "Name": "BQ1Comm_error",
-            "X": 6,
-            "Y": 55,
-            "Width": 106,
+            "X": 45,
+            "Y": 66,
+            "Width": 135,
             "Height": 12,
             "TextId": "__SingleUse_T3B5",
             "TextRotation": "0",
@@ -1126,9 +1310,9 @@
           {
             "Type": "TextArea",
             "Name": "BQ2Comm_error",
-            "X": 6,
-            "Y": 67,
-            "Width": 106,
+            "X": 45,
+            "Y": 126,
+            "Width": 141,
             "Height": 12,
             "TextId": "__SingleUse_RXK2",
             "TextRotation": "0",
@@ -1144,9 +1328,47 @@
           },
           {
             "Type": "TextArea",
+            "Name": "BQ2Comm_error_2",
+            "X": 45,
+            "Y": 78,
+            "Width": 112,
+            "Height": 12,
+            "TextId": "__SingleUse_TPPK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_KGRC"
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "BQ2Comm_error_2_1",
+            "X": 45,
+            "Y": 114,
+            "Width": 118,
+            "Height": 12,
+            "TextId": "__SingleUse_LUGN",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_OG0T"
+            }
+          },
+          {
+            "Type": "TextArea",
             "Name": "Relay_status",
-            "X": 198,
-            "Y": 134,
+            "X": 194,
+            "Y": 220,
             "Width": 100,
             "Height": 12,
             "TextId": "__SingleUse_I8T2",

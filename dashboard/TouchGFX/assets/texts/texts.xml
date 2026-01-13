@@ -10,6 +10,72 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_NJPP" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_6SI8" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">IMU out of range: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_QOSI" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_1HHW" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Brake pedal out of range: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_49F5" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_JU8Z" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Gas pedal out of range: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_TZ2V" Alignment="Left" TypographyId="kmh">
+        <Translation Language="GB">DASH ERROR TABLE</Translation>
+      </Text>
+      <Text Id="__SingleUse_LBEH" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_KRQJ" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">SD card full: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_5VF8" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_KNPP" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">General dashboard error: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_8SLB" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Battery status: standby</Translation>
+      </Text>
+      <Text Id="__SingleUse_DY91" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_0O6X" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Over current error: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_X9JE" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_MTR5" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Under voltage error: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_OG0T" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_LUGN" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Under voltage error: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_KGRC" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_TPPK" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">Over voltage error: &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_NFHH" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">false</Translation>
+      </Text>
+      <Text Id="__SingleUse_EDGY" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">General BMS error: &lt;value&gt;</Translation>
+      </Text>
       <Text Id="__SingleUse_5TM7" Alignment="Left" TypographyId="kmh">
         <Translation Language="GB">SOC EST</Translation>
       </Text>
@@ -38,7 +104,7 @@
         <Translation Language="GB">false</Translation>
       </Text>
       <Text Id="__SingleUse_RXK2" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">BQ2 Comm Error: &lt;value&gt;</Translation>
+        <Translation Language="GB">Under temperature error: &lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_05H9" Alignment="Center" TypographyId="kmh">
         <Translation Language="GB">RELAY</Translation>
@@ -47,7 +113,7 @@
         <Translation Language="GB">false</Translation>
       </Text>
       <Text Id="__SingleUse_T3B5" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">BQ1 Comm Error: &lt;value&gt;</Translation>
+        <Translation Language="GB">Over temperature error: &lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_WNTC" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">false</Translation>
@@ -356,7 +422,7 @@
         <Translation Language="GB">TEMPERATURE TABLE</Translation>
       </Text>
       <Text Id="__SingleUse_2GC9" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">ERROR TABLE</Translation>
+        <Translation Language="GB">BMS ERROR TABLE</Translation>
       </Text>
       <Text Id="__SingleUse_H2X2" Alignment="Left" TypographyId="temp">
         <Translation Language="GB">°C</Translation>
@@ -395,7 +461,7 @@
         <Translation Language="GB">G-FORCE</Translation>
       </Text>
       <Text Id="__SingleUse_P0G6" Alignment="Left" TypographyId="kmh">
-        <Translation Language="GB">BMS</Translation>
+        <Translation Language="GB">ERRORS</Translation>
       </Text>
       <Text Id="__SingleUse_NG2D" Alignment="Left" TypographyId="temp">
         <Translation Language="GB">0 </Translation>

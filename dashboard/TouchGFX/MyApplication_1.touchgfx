@@ -1054,7 +1054,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error_1",
+            "Name": "General_BMS_error",
             "X": 45,
             "Y": 55,
             "Width": 113,
@@ -1073,7 +1073,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error_1_2",
+            "Name": "General_dashboard_error",
             "X": 286,
             "Y": 55,
             "Width": 139,
@@ -1092,7 +1092,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error_1_2_2",
+            "Name": "Gas_pedal_out_of_range",
             "X": 286,
             "Y": 67,
             "Width": 132,
@@ -1111,7 +1111,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error_1_2_2_1",
+            "Name": "Brake_pedal_out_of_range",
             "X": 286,
             "Y": 79,
             "Width": 142,
@@ -1130,7 +1130,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error_1_2_2_1_1",
+            "Name": "IMU_out_of_range",
             "X": 286,
             "Y": 91,
             "Width": 108,
@@ -1149,7 +1149,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error_1_2_1",
+            "Name": "SD_card_full",
             "X": 286,
             "Y": 103,
             "Width": 82,
@@ -1168,7 +1168,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error_1_1",
+            "Name": "Over_current_error",
             "X": 45,
             "Y": 90,
             "Width": 112,
@@ -1187,9 +1187,9 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error_1_1_1",
+            "Name": "Battery_status",
             "X": 45,
-            "Y": 141,
+            "Y": 127,
             "Width": 105,
             "Height": 12,
             "TextId": "__SingleUse_8SLB",
@@ -1203,7 +1203,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error_2_1_1",
+            "Name": "Under_voltage_error",
             "X": 45,
             "Y": 102,
             "Width": 118,
@@ -1274,7 +1274,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BMS_ERRORS_1",
+            "Name": "DASH_ERRORS",
             "X": 286,
             "Y": 36,
             "Width": 149,
@@ -1290,7 +1290,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ1Comm_error",
+            "Name": "Over_temperature_error",
             "X": 45,
             "Y": 66,
             "Width": 135,
@@ -1309,9 +1309,9 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error",
+            "Name": "Under_temperature_error",
             "X": 45,
-            "Y": 126,
+            "Y": 115,
             "Width": 141,
             "Height": 12,
             "TextId": "__SingleUse_RXK2",
@@ -1328,7 +1328,7 @@
           },
           {
             "Type": "TextArea",
-            "Name": "BQ2Comm_error_2",
+            "Name": "Over_voltage_error",
             "X": 45,
             "Y": 78,
             "Width": 112,
@@ -1343,25 +1343,6 @@
             "AutoSize": true,
             "Wildcard1": {
               "TextId": "__SingleUse_KGRC"
-            }
-          },
-          {
-            "Type": "TextArea",
-            "Name": "BQ2Comm_error_2_1",
-            "X": 45,
-            "Y": 114,
-            "Width": 118,
-            "Height": 12,
-            "TextId": "__SingleUse_LUGN",
-            "TextRotation": "0",
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "AutoSize": true,
-            "Wildcard1": {
-              "TextId": "__SingleUse_OG0T"
             }
           },
           {

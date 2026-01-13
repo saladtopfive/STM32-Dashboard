@@ -58,12 +58,6 @@
       <Text Id="__SingleUse_MTR5" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">Under voltage error: &lt;value&gt;</Translation>
       </Text>
-      <Text Id="__SingleUse_OG0T" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">false</Translation>
-      </Text>
-      <Text Id="__SingleUse_LUGN" Alignment="Left" TypographyId="Typography_00">
-        <Translation Language="GB">Under voltage error: &lt;value&gt;</Translation>
-      </Text>
       <Text Id="__SingleUse_KGRC" Alignment="Left" TypographyId="Typography_00">
         <Translation Language="GB">false</Translation>
       </Text>

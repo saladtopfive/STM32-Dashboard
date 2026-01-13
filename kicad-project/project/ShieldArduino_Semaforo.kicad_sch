@@ -6861,17 +6861,6 @@
 		)
 		(uuid "0b70748b-fe49-4eae-8c76-6de2dfb95764")
 	)
-	(text "current limiting resistor"
-		(exclude_from_sim no)
-		(at 202.692 180.34 0)
-		(effects
-			(font
-				(face "Calibri")
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "0bbe22a9-7cab-4fab-8e48-471423fc2abe")
-	)
 	(text "1"
 		(exclude_from_sim no)
 		(at 273.05 41.91 0)
@@ -6906,17 +6895,6 @@
 			)
 		)
 		(uuid "35bb24ac-0b0b-4aa1-8b64-10cc32730923")
-	)
-	(text "current limiting resistor"
-		(exclude_from_sim no)
-		(at 274.828 176.276 0)
-		(effects
-			(font
-				(face "Calibri")
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "37972fdc-df07-496c-95fe-b2ad98a45c82")
 	)
 	(text "POWER SUPPLY UNIT"
 		(exclude_from_sim no)
@@ -7020,17 +6998,6 @@
 		)
 		(uuid "99c80cfd-9756-4146-a615-1344ef610a89")
 	)
-	(text "current limiting resistor"
-		(exclude_from_sim no)
-		(at 125.984 180.594 0)
-		(effects
-			(font
-				(face "Calibri")
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "9a9946cb-a0bb-4e8a-bdf4-406135157bcd")
-	)
 	(text "CAN\n"
 		(exclude_from_sim no)
 		(at 321.564 94.742 0)
@@ -7112,16 +7079,6 @@
 			)
 		)
 		(uuid "edf0f282-29f4-42d4-a00c-d351f67a970d")
-	)
-	(text "INNY FOOTPRINT NIZ TEN SCHEMAT PRZEKAZNIKA 4,2 w innych miejscach\n"
-		(exclude_from_sim no)
-		(at 59.182 166.878 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f3a67a60-96a4-4480-af67-667abb70ec71")
 	)
 	(text "STMPINS"
 		(exclude_from_sim no)

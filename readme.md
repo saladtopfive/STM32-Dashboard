@@ -20,11 +20,11 @@ The dashboard serves as a **human–machine interface (HMI)**, enabling the driv
 
 | Main Screen | Error Table |
 |------------|-------------|
-| <img width="591" height="331" alt="dashboard-preview-screen1" src="https://github.com/user-attachments/assets/ba0bbb94-7e7b-4ef4-adad-3cca46c9f71c" /> | <img width="591" height="331" alt="dashboard-preview-screen2" src="https://github.com/user-attachments/assets/531df74a-9256-409f-906b-44545c1af924" /> |
+| <img width="596" height="337" alt="dashboard-preview-screen1" src="https://github.com/user-attachments/assets/0c14788a-f363-4d8f-a673-0c8add6deb57" /> | <img width="597" height="335" alt="dashboard-preview-screen2" src="https://github.com/user-attachments/assets/22bb6ad7-85c1-4bee-a504-b6a3b31523fd" /> |
 
 | Temperature Table | Battery Table |
 |-----------------|----------------|
-| <img width="575" height="331" alt="dashboard-preview-screen3" src="https://github.com/user-attachments/assets/12ac80af-a773-4039-b883-2c04a8215f41" /> | <img width="591" height="331" alt="dashboard-preview-screen4" src="https://github.com/user-attachments/assets/83479e40-0b1a-42e4-ab8f-da423cceb578" /> |
+| <img width="597" height="335" alt="dashboard-preview-screen3" src="https://github.com/user-attachments/assets/c441115a-27d7-4576-b36e-2a7635853668" /> | <img width="598" height="337" alt="dashboard-preview-screen4" src="https://github.com/user-attachments/assets/6f2d511b-4b8d-4cda-9b07-27c31853e947" /> |
 
 
 

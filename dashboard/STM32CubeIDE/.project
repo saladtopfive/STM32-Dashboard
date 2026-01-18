@@ -814,6 +814,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_button_icon_rounded_micro_fill_action.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_dark_theme_images_widgets_button_icon_rounded_micro_fill_active.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_button_icon_rounded_micro_fill_active.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_dark_theme_images_widgets_button_icon_rounded_micro_fill_pressed.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_button_icon_rounded_micro_fill_pressed.cpp</locationURI>

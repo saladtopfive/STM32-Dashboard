@@ -39,19 +39,18 @@
           {
             "Type": "ButtonWithIcon",
             "Name": "DRIVE_1_BUTTON",
-            "X": 127,
+            "X": 138,
             "Y": 210,
             "Width": 36,
             "Height": 36,
             "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_pressed.png",
-            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_action.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_active.png",
             "IconPressed": "up_arrow.png",
             "IconReleased": "up_arrow.png",
             "IconX": 10,
             "IconY": 10,
             "IconHeight": 16,
-            "IconWidth": 16,
-            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\micro_fill_action.json"
+            "IconWidth": 16
           },
           {
             "Type": "ButtonWithIcon",
@@ -882,7 +881,23 @@
           {
             "Type": "ButtonWithIcon",
             "Name": "DRIVE_2_BUTTON",
-            "X": 60,
+            "X": 93,
+            "Y": 210,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_pressed.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_icon_rounded_micro_fill_active.png",
+            "IconPressed": "double_up_arrow_black.png",
+            "IconReleased": "double_up_arrow_white.png",
+            "IconX": 10,
+            "IconY": 10,
+            "IconHeight": 16,
+            "IconWidth": 16
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "DRIVE_3_BUTTON",
+            "X": 51,
             "Y": 210,
             "Width": 36,
             "Height": 36,
@@ -893,8 +908,7 @@
             "IconX": 10,
             "IconY": 10,
             "IconHeight": 16,
-            "IconWidth": 16,
-            "Preset": "dark_theme\\presets\\button\\icon\\rounded\\micro_fill_action.json"
+            "IconWidth": 16
           },
           {
             "Type": "TextArea",

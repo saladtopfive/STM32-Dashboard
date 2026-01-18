@@ -59,6 +59,12 @@ As part of the project, a custom **Arduino Shield** is being developed to handle
 
 <img width="1948" height="1269" alt="3d-render" src="https://github.com/user-attachments/assets/b3053609-9086-46fe-ac76-2d9abe352ecb" />
 
+### IRL pictures
+
+| STM32 - dashboard | Shield |
+|------------|-------------|
+| ![dash_realizacja_irl](https://github.com/user-attachments/assets/93ef1b12-ae7b-47f6-876d-f654cff6cd65) | ![shield_realizacja_irl](https://github.com/user-attachments/assets/108e1e43-2eda-40e5-a3dd-551b34c5814c) |
+
 
 
 

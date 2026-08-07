@@ -4,9 +4,8 @@
 
 
 > [!IMPORTANT]  
-> **Work in Progress** — Development ongoing as of **18.01.2026**  
+> **Work suspended** — Development suspended as of **07.08.2026**  
 > This repository is part of my **Engineering Thesis Project** for the completion of my undergraduate studies.  
-> 🎥 *We are also starting a YouTube channel documenting the Go-Kart assembly!*
 
 ## Overview  
 

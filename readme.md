@@ -81,14 +81,14 @@ As the implementation approaches the stage of **hardware integration**, this rep
 
 | ***Status***    | ***Task*** |
 |-----------|------|
-| ✅ **Done**   | Acquisition of the go-kart frame. |
-| ✅ **Done**   | Development of the UI prototype. |
-| 🔄 **Ongoing** | Live sensor data implementation. |
-| 🔄 **Ongoing** | Development of an export data feature. |
-| 🔄 **Ongoing** | Implementation of battery management visualization. |
-| 🔜 **Planned** | Integration of BLDC motor control. |
+|  **Done**   | Acquisition of the go-kart frame. |
+|  **Done**   | Development of the UI prototype. |
+|  **Ongoing** | Live sensor data implementation. |
+|  **Ongoing** | Development of an export data feature. |
+|  **Ongoing** | Implementation of battery management visualization. |
+|  **Planned** | Integration of BLDC motor control. |
 
 
 
-## 📜 License
+## License
 This project is licensed under the MIT permissive license.
